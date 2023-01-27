@@ -25,6 +25,21 @@
     
 }
 
+#navbarSupportedContent ul li:hover{
+    background-color: rgb(110, 183, 0);
+     color: white;
+     font-weight: 700;
+     border-radius: 5px;
+}
+
+#navbarSupportedContent ul li a:hover{
+    background-color: rgb(110, 183, 0);
+    color: white;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+
 
 .home-icon{
     margin-top: 5px;
@@ -38,7 +53,14 @@
 
 }
  
+.nav-item{
+    display: flex;
+}
 
+.horizontalline{
+    margin: 0px;
+    
+}
 
 
 
@@ -51,6 +73,23 @@
 
 
 
+
+
+/* Header start */
+
+
+
+.main-header{
+    margin-top: 20px;
+
+
+}
+
+.header-img{
+
+    width: 550px;
+}
+ 
 
 
 
