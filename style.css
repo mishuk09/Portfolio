@@ -81,6 +81,84 @@ body{
 /* Header start */
 
 
+ 
+
+.side-link ul {
+  display: inline;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.side-link ul li {
+  list-style: none;
+}
+
+.side-link ul li a {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+.side-link ul li a .icon {
+  position: relative;
+  color: #262626;
+  transition: .5s;
+  z-index: 3;
+}
+
+.side-link ul li a:hover .icon {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.side-link ul li a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.side-link ul li a:hover:before {
+  top: 0;
+}
+
+.side-linkul li:nth-child(1) a:before{
+  background: #3b5999;
+}
+
+.side-link ul li:nth-child(2) a:before{
+  background: #55acee;
+}
+
+.side-linkul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+
+.side-link ul li:nth-child(4) a:before {
+  background: #dd4b39;
+}
+
+
+
+
+
 
 
 
@@ -102,6 +180,7 @@ body{
 }
 
 .social-link-div2 a svg:hover{
+  
   
    
 }
