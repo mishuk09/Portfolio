@@ -70,10 +70,9 @@ body{
 
 
 /* Navbar Css */
+ 
 
-
-
-
+ 
 
 
 
@@ -83,8 +82,45 @@ body{
 
 
 
+
+
+.social-link{
+  height: 300px;
+  width: 60px;
+  background-color: #050d18;
+  margin-right: 0px;
+  margin-top: 130px;
+  position: fixed;
+}
+
+.social-link-div2 a svg{
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  margin-top: 12px;
+   
+}
+
+.social-link-div2 a svg:hover{
+  
+   
+}
+
+
+
+.social-link-div2 {
+ 
+  border-radius: 50%;
+  padding-top: 30px;
+  margin-top: 12px;
+  padding-left: 10px;
+   
+}
+
+
 .main-header{
     margin-top: 20px;
+    display: flex;
    
     
 
