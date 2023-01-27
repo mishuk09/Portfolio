@@ -519,11 +519,21 @@
   
   /*-------------------------Contact   section  start----------------*/
   
-.contact-title{
-     margin-left: 600px;
+
+
+
+
+
+.contact-title h2{
+   
+       font-weight: 700;
+       margin-left: 10px;
+       border-bottom: 5px solid navy;
+       width: 270px;
 }
 .contact {
      margin-top: 40px;
+     margin-bottom: 30px;
   }
   
  
@@ -696,17 +706,88 @@
     background: #37b3ed;
   }
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-  /*-------------------------Contact   section  start----------------*/
+  /*-------------------------Contact   section  End----------------*/
   
   
   
-  
 
 
 
 
 
 
+
+
+
+
+
+
+  /*-------------------------Footer   section  start----------------*/
+
+
+  footer{
+    height: 100px;
+    background-color: #050d18;
+
+  }
+
+
+  footer h2{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+
+.footer-div svg{
+    color: white;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
 
  
+
+}
+
+
+.footer-div  {
+    text-align: center;
+    margin-top: px;
+    font-size: 10px;
+    color: white;
+    padding-bottom: 5px;
+
+ 
+
+}
+.footer-div3{
+    margin-top: 5px;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+ /*-------------------------Contact   section  end----------------*/
