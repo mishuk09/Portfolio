@@ -11,6 +11,10 @@
 }
 
 
+body{
+    font-family: sans-serif;
+    font-family: 'Aleo', serif;
+}
 /* Navbar Css */
 
 #navbarSupportedContent{
@@ -135,9 +139,12 @@
 
 
 
+
+
+
  .section-2{
  
-    background-color: rgb(225, 250, 250);
+    background-color:white;
     margin-top: 30px;
     border-radius: 7px;
   }
@@ -169,7 +176,7 @@
     margin-left: 80px;
     margin-top: 60px;
     border-radius: 10px;
-    border: 1px solid red;
+    
     
   }
   
@@ -248,7 +255,9 @@
 
 
  
-
+.skill-h1{
+    font-weight: 700;
+}
  
  
   .skills{
@@ -309,7 +318,7 @@
 
     margin-top: 20px;
     border-radius: 7px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 
   }
 
@@ -360,6 +369,7 @@
 
 .my-mission-main{
     margin-bottom: 100px;
+    font-family: sans-serif;
   }
   .mymission{
   
@@ -368,6 +378,7 @@
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 30px;
+    font-family: sans-serif;
   }
   .span1{
     color: orange;
@@ -496,7 +507,14 @@
   }
   
   
+  .social-links  svg{
+    margin-left: 7px;
+
+  }
   
+
+ 
+ 
   /*-------------------------Team   section end----------------*/
   
   
