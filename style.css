@@ -17,6 +17,14 @@ body{
 }
 /* Navbar Css */
 
+
+ 
+
+.navbar img{
+
+  margin-left: 10px;
+}
+
 #navbarSupportedContent{
     margin-left: 420px;
     
@@ -80,7 +88,7 @@ body{
 
 /* Header start */
 
-
+ 
  
 
 .side-link ul {
@@ -195,6 +203,7 @@ body{
 .home-page-title{
 
     font-size: 19px;
+    font-weight: 700;
 }
 
 .mahadi{
@@ -577,7 +586,13 @@ body{
   /*-------------------------Team  section start----------------*/
   
   
-  
+
+
+
+
+  .team-header{
+    font-weight: 700;
+  }
   .card  img{
     border-radius: 13px;
   }
