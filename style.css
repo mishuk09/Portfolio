@@ -624,8 +624,10 @@ body{
   }
   
   
-  .social-links  svg{
+  .social-links a i{
     margin-left: 7px;
+    font-size: 23px;
+    color: #050d18;
 
   }
   
@@ -873,6 +875,15 @@ body{
 
 
   /*-------------------------Footer   section  start----------------*/
+
+
+  .footer-div a i{
+    margin-left: 7px;
+    font-size: 18px;
+    color: white;
+
+  }
+  
 
 
   footer{
