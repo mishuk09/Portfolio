@@ -484,6 +484,25 @@ body{
 
 
 
+
+     .portfolio-pic{
+
+      margin-top: 30px;
+
+     }
+
+     .portfolio-pic-height{
+
+padding-bottom: 28px;
+       
+
+     }
+
+
+
+
+
+
   /* portfolio section End */
 
 
@@ -609,6 +628,22 @@ body{
   
   
 
+.team-mishuk{
+  border: 1px solid rgb(231, 195, 195);
+  height: 500px;
+  
+}
+
+
+.team-mishuk img{
+   width: 320px;
+   padding-left: 10px;
+}
+
+
+
+
+/* 
 
 
 
@@ -652,7 +687,7 @@ body{
     color: #050d18;
 
   }
-  
+   */
 
  
  
