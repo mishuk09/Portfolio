@@ -459,10 +459,32 @@ body{
 
 
 
+  /* portfolio section start */
+
+
+  .portfolio-main{
+    margin-top: 100px;
+    font-weight: 700;
+    text-align: center;
+
+  }
+
+
+
+     .portfolio-name  {
+      display: flex;
+       justify-content: center;
+       margin-top: 20px;
+    
+     }
+     .portfolio-name button{
+      margin-left: 10px;
+     }
 
 
 
 
+  /* portfolio section End */
 
 
 
