@@ -90,6 +90,12 @@ body{
 
  
  
+@media (max-width: 768px) {
+  .side-link {
+    display: none;
+  }
+}
+ 
 
 .side-link ul {
   display: inline;
@@ -178,6 +184,7 @@ body{
 .main-header{
     margin-top: 20px;
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
    
     
 
@@ -227,7 +234,7 @@ body{
 
 
  
- /*About Section Start*/
+ /*-------------------------------------About Section Start*/
 
 .arrow-button{
   margin-bottom: 80px;
@@ -253,11 +260,13 @@ body{
 }
 
 
+
  .section-2{
  
     background-color:white;
     margin-top: 30px;
     border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   
@@ -267,12 +276,13 @@ body{
     margin-top: 30px;
   }
   
+ 
   
-  .about-h1{
+  .about-h1 {
     padding-top: 25px;
     text-align: center;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
    
   }
   
