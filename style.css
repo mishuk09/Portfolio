@@ -485,14 +485,17 @@ body{
 
 .portfolio-button{
   display: flex;
-  margin-left:  100px;
-  margin-right: 100px;
+  align-items: center;
+  margin-left: 140px;
+
+   
   
 }
-.portfolio-button button{
+.portfolio-button a button{
+  
+  margin: 5px;
    
-   margin: 5px;
-  align-items: center;
+   
 }
 
 
