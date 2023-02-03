@@ -551,6 +551,52 @@ body{
 
 
 
+
+
+
+  /* -------------------------------- galarry section start-------------------------------- */
+
+
+
+.galarry-logo{
+  display: flex;
+  margin-top: 30px;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(230, 230, 230);
+   
+}
+.galarry-logo img{
+  display: flex;
+  margin-left: 25px;
+ 
+   
+}
+
+
+
+
+
+
+
+
+  /* --------------------------------galarry section End-------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------Mission section----------------*/
 
 
