@@ -483,7 +483,17 @@ body{
 
 
 
-
+.portfolio-button{
+  display: flex;
+  margin-left:  100px;
+  margin-right: 100px;
+  
+}
+.portfolio-button button{
+   
+   margin: 5px;
+  align-items: center;
+}
 
 
 
@@ -526,6 +536,14 @@ body{
 
 
   /* --------------------------------portfolio section End-------------------------------- */
+
+
+
+
+
+
+
+
 
 
 
@@ -631,6 +649,22 @@ body{
   
   
   
+
+  .galarry-h1{
+    margin-top: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .galarry-main{
+    margin-top: 100px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
   
   
   
