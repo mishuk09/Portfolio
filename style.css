@@ -687,21 +687,34 @@ body{
 
 
 
-.portfolio-button{
+.portfolio-button1{
   display: flex;
+ 
+   
+
+   
+  
+}
+.portfolio-button1 a button{
+  
+  background-color: #376cb7;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 7px;
+  margin: 4px;
+  justify-content: center;
+  text-align: center;
   align-items: center;
-  margin-left: 140px;
-
-   
-  
-}
-.portfolio-button a button{
-  
-  margin: 5px;
-   
+  border: none;
    
 }
 
+.portfolio-button2{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 
 
 
