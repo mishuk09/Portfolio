@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap');
+
+@media  only screen and(max) {
+
+    
+}
+
+#body{
+  background-color:#f9f4f4;
+}
+
+
+
+
+
+
+
+
+
+/* Navbar Css */
+
+
+ 
+
+.navbar img{
+
+    margin-left: 10px;
+  }
+  
+  #navbarSupportedContent{
+      margin-left: 420px;
+      
+  }
+  
+  #navbarSupportedContent ul li{
+      margin-left: 10px;
+      margin-top: 0px;
+      padding-top: 0px;
+      
+  }
+  
+  #navbarSupportedContent ul li:hover{
+      background-color: rgb(110, 183, 0);
+       color: white;
+       font-weight: 700;
+       border-radius: 5px;
+  }
+  
+  #navbarSupportedContent ul li a:hover{
+      background-color: rgb(110, 183, 0);
+      color: white;
+      font-weight: 700;
+      border-radius: 7px;
+  }
+  
+  
+  
+  .home-icon{
+      margin-top: 5px;
+      margin-right: 0px;
+      margin-left: 10px;
+  }
+  
+  .collapse ul li a{
+      margin-left: 0px;
+      padding-left: 0px;
+  
+  }
+   
+  .nav-item{
+      display: flex;
+  }
+  
+  .horizontalline{
+      margin: 0px;
+      
+  }
+  
+  
+  
+  
+  /*-------------------------------- Navbar Css --------------------------------*/
+   
+  
+  h1{
+    font-family: 'Times New Roman', Times, serif;
+margin-top: 20PX; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*-------------------------------- portfolio section start-------------------------------- */
+ 
+
+
+
+
+
+
+
+
+  .portfolio-button1{
+    display: flex;
+   
+     
+  
+     
+    
+  }
+  .portfolio-button1 a button{
+    
+    background-color: #376cb7;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 4px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: none;
+     
+  }
+  
+  .portfolio-button2{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+    .portfolio-main{
+      margin-top: 100px;
+      font-weight: 700;
+      text-align: center;
+  
+    }
+  
+       .portfolio-name  {
+        display: flex;
+         justify-content: center;
+         margin-top: 20px;
+      
+       }
+       .portfolio-name button{
+        margin-left: 10px;
+       }
+  
+  
+       .portfolio-pic{
+  
+        margin-top: 50px;
+  
+       }
+  
+  .portfolio-pic-height{
+  
+        padding-bottom: 28px;
+         
+  
+  }
+  
+  
+  
+  
+  
+  
+    /* --------------------------------portfolio section End-------------------------------- */
+  
+  
+  
+  
+  
