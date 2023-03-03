@@ -19,7 +19,7 @@ body {
 /* Navbar Css */
 
 .navbar-main {
-    background-color: #23384e;
+    background-image: url(images/nav.png);
 }
 
 .navbar img {
@@ -27,7 +27,7 @@ body {
 }
 
 #navbarSupportedContent {
-    margin-left: 420px;
+    margin-left: 390px;
 }
 
 #navbarSupportedContent ul li {
@@ -38,6 +38,7 @@ body {
 
 #navbarSupportedContent ul li a {
     color: white;
+    padding: 4px;
 }
 
 #navbarSupportedContent ul li svg {
@@ -78,12 +79,13 @@ body {
     margin: 0px;
 }
 
-.navbar {
-    background-color: #23384e;
+.nav-item a {
+    text-decoration: none;
+    font-weight: 700;
 }
 
-.mail-logo-class {
-    background-color: #23384e;
+.nav-item i {
+    padding: 3px;
 }
 
 
@@ -1015,6 +1017,13 @@ body {
 
 .contact .php-email-form button[type=submit]:hover {
     background: #37b3ed;
+}
+
+.send-message {
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-weight: 700;
 }
 
 
