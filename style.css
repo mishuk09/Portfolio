@@ -94,7 +94,8 @@ body {
 
 /* --------------------------------Header start --------------------------------*/
 
-@media (max-width: 768px) {
+
+/* @media (max-width: 768px) {
     .side-link {
         display: none;
     }
@@ -191,6 +192,76 @@ body {
     font-weight: 700;
     border-radius: 7px;
     padding: 10px;
+}
+ */
+
+#home-page-main-div {
+    background-color: #02132b;
+}
+
+#my-name-div {
+    /* height: 300px; */
+}
+
+#my-name-div h1 {
+    color: #fef8e5;
+    font-size: 37px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#my-name-div h3 {
+    color: #fef8e5;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#my-name-div p {
+    color: #fef8e5;
+    font-size: 12px;
+}
+
+#my-name-div h4 {
+    color: #fef8e5;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#my-name-div h5 {
+    color: #fef8e5;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#my-name-div hr {
+    color: #fef8e5;
+    width: 450px;
+    margin-top: 0px;
+}
+
+#my-name-div .hire-me-div button {
+    color: black;
+    background-color: #38b6ff;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+#my-name-div .hire-me-div img {
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hire-me-div {
+    background-color: greenyellow;
 }
 
 
