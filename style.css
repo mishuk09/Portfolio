@@ -201,6 +201,7 @@ body {
 
 #my-name-div {
     /* height: 300px; */
+    padding-left: 60px;
 }
 
 #my-name-div h1 {
@@ -264,12 +265,9 @@ body {
     padding: 0px;
 }
 
-.hire-me-div {
-    /* background-color: greenyellow; */
-}
 
-
-/* ================Hire me Button Animation=================== */
+/* ==========================Hire me Button 
+Animation========================================================================================================================================================================= */
 
 .glow-on-hover {
     width: 100px;
@@ -342,23 +340,16 @@ body {
 }
 
 
-/* =========================================== */
+/* ==============================Hire me Button 
+Animation END==================================================================================================================================================================================== */
 
 #home-page-main-div2 {
     background-color: #02132b;
 }
 
-.main-page-img {
-    /* border: 1px solid white; */
-}
-
 #my-name-div2 {
     width: 600px;
     position: relative;
-    /* margin: 30px; */
-    border: 1px solid white;
-    /* padding-left: 60px; */
-    /* margin-top: 20px; */
 }
 
 .box {
@@ -366,6 +357,7 @@ body {
     height: 100%;
     position: absolute;
     padding-left: 70px;
+    margin-top: 0px;
 }
 
 #my-name-div2 .star-pic img {
@@ -377,9 +369,6 @@ body {
 }
 
 .overlay {
-    /* z-index: 9; */
-    /* margin: 30px; */
-    /* background: #009938; */
     margin-top: 290px;
     padding-left: 70px;
 }
@@ -391,31 +380,26 @@ body {
 }
 
 
-/* ================Star animation================== */
+/* =====================Star animation start=========================================================================================================================== */
 
-.star-pic {
-    position: relative;
-    display: inline-block;
+#my-name-div2 .star-pic {
+    position: absolute;
     width: 100px;
     height: 100px;
     transition: all 0.2s ease-in-out;
 }
 
-.star-pic:hover {
+#my-name-div2 .star-pic:hover {
     transform: scale(1.2, 1.2);
+    transition: all 0.2s ease-in-out;
 }
 
 .box:hover::after {
     opacity: 1;
 }
 
-.star-pic {
-    flex: none;
-    max-width: 50%;
-}
 
-
-/* ======================================= */
+/* =============================Star animation End================================================================================================= */
 
 
 /*-------------------------------------About Section Start --------------------------------*/
