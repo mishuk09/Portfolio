@@ -401,6 +401,26 @@ Animation END===================================================================
 
 /* =============================Star animation End================================================================================================= */
 
+.sort-introduction {
+    height: 300px;
+}
+
+.short-introduction {
+    background-color: #12B2A7;
+}
+
+.short-introduction h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.short-introduction .sort-into-col {
+    background-color: #ffffff;
+    border-radius: 7px;
+    height: 100px;
+}
+
 
 /*-------------------------------------About Section Start --------------------------------*/
 
