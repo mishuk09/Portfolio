@@ -469,11 +469,28 @@ Animation END===================================================================
     }
     
     .about-me-div {
-        background-color: rgb(231, 231, 231);
+        /* background-color: rgb(231, 231, 231); */
+    }
+    
+    .about-me-section {
+        background-color: #b6d8d6;
     }
     
     .about-me-div-img {
-        border: 1px solid white;
+        /* border: 1px solid white; */
+    }
+    
+    .about-me-description {
+        width: 850px;
+        height: 180px;
+        background-color: white;
+        border-radius: 7px;
+    }
+    
+    .service-internal-div {
+        height: 130px;
+        border-radius: 8px;
+        border: 1px solid black;
     }
     /*-------------------------------------About Section Start --------------------------------*/
     /*-------------------------------------About Section Start --------------------------------*/
