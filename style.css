@@ -200,20 +200,65 @@ body {
 
 @media screen and (max-width:768px) {}
 
-@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+/* @media only screen and (min-width: 360px) and (max-width: 768px) {
+    #my-name-div2 {
+        width: 100%;
+    }
     #my-name-div2 .home-page-main-img {
-        width: 300px;
+        width: 100px;
         text-align: center;
         align-items: center;
         justify-content: center;
         padding-left: 0px;
     }
     #my-name-div2 .overlay {
-        /* width: 200px; */
         padding-left: 0px;
     }
+    #my-name-div2 .star-pic {
+        width: 50px;
+    }
+} */
+@media (max-width:1200px){
+    #my-name-div{
+        width: 100%;
+    }
 }
-
+@media(max-width:480px){
+    #my-name-div2 .home-page-main-img img{
+        width: 290px;
+    }
+    #my-name-div2 .overlay img{
+        margin-top: 25px;
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 100px;
+    }
+}
+@media(max-width:460px){
+    #my-name-div2 .home-page-main-img img{
+        width: 270px;
+    }
+    #my-name-div2 .overlay img{
+        margin-top: 10px;
+        width: 100px;
+        
+    }
+}
+@media(max-width:410px){
+    #my-name-div2 .home-page-main-img img{
+        width: 200px;
+    }
+    #my-name-div2 .overlay  {
+        margin-top: 230px;
+        padding-left: 0px;
+        margin-left: 0px;   
+    }
+}
+.home-page-main-img img{
+    padding-left:0px ;
+    margin-left: 0px;
+}
 #home-page-main-div {
     background-color: #02132b;
 }
@@ -388,14 +433,14 @@ Animation END===================================================================
 }
 
 .overlay {
-    margin-top: 300px;
+    margin-top: 320px;
     padding-left: 70px;
 }
 
 #my-name-div2 .overlay img {
-    width: 450px;
+    width: 470px;
     margin-left: 0px;
-    padding-left: 0px;
+    padding-left:150px;
 }
 
 @media screen {}
@@ -421,6 +466,12 @@ Animation END===================================================================
 
 
 /* =============================Star animation End================================================================================================= */
+
+@media screen and(max-width: 360px) and (max-width: 768px) {
+    .short-introduction .sort-intro-internal-div {
+        width: 100%;
+    }
+}
 
 .sort-introduction {
     height: 300px;
@@ -600,7 +651,7 @@ Animation END===================================================================
     --border-angle: 0turn;
     /* width: 60vmin;
         height: 50vmin; */
-    background-image: conic-gradient( from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+    background-image: conic-gradient(from var(--border-angle), #213, #112 50%, #213), conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
     background-size: calc(100% - (var(--border-size) * 2)) calc(100% - (var(--border-size) * 2)), cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -729,7 +780,7 @@ Animation END===================================================================
     font-weight: 700;
 }
 
- ::selection {
+::selection {
     color: rgb(0, 0, 0);
     background: #6665ee;
 }
