@@ -195,6 +195,25 @@ body {
 }
  */
 
+
+/* ============================main div responsive================ */
+
+@media screen and (max-width:768px) {}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+    #my-name-div2 .home-page-main-img {
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    #my-name-div2 .overlay {
+        /* width: 200px; */
+        padding-left: 0px;
+    }
+}
+
 #home-page-main-div {
     background-color: #02132b;
 }
@@ -348,7 +367,7 @@ Animation END===================================================================
 }
 
 #my-name-div2 {
-    width: 600px;
+    width: 550px;
     position: relative;
 }
 
@@ -369,15 +388,17 @@ Animation END===================================================================
 }
 
 .overlay {
-    margin-top: 290px;
+    margin-top: 300px;
     padding-left: 70px;
 }
 
 #my-name-div2 .overlay img {
-    width: 500px;
+    width: 450px;
     margin-left: 0px;
     padding-left: 0px;
 }
+
+@media screen {}
 
 
 /* =====================Star animation start=========================================================================================================================== */
@@ -431,6 +452,7 @@ Animation END===================================================================
     padding-left: 30px;
     font-size: 17px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 
 .institution-name h5 {
@@ -447,14 +469,11 @@ Animation END===================================================================
     /* font-family: 'Times New Roman', Times, serif; */
     font-size: 12px;
     padding-left: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0px;
 }
 
 .institution-name h6 {
     /* font-family: 'Times New Roman', Times, serif; */
-    font-size: 15px;
+    font-size: 12px;
     padding-left: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -464,6 +483,9 @@ Animation END===================================================================
 .institution-name a {
     padding-left: 30px;
     text-decoration: none;
+    font-size: 13px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .sort-intro-shadow:hover {
