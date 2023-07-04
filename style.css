@@ -227,17 +227,34 @@ body {
 @media(max-width:480px){
     #my-name-div2 .home-page-main-img img{
         width: 290px;
+        
     }
-    #my-name-div2 .overlay img{
-        margin-top: 25px;
+     
+    #my-name-div2 .overlay {
+        margin-top: 250px;
         padding-left: 0px;
         margin-left: 0px;
+         
+    }
+    #my-name-div2 .overlay img {
         width: 100px;
+        padding-left: 0px;
+        margin-left: 0px;
+        border: 1px solid wheat;
+        justify-content: left;
+        align-items: center;
+         
     }
 }
 @media(max-width:460px){
     #my-name-div2 .home-page-main-img img{
         width: 270px;
+         
+    }
+    #my-name-div2 .overlay{
+        margin-top: 280px;
+        
+    
     }
     #my-name-div2 .overlay img{
         margin-top: 10px;
@@ -248,13 +265,90 @@ body {
 @media(max-width:410px){
     #my-name-div2 .home-page-main-img img{
         width: 200px;
+        
     }
     #my-name-div2 .overlay  {
-        margin-top: 230px;
+        margin-top: 210px;
         padding-left: 0px;
-        margin-left: 0px;   
+        margin-left: 0px;  
+         
     }
+    
 }
+@media(max-width:780px){
+    .sort-into-col{
+        width: 100%;
+       
+    }
+    
+}
+@media(max-width:580px){
+    .contain12 .sort-into1 .sort-into-col{
+        width: 450px;
+        /* background-color: #002bff; */
+    }
+    
+}
+@media(max-width:490px){
+    .contain12 .sort-into1 .sort-into-col{
+        width: 350px;
+         
+        /* background-color: #002bff; */
+    }
+    
+}
+@media(max-width:490px){
+    .contain12 .sort-into1 .sort-into-col .institution-name h4{
+        font-size: 13px;
+        text-align: start;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+}
+@media(max-width:490px){
+    .contain12 .sort-into1 .sort-into-col .institution-name h5{
+        font-size: 12px;
+        text-align: start;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+}
+@media(max-width:490px){
+    .contain12 .sort-into1 .sort-into-col .institution-name h6{
+        
+        text-align: start;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+}
+@media(max-width:490px){
+    .contain12 .sort-into1 .sort-into-col .institution-name a{
+        
+        text-align: start;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    
+}
+@media(max-width:490px){
+    .contain12 .sort-into1 .sort-into-col .institution-name span{
+
+       padding: 0px;
+       margin: 0px;
+    }
+    
+}
+@media(max-width:380px){
+    .contain12 .sort-into1 .sort-into-col{
+        width: 300px;
+        /* background-color: #002bff; */
+    }
+    
+}
+ 
 .home-page-main-img img{
     padding-left:0px ;
     margin-left: 0px;
@@ -563,12 +657,15 @@ Animation END===================================================================
     color: #000;
 }
 
-.about-me-div {
-    /* background-color: rgb(231, 231, 231); */
-}
+.align-items-start span{
+    font-size: 18px;
+    font-weight: 700;
 
+
+}
+ 
 .about-me-section {
-    background-color: #eaf2f2;
+    background-color: #eef3f3;
 }
 
 .about-me-div-img {
@@ -596,6 +693,62 @@ Animation END===================================================================
     color: white;
     padding: 8px;
 }
+.age-div i{
+    border-radius: 50%;
+     
+    padding: 5px;
+    background-color: #02132b;
+    color: #00ffd5;
+}
+.male-div i{
+    border-radius: 50%;
+     
+    padding: 5px;
+    background-color: #02132b;
+    color: #00ffd5;
+}
+.university-div i{
+    border-radius: 50%;
+ 
+    padding: 4px;
+    background-color: #02132b;
+    color: #00ffd5;
+}
+.city-div i{
+    border-radius: 50%;
+     
+    padding: 4px;
+    background-color: #02132b;
+    color: #00ffd5;
+}
+.about-me-icon-detils div{
+    margin-bottom: 7px;
+}
+.about-me-icon-detils{
+    margin-top: auto;
+    margin-bottom: auto;
+   
+}
+
+.age-div{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.male-div{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.university-div{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.city-div{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+/*-------------------------------------About Section END --------------------------------*/
 
 .service-internal-div {
     height: 130px;
