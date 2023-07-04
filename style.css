@@ -240,7 +240,7 @@ body {
         width: 100px;
         padding-left: 0px;
         margin-left: 0px;
-        border: 1px solid wheat;
+        /* border: 1px solid wheat; */
         justify-content: left;
         align-items: center;
          
@@ -537,8 +537,7 @@ Animation END===================================================================
     padding-left:150px;
 }
 
-@media screen {}
-
+ 
 
 /* =====================Star animation start=========================================================================================================================== */
 
@@ -642,7 +641,38 @@ Animation END===================================================================
 
 
 /*-------------------------------------About Section Start --------------------------------*/
+@media (max-width:780px){
+    .about-me-description .about-me-description-2 {
+        width: 100%;
+    }
+    .about-me-description .about-me-description-2 p{
+        font-size: 13px;
+    }
+    .about-me-description .about-me-icon-detils {
+        font-size: 13px;
+    }
+    .about-me-description .about-me-description-2 a{
+      display: none;
+}
+.about-me-div-img img {
+    width: 100%;
+}
+.about-me-div .about-me-div-img .about-img-below-btn a {
+    display: block;
 
+}
+}
+@media (max-width:580px){
+   .about-me-div .about-me-description .about-me-description-2 {
+        width: 100%;
+        border: 1px solid rebeccapurple;
+    }
+    .about-me-div .about-me-description .about-me-icon-detils  {
+        width: 100%;
+        border: 1px solid rebeccapurple;
+    }
+
+}
 .about-me-tittle {
     text-align: center;
     margin-top: 50px;
@@ -674,7 +704,7 @@ Animation END===================================================================
 
 .about-me-description {
     width: 850px;
-    height: 180px;
+     
     background-color: white;
     border-radius: 7px;
 }
@@ -692,6 +722,23 @@ Animation END===================================================================
     background-color: #051d40;
     color: white;
     padding: 8px;
+}
+.about-me-div-img button {
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 4px;
+    background-color: #051d40;
+    color: white;
+    padding: 8px;
+}
+.about-me-div-img a {
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.about-me-div-img .about-img-below-btn a{
+   display: none;
 }
 .age-div i{
     border-radius: 50%;
