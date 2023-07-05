@@ -641,7 +641,7 @@ Animation END===================================================================
 
 
 /*-------------------------------------About Section Start --------------------------------*/
-@media (max-width:780px){
+/* @media (max-width:780px){
     .about-me-description .about-me-description-2 {
         width: 100%;
     }
@@ -687,8 +687,46 @@ Animation END===================================================================
      }
       
  
- }
+ } */
+@media(max-width:1200px){
+    .about-me-section .about-me-main-div 
+    .description-detils{
+        border: 2px solid red;
+        width: 45%;
+    }
+    .about-me-section .about-me-main-div 
+    .bio-detils2{
+        border: 2px solid red;
+        width: 45%;
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2{
+        border: 2px solid red;
+        margin: auto;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2 img {
+        width: 250px;
+         
+    }
+ 
 
+}
+.description-detils{
+    font-size: 17px;
+    background-color: white;
+     
+}
+.description-detils .description-detils-div{
+    padding: 10px;
+}
+ 
+.description-detils span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
  .about-me-main-div{
     display: flex;
     flex-wrap: wrap;
@@ -701,21 +739,21 @@ Animation END===================================================================
      
 }
 .description-detils{
-    width: 300px;
+    width: 330px;
     border: 1px solid black;
-    height: 300px;
+   
     margin: 10px;
 }
 .bio-detils2{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    
     border: 1px solid black;
     margin: 10px;
-
+background-color: white;
 }
 .my-about-picture2{
-    width: 300px;
-    height: 300px;
+    width: 330px;
+     
     border: 1px solid black;
     margin: 10px;
 }
@@ -747,8 +785,8 @@ Animation END===================================================================
 }
 
 .about-me-description {
-    width: 850px;
-     
+    width: 850px;}
+/* 
     background-color: white;
     border-radius: 7px;
 }
@@ -838,7 +876,7 @@ Animation END===================================================================
 .city-div{
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-}
+} */
 /*-------------------------------------About Section END --------------------------------*/
 
 .service-internal-div {
