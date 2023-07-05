@@ -664,21 +664,65 @@ Animation END===================================================================
 }
 @media (max-width:580px){
    .about-me-div .about-me-description .about-me-description-2 {
-        width: 100%;
-        border: 1px solid rebeccapurple;
+        width: 200%;
+         border: 1px solid rebeccapurple;
     }
     .about-me-div .about-me-description .about-me-icon-detils  {
         width: 100%;
         border: 1px solid rebeccapurple;
     }
+    .about-me-div .about-me-description #about-me-description0{
+        display: flex;
+    }
 
 }
+@media (max-width:500px){
+    .about-me-div .about-me-description .about-me-description-2  {
+         width: 200%;
+          border: 1px solid rebeccapurple;
+     }
+     .about-me-div .about-me-description .about-me-icon-detils  {
+         width: 100%;
+         border: 1px solid rebeccapurple;
+     }
+      
+ 
+ }
+
+ .about-me-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+ }
 .about-me-tittle {
     text-align: center;
     margin-top: 50px;
     display: flex;
+     
 }
+.description-detils{
+    width: 300px;
+    border: 1px solid black;
+    height: 300px;
+    margin: 10px;
+}
+.bio-detils2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
 
+}
+.my-about-picture2{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.my-about-picture2 img{
+   width: 100%;
+   height: 100%;
+}
 .about-me-tittle h2 {
     font-size: 20px;
     margin-left: 10px;
