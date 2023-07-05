@@ -898,6 +898,11 @@ font-size: 14px;
     /* border: 1px solid black; */
     margin-left: 10px;
     padding-top: 0px;
+    /* justify-content: space-between; */
+}
+.my-about-picture2 img:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
 .about-img-below-btn a{
     display: none;
@@ -1022,6 +1027,25 @@ font-size: 14px;
 } */
 /*-------------------------------------About Section END --------------------------------*/
 
+@media (max-width:1200){
+  .about-me-section .div-for-hover .service-internal-div .service-first-div img{
+        width: 30px;
+    }
+    .about-me-section .div-for-hover .service-internal-div .service-first-div h4{
+       font-size: 20px;
+
+    }
+}
+@media (max-width:1000){
+    .about-me-section .div-for-hover {
+          display: flex;
+          flex-wrap: wrap;
+      }
+      .about-me-section .div-for-hover .service-internal-div .service-first-div h4{
+         font-size: 20px;
+  
+      }
+  }
 .service-internal-div {
     height: 130px;
     border-radius: 8px;
