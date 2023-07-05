@@ -688,6 +688,47 @@ Animation END===================================================================
       
  
  } */
+
+ @media(min-width:1200px){
+    .about-me-section .about-me-main-div 
+    .description-detils{
+        width: 35%;
+        height: 130px;
+    }
+    .about-me-section .about-me-main-div 
+    .bio-detils2{
+        
+        width: 35%;
+        height: 130px;
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2{
+        
+        margin: auto;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2 img {
+        width: 250px;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .description-detils .description-detils-div a {
+        display: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 {
+        border: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 .about-img-below-btn a {
+         display: block;
+         
+    }
+
+}
 @media(max-width:1200px){
     .about-me-section .about-me-main-div 
     .description-detils{
@@ -1046,14 +1087,33 @@ font-size: 14px;
   
       }
   }
-.service-internal-div {
-    height: 130px;
+  @media (max-width:580){
+    .about-me-section .div-for-hover {
+          width: 100%;
+          display: flexbox;
+          height: 400px;
+      }
+      .about-me-section .div-for-hover .service-internal-div .service-first-div h4{
+         font-size: 20px;
+  
+      }
+  }
+.div-for-hover {
+    
     border-radius: 8px;
     border: 1px solid black;
     background-color: #051d40;
     color: #00ffd5;
+   margin: 10px;
 }
+.div-for-hover div{
+    padding: 5px;
+}
+#hgfdag {
+    display: flex;
+     
 
+}
 #service-second-col {
     background-color: #fffbe2;
 }
@@ -1068,12 +1128,12 @@ font-size: 14px;
     border: 5px solid orange;
 }
 
-.service-internal-div h4 {
-    font-size: 20px;
+.div-for-hover h4 {
+    font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.service-internal-div p {
+.div-for-hover p {
     font-size: 13px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -1088,14 +1148,14 @@ font-size: 14px;
 .div-for-hover:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition: 0.5s ease;
 }
 
 
 /* =================================about section animantion======= */
 
-.service-internal-div {
+.div-for-hover {
     --border-size: 3px;
     --border-angle: 0turn;
     /* width: 60vmin;
