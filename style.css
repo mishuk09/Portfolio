@@ -196,6 +196,83 @@ body {
  */
 
 
+ /* ================Notice ==================================== */
+.notice-marquee marquee:hover{
+    -moz-animation-play-state: paused;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+@-moz-keyframes notice-marquee {
+    0%   { -moz-transform: translateX(100%); }
+    100% { -moz-transform: translateX(-100%); }
+   }
+   @-webkit-keyframes notice-marquee {
+    0%   { -webkit-transform: translateX(100%); }
+    100% { -webkit-transform: translateX(-100%); }
+   }
+   @keyframes notice-marquee {
+    0%   { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 		
+    }
+    100% { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%); 
+    }
+   }
+ 
+.latest-notice {
+    height: 40px;
+    border: 3px solid green;
+    border-radius: 3px;
+}
+
+.latest-notice1-inline-div {
+    display: flex;
+}
+
+.notice-name {
+    height: 35px;
+    width: 140px;
+    background-color: #3e8e41;
+}
+
+.notice-name p {
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    color: #f1f1f1;
+}
+
+.notice-marquee {
+    height: 35px;   
+    width: 500px;
+}
+
+.notice-marquee marquee {
+    font-weight: 700;
+}
+
+.home-page-div {
+    display: flex;
+}
+
+.home-page-div1 {
+    height: 430px;
+    width: 700px;
+    border: 1px solid rgb(194, 166, 166);
+}
+
+.home-page-div2 {
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid black; */
+    display: inline;
+}
+
+
 /* ============================main div responsive================ */
 
 @media screen and (max-width:768px) {}
@@ -560,11 +637,11 @@ Animation END===================================================================
 
 /* =============================Star animation End================================================================================================= */
 
-@media screen and(max-width: 360px) and (max-width: 768px) {
+/* @media screen and(max-width: 360px) and (max-width: 768px) {
     .short-introduction .sort-intro-internal-div {
         width: 100%;
     }
-}
+} */
 
 .sort-introduction {
     height: 300px;
@@ -688,17 +765,16 @@ Animation END===================================================================
       
  
  } */
-
  @media(min-width:1200px){
     .about-me-section .about-me-main-div 
     .description-detils{
-        width: 35%;
+        width: 30%;
         height: 130px;
     }
     .about-me-section .about-me-main-div 
     .bio-detils2{
         
-        width: 35%;
+        width: 30%;
         height: 130px;
     }
     .about-me-section .about-me-main-div 
@@ -709,7 +785,7 @@ Animation END===================================================================
     }
     .about-me-section .about-me-main-div 
     .my-about-picture2 img {
-        width: 250px;
+        width: 100px;
          
     }
     .about-me-section .about-me-main-div 
@@ -729,6 +805,88 @@ Animation END===================================================================
     }
 
 }
+ /* @media(max-width:3000px){
+    .about-me-section .about-me-main-div 
+    .description-detils{
+        width: 35%;
+        height: 130px;
+    }
+    .about-me-section .about-me-main-div 
+    .bio-detils2{
+        
+        width: 35%;
+        height: 130px;
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2{
+        
+        margin: auto;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2 img {
+        width: 200px;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .description-detils .description-detils-div a {
+        display: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 {
+        border: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 .about-img-below-btn a {
+         display: block;
+         
+    }
+
+} */
+
+  @media(max-width:1400px){
+    .about-me-section .about-me-main-div 
+    .description-detils{
+        width: 35%;
+        height: 130px;
+    }
+    .about-me-section .about-me-main-div 
+    .bio-detils2{
+        
+        width: 35%;
+        height: 130px;
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2{
+        
+        margin: auto;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2 img {
+        width: 100px;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .description-detils .description-detils-div a {
+        display: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 {
+        border: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 .about-img-below-btn a {
+         display: block;
+         
+    }
+
+}  
+
 @media(max-width:1200px){
     .about-me-section .about-me-main-div 
     .description-detils{
@@ -812,6 +970,8 @@ Animation END===================================================================
     }
     .about-me-section .about-me-tittle h2{
         font-size: 14px;
+        
+
     }
     
 }
@@ -864,8 +1024,10 @@ Animation END===================================================================
 .description-detils{
     
     height: 180px;
-    background-color: white;
+    background-color: #13111c;
     border-radius: 6px;
+    box-shadow: 10px 10px 20px rgba(66, 63, 255, 0.2);
+    border: 1px solid rgb(93, 93, 235);
      
 }
 .description-detils .description-detils-div{
@@ -874,6 +1036,10 @@ padding-bottom: 0px;
 margin-bottom: 0px;
 font-family: 'Times New Roman', Times, serif;
 font-size: 14px;
+/* border: 2px solid blueviolet; */
+background-color: #13111c;
+color: #00ffd5;
+box-shadow: 5px solid rgb(69, 69, 252);
 }
 .description-detils-div button {
     font-size: 10px;
@@ -889,9 +1055,10 @@ font-size: 14px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
     border-radius: 4px;
-    background-color: #051d40;
+    /* background-color: #051d40; */
     color: white;
     padding: 8px;
+    background-color: #0062cc;
 }
 .description-detils-div a{
     margin-top: 20px;
@@ -908,7 +1075,7 @@ font-size: 14px;
  }
 .about-me-tittle {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
      
 }
@@ -925,7 +1092,10 @@ font-size: 14px;
     border-radius: 6px;
     /* border: 1px solid black; */
     margin-left: 10px;
-    background-color: white;
+    background-color: #13111c;
+    color: #00ffd5;
+    box-shadow: 10px 10px 20px rgba(66, 63, 255, 0.2);
+    border: 1px solid rgb(93, 93, 235);
 }
 .bio-detils2 .bio-detils2-div div{
     margin-bottom: 8px;
@@ -949,13 +1119,15 @@ font-size: 14px;
     display: none;
 
 }
- 
+.marketplace-logo-hori{
+    color: #00ffd5;
+}
 .about-me-tittle h2 {
     font-size: 20px;
     margin-left: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #000;
+    color: #00ffd5;
 }
 
 .align-items-start span{
@@ -966,7 +1138,9 @@ font-size: 14px;
 }
  
 .about-me-section {
-    background-color: #eef3f3;
+    /* background-color: #03000a; */
+    background-color: #13111c;
+    margin-top: 0px;
 }
 
 .about-me-div-img {
