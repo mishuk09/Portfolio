@@ -1066,8 +1066,55 @@ box-shadow: 5px solid rgb(69, 69, 252);
 #market-place-div .market-place-inter-div img:hover{
     transform: scale(1.5) rotate(360deg);
     transition: 1s  ease-in-out;
-
+ 
 }
+
+/*------------------------------------------ marketplace logo hover effect start------------------------------- */
+
+
+ 
+#market-place-div .market-place-inter-div .imgButton {
+    position: relative;
+  }
+   
+  .one:before {
+    content: 'I am Available....!'
+  }
+  
+ 
+  
+  #market-place-div .market-place-inter-div .imgButton:before {
+    position: absolute;
+    /* padding: 15px 20px; */
+    left: -40px;
+    bottom: -9px;
+    font-size: 12px;
+    width: 150px;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #00ffd5;
+    background-color: #02132b;
+     
+    transition: all .4s ease-out;
+    transform: translateX(50px);
+    opacity: 0;
+    z-index: 1;
+    border-radius: 10px;
+    font-weight: normal;
+    border: 1px  solid #40008a;
+    -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  }
+  
+  #market-place-div .market-place-inter-div .imgButton:hover:before {
+    bottom: 45px;
+    opacity: 100;
+  }
+  
+   
+ 
+/*------------------------------------------ marketplace logo hover effect end------------------------------- */
+
 .about-me-tittle h2 {
     font-size: 20px;
     margin-left: 10px;
