@@ -718,186 +718,22 @@ Animation END===================================================================
 
 
 /*-------------------------------------About Section Start --------------------------------*/
-/* @media (max-width:780px){
-    .about-me-description .about-me-description-2 {
-        width: 100%;
-    }
-    .about-me-description .about-me-description-2 p{
-        font-size: 13px;
-    }
-    .about-me-description .about-me-icon-detils {
-        font-size: 13px;
-    }
-    .about-me-description .about-me-description-2 a{
-    display: none;
-}
-.about-me-div-img img {
-    width: 100%;
-}
-.about-me-div .about-me-div-img .about-img-below-btn a {
-    display: block;
-
-}
-}
-@media (max-width:580px){
-   .about-me-div .about-me-description .about-me-description-2 {
-        width: 200%;
-        border: 1px solid rebeccapurple;
-    }
-    .about-me-div .about-me-description .about-me-icon-detils  {
-        width: 100%;
-        border: 1px solid rebeccapurple;
-    }
-    .about-me-div .about-me-description #about-me-description0{
-        display: flex;
-    }
-
-}
-@media (max-width:500px){
-    .about-me-div .about-me-description .about-me-description-2  {
-         width: 200%;
-          border: 1px solid rebeccapurple;
-     }
-     .about-me-div .about-me-description .about-me-icon-detils  {
-         width: 100%;
-         border: 1px solid rebeccapurple;
-     }
-      
  
- } */
- @media(min-width:1200px){
+
+@media (min-width:1300px  ) {
     .about-me-section .about-me-main-div 
     .description-detils{
-        width: 30%;
-        height: 130px;
+        width: 33%;
+        height: 150px;
+        margin-bottom: 10px;
     }
     .about-me-section .about-me-main-div 
     .bio-detils2{
         
-        width: 30%;
-        height: 130px;
-    }
-    .about-me-section .about-me-main-div 
-    .my-about-picture2{
-        
-        margin: auto;
-         
-    }
-    .about-me-section .about-me-main-div 
-    .my-about-picture2 img {
-        width: 100px;
-         
-    }
-    .about-me-section .about-me-main-div 
-    .description-detils .description-detils-div a {
-        display: none;
-         
-    }
-    .about-me-section .about-me-main-div 
-     .my-about-picture2 {
-        border: none;
-         
-    }
-    .about-me-section .about-me-main-div 
-     .my-about-picture2 .about-img-below-btn a {
-         display: block;
-         
-    }
-
-}
- /* @media(max-width:3000px){
-    .about-me-section .about-me-main-div 
-    .description-detils{
-        width: 35%;
-        height: 130px;
-    }
-    .about-me-section .about-me-main-div 
-    .bio-detils2{
-        
-        width: 35%;
-        height: 130px;
-    }
-    .about-me-section .about-me-main-div 
-    .my-about-picture2{
-        
-        margin: auto;
-         
-    }
-    .about-me-section .about-me-main-div 
-    .my-about-picture2 img {
-        width: 200px;
-         
-    }
-    .about-me-section .about-me-main-div 
-    .description-detils .description-detils-div a {
-        display: none;
-         
-    }
-    .about-me-section .about-me-main-div 
-     .my-about-picture2 {
-        border: none;
-         
-    }
-    .about-me-section .about-me-main-div 
-     .my-about-picture2 .about-img-below-btn a {
-         display: block;
-         
-    }
-
-} */
-
-  @media(max-width:1400px){
-    .about-me-section .about-me-main-div 
-    .description-detils{
-        width: 35%;
-        height: 130px;
-    }
-    .about-me-section .about-me-main-div 
-    .bio-detils2{
-        
-        width: 35%;
-        height: 130px;
-    }
-    .about-me-section .about-me-main-div 
-    .my-about-picture2{
-        
-        margin: auto;
-         
-    }
-    .about-me-section .about-me-main-div 
-    .my-about-picture2 img {
-        width: 100px;
-         
-    }
-    .about-me-section .about-me-main-div 
-    .description-detils .description-detils-div a {
-        display: none;
-         
-    }
-    .about-me-section .about-me-main-div 
-     .my-about-picture2 {
-        border: none;
-         
-    }
-    .about-me-section .about-me-main-div 
-     .my-about-picture2 .about-img-below-btn a {
-         display: block;
-         
-    }
-
-}  
-
-@media(max-width:1200px){
-    .about-me-section .about-me-main-div 
-    .description-detils{
-        width: 45%;
-        height: 130px;
-    }
-    .about-me-section .about-me-main-div 
-    .bio-detils2{
-        
-        width: 45%;
-        height: 130px;
+        width: 33%;
+        height: 150px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .about-me-section .about-me-main-div 
     .my-about-picture2{
@@ -925,9 +761,110 @@ Animation END===================================================================
          display: block;
          
     }
+    .about-me-section .about-me-tittle h2{
+        font-size: 14px;
+        
 
-}
-@media (max-width:769px) {
+    }
+    
+}  
+@media (max-width:1300px  ) {
+    .about-me-section .about-me-main-div 
+    .description-detils{
+        width: 33%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .about-me-section .about-me-main-div 
+    .bio-detils2{
+        
+        width: 33%;
+        height: 150px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2{
+        
+        margin: auto;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2 img {
+        width: 250px;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .description-detils .description-detils-div a {
+        display: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 {
+        border: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 .about-img-below-btn a {
+         display: block;
+         
+    }
+    .about-me-section .about-me-tittle h2{
+        font-size: 14px;
+        
+
+    }
+    
+}  
+@media (max-width:1200px  ) {
+    .about-me-section .about-me-main-div 
+    .description-detils{
+        width: 50%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    .about-me-section .about-me-main-div 
+    .bio-detils2{
+        
+        width: 50%;
+        height: 150px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2{
+        
+        margin: auto;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .my-about-picture2 img {
+        width: 250px;
+         
+    }
+    .about-me-section .about-me-main-div 
+    .description-detils .description-detils-div a {
+        display: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 {
+        border: none;
+         
+    }
+    .about-me-section .about-me-main-div 
+     .my-about-picture2 .about-img-below-btn a {
+         display: block;
+         
+    }
+    .about-me-section .about-me-tittle h2{
+        font-size: 14px;
+        
+
+    }
+    
+}   
+@media (max-width:800px) {
     .about-me-section .about-me-main-div 
     .description-detils{
         width: 100%;
@@ -1020,9 +957,12 @@ Animation END===================================================================
         font-size: 14px;
     }
     
-}
-.description-detils{
-    
+}  
+
+
+
+.about-me-main-div .description-detils{
+    width: 330px;
     height: 180px;
     background-color: #13111c;
     border-radius: 6px;
@@ -1079,13 +1019,7 @@ box-shadow: 5px solid rgb(69, 69, 252);
     display: flex;
      
 }
-.description-detils{
-    width: 330px;
-    /* border: 1px solid black; */
 
-   
-     
-}
 .bio-detils2{
     width: 330px;
     height: 180px;
@@ -1119,8 +1053,20 @@ box-shadow: 5px solid rgb(69, 69, 252);
     display: none;
 
 }
+
+
+
+/*------------------------------------------ marketplace logo ------------------------------- */
+
+
+
 .marketplace-logo-hori{
     color: #00ffd5;
+}
+#market-place-div .market-place-inter-div img:hover{
+    transform: scale(1.5) rotate(360deg);
+    transition: 1s  ease-in-out;
+
 }
 .about-me-tittle h2 {
     font-size: 20px;
