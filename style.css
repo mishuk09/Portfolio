@@ -1524,100 +1524,105 @@ Animation END===================================================================
 
 
 /* --------------------------------Project  Section start --------------------------------*/
-
-
+@media (min-width:1000px) {
+    #porject-section22 .project-div12{
+        display: flex;
+        
+    }
+    #porject-section22 .project-div12 .project-section23{
+        width: 50%;
+        
+    }
+    #porject-section22 .project-div12 .service-main-img{
+        width: 50%;
+        
+    }
  
-@media (max-width:580px) {
-    #porject-section22 .project-section23 {
-        width: 100%;
+    #porject-section22 .project-div12 .service-main-img img{
+        width: 80%;
+        margin-top: 60px;
+        margin-left: auto;
+    
     }
-
-    /* #porject-section22 .project-section23 .project-btn-div{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        
-    } */
-    #porject-section22 .service-main-img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-left: 0px;
-        margin: auto;
-        padding-top: 50px;
-        width: 100%;
-    }
-
-    #porject-section22 .service-main-img img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-left: 0px;
-        margin: auto;
-        padding-top: 50px;
-        width: 100%;
-    }
+    
 }
-@media (max-width:1000px) {
-    #porject-section22 .project-section23 {
-        width: 100%;
+@media (max-width:560px){
+    #porject-section22 .project-div12 .service-main-img img{
+        width: 80%;
+        margin-top: 60px;
+        margin-left: auto;
+    
     }
 
-    /* #porject-section22 .project-section23 .project-btn-div{
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        
-    } */
-    #porject-section22 .service-main-img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-left: 0px;
-        margin: auto;
-        padding-top: 50px;
-        width: 100%;
-    }
-
-    #porject-section22 .service-main-img img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-left: 0px;
-        margin: auto;
-        padding-top: 50px;
-        width: 100%;
-    }
 }
+ 
 /* ------------------------------AHMSC media use --------------------------*/
-@media (max-width:1000px) {
-   .porject-section #porject-section22 .project-section23 {
-        width: 100%;
+@media (min-width:1000px) {
+   
+    #porject-section22 .ahms-div-class{
+        display: flex;
     }
- 
-    #porject-section22 .service-main-img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding-left: 0px;
-        margin: auto;
-        padding-top: 50px;
-        width: 100%;
+    #porject-section22 .ahms-div-class .service-main-img  {
+       width: 50%;
     }
+    #porject-section22 .ahms-div-class .project-section23  {
+        width: 50%;
+     }
 
-    #porject-section22 .service-main-img img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    #porject-section22 .ahms-div-class .service-main-img  img{
+        width: 80%;
+        margin-left: 0px;
         padding-left: 0px;
-        margin: auto;
-        padding-top: 50px;
-        width: 100%;
-    }
+        
+     }
+     
 }
 
+@media (max-width:1000px) {
+   
+    
+    #porject-section22 .ahms-div-class .service-main-img  {
+       width: 100%;
+    }
+    #porject-section22 .ahms-div-class .service-main-img  img{
+        width: 100%;
+        margin: auto;
+        
+     }
+    #porject-section22 .ahms-div-class .project-section23{
+        width: 100%;
+     }
+}  
+
+@media (max-width:580px){
+    #porject-section22 .ahms-div-class .service-main-img  {
+        width: 100%;
+     }
+     #porject-section22 .ahms-div-class .service-main-img  img{
+         width: 80%;
+         
+      }
+     #porject-section22 .ahms-div-class .project-section23{
+         width: 100%;
+      }
+
+
+
+
+    #porject-section22 .ahms-div-class .service-main-img img{
+        width: 80%;
+        margin-top: 60px;
+        margin-left: auto;
+    
+    }
+
+}
+.service-main-img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(0.9);
+    transition: 1s ease;
+}
 .project-hori {
     border: 1px solid blue;
 }
@@ -1760,14 +1765,22 @@ Animation END===================================================================
 
   
 .certi-div{
-    height: 100px;
+    height: 80px;
 background-color: #051d40; 
 background-color: #050d18; 
   display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    
 }
+.certi-div:hover{
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
+
+    transition: 1s;
+}
+
 .certi-div img{
     width: 120px;
 
@@ -1778,17 +1791,18 @@ background-color: #050d18;
 }
 .certi-div img{
     margin: 20px;
-    padding: 5px;
-    
-    
+    padding: 10px;   
 }
+
+
+ 
 .certi-descrip h1{
  font-size: 20px;
  color: #00ffd5;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+ 
 
   
 #drag-container, #spin-container {  
@@ -1926,23 +1940,54 @@ padding-left: 10px;
 
 
 /* --------------------------------Skill section start -------------------------------- */
-
-.skills-bar-position {
-    display: flex;
-}
-
-.skill-h1 {
+ 
+.skills-section-main .main-logo-skills span{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
+    color: #00ffd5;
+
+}
+.skills-section-main .main-logo-skills  {
+     padding-top: 10px;
+ 
 }
 
-::selection {
-    color: rgb(0, 0, 0);
-    background: #6665ee;
+.skills-section-main{
+    background-color: #050d18;
+}
+.skills-section-main hr{
+    background-color:  blue;
+    
+    height: 5px;
+    margin: 0px;
+    
+}
+.skills-logo-div{
+    display: flex;
+    flex-wrap: wrap;
+     
+      
+}
+.skills-logo-div  div{
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   margin: auto;
+   padding-top: 50px;
+     
+     
+}   
+.skills-logo-div div img{
+     width: 330px;
+     padding: 0px;
+    
 }
 
 
-/* Bar setups */
 
+
+/* 
 .skills-bar {
     padding: 25px 30px;
     width: 600px;
@@ -1969,7 +2014,6 @@ padding-left: 10px;
 }
 
 
-/* Bar itself */
 
 .skills-bar .bar .progress-line {
     height: 10px;
@@ -1984,7 +2028,6 @@ padding-left: 10px;
 }
 
 
-/* Skill's Bar */
 
 .bar .progress-line span {
     height: 100%;
@@ -1997,7 +2040,6 @@ padding-left: 10px;
 }
 
 
-/* Skill's length */
 
 .bar .progress-line.html span {
     width: 90%;
@@ -2040,7 +2082,6 @@ padding-left: 10px;
 }
 
 
-/* Background for the percentage numbers */
 
 .progress-line span::before {
     position: absolute;
@@ -2058,7 +2099,6 @@ padding-left: 10px;
 }
 
 
-/* Percentage numbers */
 
 .progress-line span::after {
     position: absolute;
@@ -2115,10 +2155,8 @@ padding-left: 10px;
 }
 
 
-/* Animations */
 
 
-/* Bar's animation */
 
 @keyframes animate {
     100% {
@@ -2127,7 +2165,6 @@ padding-left: 10px;
 }
 
 
-/* Skill's name animation */
 
 @keyframes showText {
     100% {
@@ -2136,14 +2173,13 @@ padding-left: 10px;
 }
 
 
-/* Percentage number's animation */
 
 @keyframes showText2 {
     100% {
         opacity: 1;
     }
 }
-
+ */  
 
 /* --------------------------------Skill section End-------------------------------- */
 
