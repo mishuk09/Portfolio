@@ -1732,11 +1732,38 @@ Animation END===================================================================
 
 /* --------------------------------Certification Section start --------------------------------*/
 
+@media (max-width:1000px){
+  .certification-main  .certificate-description .courseDetils1{
+        margin-top: 200px;
+    }
+    .certification-main .certifier-div-43 .dconsolediv{
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+    }
+}
  
+  @media (min-width:1000px){
+    .certification-main .certifier-div-43 .dconsolediv {
+        width:50%;
+    }
+    .certification-main .certifier-div-43   {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .certification-main .certifier-div-43 .certificate-description {
+        width: 50%;
+    }
+  }
+
+
+
+  
 .certi-div{
     height: 100px;
-    background-color: #D2DB0E;
-    display: flex;
+background-color: #051d40; 
+background-color: #050d18; 
+  display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
@@ -1757,6 +1784,7 @@ Animation END===================================================================
 }
 .certi-descrip h1{
  font-size: 20px;
+ color: #00ffd5;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -1859,25 +1887,38 @@ Animation END===================================================================
 
 .Certification-h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size: ;
+    color: white;
+    
 }
 .certificate-description{
     padding-left: 50px;
+    /* background-color:#181623 ; */
+    /* background-color: black; */
 }
-.certificate-description div{
+/* .certificate-description div{
     border-left: 4px solid orangered;
     padding-left: 10px;
-}
+} */
 
 .certificate-description h3{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
+    color: white;
 
 }
 .certificate-description p{
      font-size: 13px;
+     color: #12B2A7;
 
+}
+.certificate-description div{
+border-left: 1px  solid blue;   
+padding-left: 10px;  
+}
+
+.certification-main{
+    background-color:#13111c ;
 }
 /* --------------------------------certification Section End --------------------------------*/
 
