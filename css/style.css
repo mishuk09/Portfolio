@@ -20,7 +20,7 @@ body {
 /* Navbar Css */
 
 .navbar-main {
-    background-image: url(images/nav.png);
+    background-image: url(/images/nav.png);
 }
 
 .navbar img {
@@ -2447,26 +2447,53 @@ ul.skills li.more input:checked+label:hover {
 
 /*********************/
 
-@media only screen and (max-width: 1024px) {
-    .content {
-        height: 60vh;
+@media  (min-width: 1024px) {
+    
+    
+    /* .content .profile-skills .skills .front-end1 {
+        display: block;
+         
     }
-
-    .profile-skills {
-        flex-direction: row;
-        flex-wrap: wrap;
-        top: 20px;
+    .content .profile-skills .skills .back-end2 {
+        display: block;
+         
     }
+    .content .profile-skills .skills .tools2 {
+        display: block;
+         
+    } */
 
-    .profile-skills>div {
-        width: 47% !important;
+    /* .profile-skills>div {
+        width: 33% !important;
     }
 
     .profile-skills>div:nth-child(3) {
-        width: 98% !important;
+        width: 33% !important;
         margin-top: 120px;
-    }
+    } */
 }
+  @media  (max-width: 780px) {
+    
+    
+    .content .profile-skills .skills .front-end1 {
+        display: block;
+         
+    }
+    .content .profile-skills .skills .back-end2 {
+        display: block;
+         
+    }
+    .content .profile-skills .skills .tools2 {
+        display: block;
+         
+    }
+    .skills23{
+        width: 100%;
+    }
+
+ 
+}  
+
 
 
 /*** Mobile view disabled to get (almost) the desired thumbnail ***/
@@ -2474,58 +2501,129 @@ ul.skills li.more input:checked+label:hover {
 
 /*** Uncomment below code to add the media query for mobile view ***/
 
-@media only screen and (max-width: 768px) {
-    .content {
-        height: 60vh;
+/* @media(max-width: 768px) {
+   .skills-section-main .content .profile-skills .skills23{
+        width: 100%;
     }
-
-    .profile-skills {
-        flex-direction: row;
-        flex-wrap: wrap;
-        top: 20px;
+  .skills-section-main .content .profile-skills .skills24{
+        width: 100%;
     }
-
-    .profile-skills>div {
-        width: 98% !important;
+  .skills-section-main .content .profile-skills .skills25{
+        width: 100%;
     }
-
-    .profile-skills>div:nth-child(2),
-    .profile-skills>div:nth-child(3) {
-        margin-top: 120px;
-    }
-
-    ul.skills li:after {
-        width: calc(calc(var(--per) * 1%) - 2px);
-    }
-
-    ul.skills li span:before {
-        transition: var(--t1);
-        right: calc(calc(96.5 - var(--per)) * 1%);
-        opacity: 1;
-        border-right-color: #2187e7;
-    }
-
-    ul.skills2 li span:before {
-        border-right-color: #9acd32;
-    }
-
-    ul.skills3 li span:before {
-        border-right-color: #ff4500;
-    }
-
-    ul.skills li span:after {
-        transition: var(--t1);
-        right: calc(calc(calc(100 - var(--per)) * 1%) - 40px);
-        opacity: 1;
-        background: var(--c1);
-    }
-}
+} */
 
 
 /* --------------------------------Skill section End-------------------------------- */
 
 
 /* <!----------------------------Pricing Section start-----------------------------> */
+
+@media (max-width:1000px){
+  .pricing-section .pricing-table-detils .pricing1{
+    width: 30%;
+    justify-content: center;
+    font-size: 12px;
+
+  }
+   
+  .pricing-section .pricing-table-detils .pricing2{
+    width: 30%;
+    justify-content: center;
+    font-size: 12px;
+
+
+  }
+  .pricing-section .pricing-table-detils .pricing3{
+    width: 30%;
+    justify-content: center;
+    font-size: 12px;
+
+
+  }
+  .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+ 
+
+  .pricing-table-detils {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+     
+}
+
+ 
+}
+
+
+
+
+
+
+ 
+  @media (max-width:780px){
+    .pricing-section .pricing-table-detils .pricing1{
+        width: 50%;
+        font-size: 12px;
+    
+      }
+       
+      .pricing-section .pricing-table-detils .pricing2{
+        width: 50%;
+        
+        font-size: 12px;
+    
+    
+      }
+      .pricing-section .pricing-table-detils .pricing3{
+        width: 50%;
+   
+        font-size: 12px;
+    
+    
+      }
+
+
+
+      .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div{
+        margin-top: 50px;
+        
+      } 
+      .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div{
+        margin-top: 70px;
+        
+      }
+      .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div{
+        margin-top: 50px;
+         
+      }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pricing-section {
     /* background-color:#13121d ; */
@@ -2566,8 +2664,6 @@ ul.skills li.more input:checked+label:hover {
     /* background-color: #050d18; */
     /* background-color: #1b1a25; */
     background-color: #191724;
-
-
     border: 1px solid rgb(74, 74, 172);
     margin: 10px;
     border-radius: 7px;
@@ -2581,7 +2677,6 @@ ul.skills li.more input:checked+label:hover {
     /* background-color: #13121d; */
     /* background-color: #050d18; */
     background-color: #191724;
-
     border: 1px solid rgb(74, 74, 172);
     margin: 10px;
     border-radius: 7px;
@@ -2595,7 +2690,6 @@ ul.skills li.more input:checked+label:hover {
     /* background-color: #13121d; */
     /* background-color: #050d18; */
     background-color: #191724;
-
     border: 1px solid rgb(74, 74, 172);
     margin: 10px;
     border-radius: 7px;
