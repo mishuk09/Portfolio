@@ -4,6 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap');
+
 @media only screen and(max) {}
 
 #body {
@@ -208,6 +209,7 @@ body {
     0% {
         -moz-transform: translateX(100%);
     }
+
     100% {
         -moz-transform: translateX(-100%);
     }
@@ -217,6 +219,7 @@ body {
     0% {
         -webkit-transform: translateX(100%);
     }
+
     100% {
         -webkit-transform: translateX(-100%);
     }
@@ -230,6 +233,7 @@ body {
         /* Firefox bug fix */
         transform: translateX(100%);
     }
+
     100% {
         -moz-transform: translateX(-100%);
         /* Firefox bug fix */
@@ -323,11 +327,13 @@ body {
     #my-name-div2 .home-page-main-img img {
         width: 290px;
     }
+
     #my-name-div2 .overlay {
         margin-top: 250px;
         padding-left: 0px;
         margin-left: 0px;
     }
+
     #my-name-div2 .overlay img {
         width: 100px;
         padding-left: 0px;
@@ -342,9 +348,11 @@ body {
     #my-name-div2 .home-page-main-img img {
         width: 270px;
     }
+
     #my-name-div2 .overlay {
         margin-top: 280px;
     }
+
     #my-name-div2 .overlay img {
         margin-top: 10px;
         width: 100px;
@@ -355,6 +363,7 @@ body {
     #my-name-div2 .home-page-main-img img {
         width: 200px;
     }
+
     #my-name-div2 .overlay {
         margin-top: 210px;
         padding-left: 0px;
@@ -571,9 +580,11 @@ Animation=======================================================================
     0% {
         background-position: 0 0;
     }
+
     50% {
         background-position: 400% 0;
     }
+
     100% {
         background-position: 0 0;
     }
@@ -735,27 +746,34 @@ Animation END===================================================================
         height: 150px;
         margin-bottom: 10px;
     }
+
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 33%;
         height: 150px;
         margin-left: 0px;
         padding-left: 0px;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
+
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
+
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -767,27 +785,34 @@ Animation END===================================================================
         height: 150px;
         margin-bottom: 10px;
     }
+
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 33%;
         height: 150px;
         margin-left: 0px;
         padding-left: 0px;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
+
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
+
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -799,27 +824,34 @@ Animation END===================================================================
         height: 150px;
         margin-bottom: 10px;
     }
+
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 50%;
         height: 150px;
         margin-left: 0px;
         padding-left: 0px;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
+
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
+
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -831,27 +863,34 @@ Animation END===================================================================
         height: 100px;
         margin-bottom: 10px;
     }
+
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 100%;
         height: 130px;
         margin-left: 0px;
         padding-left: 0px;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
+
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
+
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -863,27 +902,34 @@ Animation END===================================================================
         height: 120px;
         margin-bottom: 10px;
     }
+
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 100%;
         height: 130px;
         margin-left: 0px;
         padding-left: 0px;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
+
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
+
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
+
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -1169,6 +1215,7 @@ Animation END===================================================================
     .about-me-section .div-for-hover .service-internal-div .service-first-div img {
         width: 30px;
     }
+
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
@@ -1179,6 +1226,7 @@ Animation END===================================================================
         display: flex;
         flex-wrap: wrap;
     }
+
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
@@ -1190,6 +1238,7 @@ Animation END===================================================================
         display: flexbox;
         height: 400px;
     }
+
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
@@ -1262,11 +1311,13 @@ Animation END===================================================================
     background-position: center center;
     background-repeat: no-repeat;
     animation: bg-spin 3s linear infinite;
+
     @keyframes bg-spin {
         to {
             --border-angle: 1turn;
         }
     }
+
     &:hover {
         animation-play-state: paused;
     }
@@ -1382,12 +1433,15 @@ Animation END===================================================================
     #porject-section22 .project-div12 {
         display: flex;
     }
+
     #porject-section22 .project-div12 .project-section23 {
         width: 50%;
     }
+
     #porject-section22 .project-div12 .service-main-img {
         width: 50%;
     }
+
     #porject-section22 .project-div12 .service-main-img img {
         width: 80%;
         margin-top: 60px;
@@ -1410,12 +1464,15 @@ Animation END===================================================================
     #porject-section22 .ahms-div-class {
         display: flex;
     }
+
     #porject-section22 .ahms-div-class .service-main-img {
         width: 50%;
     }
+
     #porject-section22 .ahms-div-class .project-section23 {
         width: 50%;
     }
+
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 80%;
         margin-left: 0px;
@@ -1427,10 +1484,12 @@ Animation END===================================================================
     #porject-section22 .ahms-div-class .service-main-img {
         width: 100%;
     }
+
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 100%;
         margin: auto;
     }
+
     #porject-section22 .ahms-div-class .project-section23 {
         width: 100%;
     }
@@ -1440,12 +1499,15 @@ Animation END===================================================================
     #porject-section22 .ahms-div-class .service-main-img {
         width: 100%;
     }
+
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 80%;
     }
+
     #porject-section22 .ahms-div-class .project-section23 {
         width: 100%;
     }
+
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 80%;
         margin-top: 60px;
@@ -1564,6 +1626,7 @@ Animation END===================================================================
     .certification-main .certificate-description .courseDetils1 {
         margin-top: 200px;
     }
+
     .certification-main .certifier-div-43 .dconsolediv {
         text-align: center;
         align-items: center;
@@ -1575,10 +1638,12 @@ Animation END===================================================================
     .certification-main .certifier-div-43 .dconsolediv {
         width: 50%;
     }
+
     .certification-main .certifier-div-43 {
         display: flex;
         flex-wrap: wrap;
     }
+
     .certification-main .certifier-div-43 .certificate-description {
         width: 50%;
     }
@@ -1694,6 +1759,7 @@ Animation END===================================================================
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
     }
+
     to {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
@@ -1705,6 +1771,7 @@ Animation END===================================================================
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
     }
+
     to {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
@@ -1716,6 +1783,7 @@ Animation END===================================================================
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
     }
+
     to {
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
@@ -1727,6 +1795,7 @@ Animation END===================================================================
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
     }
+
     to {
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
@@ -1831,6 +1900,7 @@ Animation END===================================================================
 /*** IN PROGRESS ***/
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
 :root {
     --c1: #2187e7;
     --b2: #222;
@@ -1956,7 +2026,7 @@ ul.skills li:before {
     border: 1px solid #111;
     border-color: #111 #323232 #323232 #111;
     --track: #2292dd40;
-    background: linear-gradient( 90deg, var(--track) calc(calc(var(--per) * 1%) + 4px), #1c1c1c calc(calc(var(--per) * 1%) + 4px));
+    background: linear-gradient(90deg, var(--track) calc(calc(var(--per) * 1%) + 4px), #1c1c1c calc(calc(var(--per) * 1%) + 4px));
 }
 
 ul.skills2 li:before {
@@ -2381,14 +2451,17 @@ ul.skills li.more input:checked+label:hover {
     .content {
         height: 60vh;
     }
+
     .profile-skills {
         flex-direction: row;
         flex-wrap: wrap;
         top: 20px;
     }
+
     .profile-skills>div {
         width: 47% !important;
     }
+
     .profile-skills>div:nth-child(3) {
         width: 98% !important;
         margin-top: 120px;
@@ -2405,33 +2478,41 @@ ul.skills li.more input:checked+label:hover {
     .content {
         height: 60vh;
     }
+
     .profile-skills {
         flex-direction: row;
         flex-wrap: wrap;
         top: 20px;
     }
+
     .profile-skills>div {
         width: 98% !important;
     }
+
     .profile-skills>div:nth-child(2),
     .profile-skills>div:nth-child(3) {
         margin-top: 120px;
     }
+
     ul.skills li:after {
         width: calc(calc(var(--per) * 1%) - 2px);
     }
+
     ul.skills li span:before {
         transition: var(--t1);
         right: calc(calc(96.5 - var(--per)) * 1%);
         opacity: 1;
         border-right-color: #2187e7;
     }
+
     ul.skills2 li span:before {
         border-right-color: #9acd32;
     }
+
     ul.skills3 li span:before {
         border-right-color: #ff4500;
     }
+
     ul.skills li span:after {
         transition: var(--t1);
         right: calc(calc(calc(100 - var(--per)) * 1%) - 40px);
@@ -2448,7 +2529,9 @@ ul.skills li.more input:checked+label:hover {
 
 .pricing-section {
     /* background-color:#13121d ; */
-    background-color: #191724;
+    /* background-color: #191724; */
+    background-color: #050d18;
+
     /* background-color: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%); */
 }
 
@@ -2480,8 +2563,10 @@ ul.skills li.more input:checked+label:hover {
     width: 25%;
     height: 400px;
     /* background-color: #13121d; */
-    background-color: #050d18;
+    /* background-color: #050d18; */
     /* background-color: #1b1a25; */
+    background-color: #191724;
+
 
     border: 1px solid rgb(74, 74, 172);
     margin: 10px;
@@ -2494,7 +2579,9 @@ ul.skills li.more input:checked+label:hover {
     width: 25%;
     height: 400px;
     /* background-color: #13121d; */
-    background-color: #050d18;
+    /* background-color: #050d18; */
+    background-color: #191724;
+
     border: 1px solid rgb(74, 74, 172);
     margin: 10px;
     border-radius: 7px;
@@ -2506,7 +2593,9 @@ ul.skills li.more input:checked+label:hover {
     width: 25%;
     height: 400px;
     /* background-color: #13121d; */
-    background-color: #050d18;
+    /* background-color: #050d18; */
+    background-color: #191724;
+
     border: 1px solid rgb(74, 74, 172);
     margin: 10px;
     border-radius: 7px;
@@ -2557,13 +2646,39 @@ ul.skills li.more input:checked+label:hover {
 
 .pricing-markte-div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+
+
 }
 
-.pricing-markte-div div {
-    padding: 6px;
+.market-logo-div-last img {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pricing1 .pricing-markte-div {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pricing2 .pricing-markte-div {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
 }
 
 .pricing1 .btn222 {
@@ -2573,6 +2688,13 @@ ul.skills li.more input:checked+label:hover {
     border: none;
     padding: 5px;
     border-radius: 7px;
+}
+
+.pricing3 .pricing-markte-div {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .glow-one {
@@ -2638,9 +2760,11 @@ ul.skills li.more input:checked+label:hover {
     0% {
         background-position: 0 0;
     }
+
     50% {
         background-position: 400% 0;
     }
+
     100% {
         background-position: 0 0;
     }
@@ -2648,6 +2772,89 @@ ul.skills li.more input:checked+label:hover {
 
 
 /* <!----------------------------Pricing Section end-----------------------------> */
+
+
+
+
+
+
+/* <!----------------------------My mission Section start-----------------------------> */
+
+
+.my-mission-head{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+
+.request-for-do {
+    width: 100%;
+    height: 100px;
+    background-color: #4DD637;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+.request-for-do h2 {
+    padding-top: 20px;
+}
+
+
+.mission-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mission-div .mission1 {
+    width: 250px;
+    height: 300px;
+    /* background-color: #002bff; */
+    margin: 10px;
+    border: 1px solid rgb(206, 191, 191);
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 17, 0.15) 0px 4px 24px;
+
+}
+
+.mission1 img {
+    width: 150px;
+}
+.mission1 h2{
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.mission1 p{
+    font-size:14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+#mission1 img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/* <!----------------------------My mission Section eend-----------------------------> */
+
+
+
+
 
 
 
