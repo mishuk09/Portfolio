@@ -199,7 +199,7 @@ body {
     }
 } */
 
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     #my-name-div {
         width: 100%;
     }
@@ -218,8 +218,7 @@ body {
         width: 100px;
         padding-left: 0px;
         margin-left: 0px;
-        /* border: 1px solid wheat; */
-        justify-content: left;
+         justify-content: left;
         align-items: center;
     }
 }
@@ -257,15 +256,13 @@ body {
 @media(max-width:580px) {
     .contain12 .sort-into1 .sort-into-col {
         width: 450px;
-        /* background-color: #002bff; */
-    }
+     }
 }
 
 @media(max-width:490px) {
     .contain12 .sort-into1 .sort-into-col {
         width: 350px;
-        /* background-color: #002bff; */
-    }
+     }
 }
 
 @media(max-width:490px) {
@@ -307,14 +304,13 @@ body {
         padding: 0px;
         margin: 0px;
     }
-}
+} */
 
-@media(max-width:380px) {
+/* @media(max-width:380px) {
     .contain12 .sort-into1 .sort-into-col {
         width: 300px;
-        /* background-color: #002bff; */
     }
-}
+} */
 
 .home-page-main-img img {
     padding-left: 0px;
@@ -616,7 +612,7 @@ Animation END===================================================================
 
 /*-------------------------------------About Section Start --------------------------------*/
 
-@media (min-width:1300px) {
+/* @media (min-width:1300px) {
     .about-me-section .about-me-main-div .description-detils {
         width: 33%;
         height: 150px;
@@ -646,9 +642,9 @@ Animation END===================================================================
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
-}
+} */
 
-@media (max-width:1300px) {
+/* @media (max-width:1300px) {
     .about-me-section .about-me-main-div .description-detils {
         width: 33%;
         height: 150px;
@@ -678,9 +674,9 @@ Animation END===================================================================
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
-}
+} */
 
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     .about-me-section .about-me-main-div .description-detils {
         width: 50%;
         height: 150px;
@@ -710,9 +706,9 @@ Animation END===================================================================
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
-}
+} */
 
-@media (max-width:800px) {
+/* @media (max-width:800px) {
     .about-me-section .about-me-main-div .description-detils {
         width: 100%;
         height: 100px;
@@ -742,9 +738,9 @@ Animation END===================================================================
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
-}
+} */
 
-@media (max-width:430px) {
+/* @media (max-width:430px) {
     .about-me-section .about-me-main-div .description-detils {
         width: 100%;
         height: 120px;
@@ -774,7 +770,7 @@ Animation END===================================================================
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
-}
+} */
 
 .about-me-main-div .description-detils {
     width: 330px;
@@ -1054,7 +1050,7 @@ Animation END===================================================================
 
 /*-------------------------------------About Section END --------------------------------*/
 
-@media (max-width:1200) {
+/* @media (max-width:1200) {
     .about-me-section .div-for-hover .service-internal-div .service-first-div img {
         width: 30px;
     }
@@ -1082,7 +1078,7 @@ Animation END===================================================================
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
-}
+} */
 
 .div-for-hover {
     border-radius: 8px;
