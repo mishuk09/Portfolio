@@ -4,7 +4,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap');
-
 @media only screen and(max) {}
 
 #body {
@@ -17,184 +16,70 @@ body {
 }
 
 
-/* Navbar Css */
+/* ===============================Navbar Css ========================================*/
 
-.navbar-main {
-    background-image: url(/images/nav.png);
+
+/*  */
+
+
+/* ===============================Navbar Css ========================================*/
+
+#navba-id-div {
+    background-color: #000000;
 }
 
-.navbar img {
-    margin-left: 10px;
-}
-
-#navbarSupportedContent {
-    margin-left: 390px;
-}
-
-#navbarSupportedContent ul li {
-    margin-left: 10px;
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-#navbarSupportedContent ul li a {
-    color: white;
-    padding: 4px;
-}
-
-#navbarSupportedContent ul li svg {
-    color: white;
-}
-
-#navbarSupportedContent ul li:hover {
-    background-color: rgb(110, 183, 0);
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
-}
-
-#navbarSupportedContent ul li a:hover {
-    background-color: rgb(110, 183, 0);
-    color: white;
-    font-weight: 700;
-    border-radius: 7px;
-}
-
-.home-icon {
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-left: 10px;
-    color: white;
-}
-
-.collapse ul li a {
-    margin-left: 0px;
-    padding-left: 0px;
-}
-
-.nav-item {
+#navba-id-div .nav-bar-div1 {
     display: flex;
 }
 
-.horizontalline {
-    margin: 0px;
+.nav-bar-div1 {
+    justify-content: space-between;
 }
 
-.nav-item a {
+.navbar-ul-li ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+.navbar-ul-li ul li {
+    margin-left: 20px;
+    list-style-type: none;
+    color: #00ffd5;
+    font-size: 15px;
+}
+
+.navbar-ul-li ul li a {
     text-decoration: none;
-    font-weight: 700;
-}
-
-.nav-item i {
-    padding: 3px;
-}
-
-
-/*-------------------------------- Navbar Css --------------------------------*/
-
-
-/* --------------------------------Header start --------------------------------*/
-
-
-/* @media (max-width: 768px) {
-    .side-link {
-        display: none;
-    }
-}
-
-.side-link ul {
-    display: inline;
-    position: absolute;
-    top: 50%;
-    margin-left: 10px;
-    transform: translate(-50%, -50%);
-}
-
-.side-link ul li {
-    list-style: none;
-    padding: 5px;
-}
-
-.side-link ul li a {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 35px;
-    font-size: 25px;
-    margin: 0 10px;
-    display: block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fff;
-    z-index: 1;
-}
-
-.side-link ul li a i {
-    position: relative;
-    transition: .5s;
-    z-index: 3;
-    color: black;
-}
-
-.side-link ul li a:hover .icon {
-    color: #fff;
-    transform: rotateY(360deg);
-}
-
-.side-link ul li a:hover:before {
-    top: 0;
-}
-
-.social-link {
-    height: 300px;
-    width: 60px;
-    background-color: #050d18;
-    margin-right: 0px;
-    margin-top: 130px;
-    position: fixed;
-}
-
-.social-link-div2 a svg {
-    background-color: white;
-    border-radius: 50%;
-    display: block;
-    margin-top: 12px;
-}
-
-.social-link-div2 {
-    border-radius: 50%;
-    padding-top: 30px;
-    margin-top: 12px;
-    padding-left: 10px;
-}
-
-.main-header {
-    margin-top: 20px;
-    display: flex;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.header-img {
-    width: 550px;
+
+/* Li hover effect */
+
+.navbar-ul-li ul li a:hover {
+    border-bottom: 2px solid green;
+    padding-bottom: 5px;
+    transition: 0.5s;
 }
 
-.home-page-im {
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.home-page-title {
-    font-size: 19px;
-    font-weight: 700;
-}
+/* ===============================Navbar Css end ========================================*/
 
-.mahadi {
-    font-weight: 700;
-    border-radius: 7px;
-    padding: 10px;
-}
- */
+
+/*  */
+
+
+/* ===============================Navbar Css end========================================*/
+
+
+/* ===============================Header start ========================================*/
+
+
+/*  */
+
+
+/* =============================== Header start ========================================*/
 
 
 /* ================Notice ==================================== */
@@ -209,7 +94,6 @@ body {
     0% {
         -moz-transform: translateX(100%);
     }
-
     100% {
         -moz-transform: translateX(-100%);
     }
@@ -219,7 +103,6 @@ body {
     0% {
         -webkit-transform: translateX(100%);
     }
-
     100% {
         -webkit-transform: translateX(-100%);
     }
@@ -233,7 +116,6 @@ body {
         /* Firefox bug fix */
         transform: translateX(100%);
     }
-
     100% {
         -moz-transform: translateX(-100%);
         /* Firefox bug fix */
@@ -327,13 +209,11 @@ body {
     #my-name-div2 .home-page-main-img img {
         width: 290px;
     }
-
     #my-name-div2 .overlay {
         margin-top: 250px;
         padding-left: 0px;
         margin-left: 0px;
     }
-
     #my-name-div2 .overlay img {
         width: 100px;
         padding-left: 0px;
@@ -348,11 +228,9 @@ body {
     #my-name-div2 .home-page-main-img img {
         width: 270px;
     }
-
     #my-name-div2 .overlay {
         margin-top: 280px;
     }
-
     #my-name-div2 .overlay img {
         margin-top: 10px;
         width: 100px;
@@ -363,7 +241,6 @@ body {
     #my-name-div2 .home-page-main-img img {
         width: 200px;
     }
-
     #my-name-div2 .overlay {
         margin-top: 210px;
         padding-left: 0px;
@@ -446,6 +323,7 @@ body {
 
 #home-page-main-div {
     background-color: #02132b;
+    border-radius: 3px;
 }
 
 #my-name-div {
@@ -494,7 +372,7 @@ body {
 
 #my-name-div .hire-me-div button {
     color: black;
-    background-color: #38b6ff;
+    background-color: #007AFF;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
     padding-left: 10px;
@@ -570,7 +448,7 @@ Animation=======================================================================
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #191564;
+    /* background: #191564; */
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -580,11 +458,9 @@ Animation=======================================================================
     0% {
         background-position: 0 0;
     }
-
     50% {
         background-position: 400% 0;
     }
-
     100% {
         background-position: 0 0;
     }
@@ -746,34 +622,27 @@ Animation END===================================================================
         height: 150px;
         margin-bottom: 10px;
     }
-
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 33%;
         height: 150px;
         margin-left: 0px;
         padding-left: 0px;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
-
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
-
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -785,34 +654,27 @@ Animation END===================================================================
         height: 150px;
         margin-bottom: 10px;
     }
-
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 33%;
         height: 150px;
         margin-left: 0px;
         padding-left: 0px;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
-
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
-
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -824,34 +686,27 @@ Animation END===================================================================
         height: 150px;
         margin-bottom: 10px;
     }
-
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 50%;
         height: 150px;
         margin-left: 0px;
         padding-left: 0px;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
-
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
-
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -863,34 +718,27 @@ Animation END===================================================================
         height: 100px;
         margin-bottom: 10px;
     }
-
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 100%;
         height: 130px;
         margin-left: 0px;
         padding-left: 0px;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
-
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
-
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -902,34 +750,27 @@ Animation END===================================================================
         height: 120px;
         margin-bottom: 10px;
     }
-
     .about-me-section .about-me-main-div .bio-detils2 {
         width: 100%;
         height: 130px;
         margin-left: 0px;
         padding-left: 0px;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         margin: auto;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 img {
         width: 250px;
     }
-
     .about-me-section .about-me-main-div .description-detils .description-detils-div a {
         display: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 {
         border: none;
     }
-
     .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
         display: block;
     }
-
     .about-me-section .about-me-tittle h2 {
         font-size: 14px;
     }
@@ -974,7 +815,9 @@ Animation END===================================================================
     /* background-color: #051d40; */
     color: white;
     padding: 8px;
-    background-color: #0062cc;
+    /* background-color: #0062cc; */
+    background-color: #007AFF;
+    letter-spacing: 3px;
 }
 
 .description-detils-div a {
@@ -1215,7 +1058,6 @@ Animation END===================================================================
     .about-me-section .div-for-hover .service-internal-div .service-first-div img {
         width: 30px;
     }
-
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
@@ -1226,7 +1068,6 @@ Animation END===================================================================
         display: flex;
         flex-wrap: wrap;
     }
-
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
@@ -1238,7 +1079,6 @@ Animation END===================================================================
         display: flexbox;
         height: 400px;
     }
-
     .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
         font-size: 20px;
     }
@@ -1311,13 +1151,11 @@ Animation END===================================================================
     background-position: center center;
     background-repeat: no-repeat;
     animation: bg-spin 3s linear infinite;
-
     @keyframes bg-spin {
         to {
             --border-angle: 1turn;
         }
     }
-
     &:hover {
         animation-play-state: paused;
     }
@@ -1433,15 +1271,12 @@ Animation END===================================================================
     #porject-section22 .project-div12 {
         display: flex;
     }
-
     #porject-section22 .project-div12 .project-section23 {
         width: 50%;
     }
-
     #porject-section22 .project-div12 .service-main-img {
         width: 50%;
     }
-
     #porject-section22 .project-div12 .service-main-img img {
         width: 80%;
         margin-top: 60px;
@@ -1464,15 +1299,12 @@ Animation END===================================================================
     #porject-section22 .ahms-div-class {
         display: flex;
     }
-
     #porject-section22 .ahms-div-class .service-main-img {
         width: 50%;
     }
-
     #porject-section22 .ahms-div-class .project-section23 {
         width: 50%;
     }
-
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 80%;
         margin-left: 0px;
@@ -1484,12 +1316,10 @@ Animation END===================================================================
     #porject-section22 .ahms-div-class .service-main-img {
         width: 100%;
     }
-
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 100%;
         margin: auto;
     }
-
     #porject-section22 .ahms-div-class .project-section23 {
         width: 100%;
     }
@@ -1499,15 +1329,12 @@ Animation END===================================================================
     #porject-section22 .ahms-div-class .service-main-img {
         width: 100%;
     }
-
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 80%;
     }
-
     #porject-section22 .ahms-div-class .project-section23 {
         width: 100%;
     }
-
     #porject-section22 .ahms-div-class .service-main-img img {
         width: 80%;
         margin-top: 60px;
@@ -1626,7 +1453,6 @@ Animation END===================================================================
     .certification-main .certificate-description .courseDetils1 {
         margin-top: 200px;
     }
-
     .certification-main .certifier-div-43 .dconsolediv {
         text-align: center;
         align-items: center;
@@ -1638,12 +1464,10 @@ Animation END===================================================================
     .certification-main .certifier-div-43 .dconsolediv {
         width: 50%;
     }
-
     .certification-main .certifier-div-43 {
         display: flex;
         flex-wrap: wrap;
     }
-
     .certification-main .certifier-div-43 .certificate-description {
         width: 50%;
     }
@@ -1759,7 +1583,6 @@ Animation END===================================================================
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
     }
-
     to {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
@@ -1771,7 +1594,6 @@ Animation END===================================================================
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
     }
-
     to {
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
@@ -1783,7 +1605,6 @@ Animation END===================================================================
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
     }
-
     to {
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
@@ -1795,7 +1616,6 @@ Animation END===================================================================
         -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
     }
-
     to {
         -webkit-transform: rotateY(0deg);
         transform: rotateY(0deg);
@@ -1900,7 +1720,6 @@ Animation END===================================================================
 /*** IN PROGRESS ***/
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-
 :root {
     --c1: #2187e7;
     --b2: #222;
@@ -2447,9 +2266,7 @@ ul.skills li.more input:checked+label:hover {
 
 /*********************/
 
-@media  (min-width: 1024px) {
-    
-    
+@media (min-width: 1024px) {
     /* .content .profile-skills .skills .front-end1 {
         display: block;
          
@@ -2462,7 +2279,6 @@ ul.skills li.more input:checked+label:hover {
         display: block;
          
     } */
-
     /* .profile-skills>div {
         width: 33% !important;
     }
@@ -2472,34 +2288,28 @@ ul.skills li.more input:checked+label:hover {
         margin-top: 120px;
     } */
 }
-  @media  (max-width: 780px) {
-    
-    
+
+@media (max-width: 780px) {
     .content .profile-skills .skills .front-end1 {
         display: block;
-         
     }
     .content .profile-skills .skills .back-end2 {
         display: block;
-         
     }
     .content .profile-skills .skills .tools2 {
         display: block;
-         
     }
-    .skills23{
+    .skills23 {
         width: 100%;
     }
-
- 
-}  
-
+}
 
 
 /*** Mobile view disabled to get (almost) the desired thumbnail ***/
 
 
 /*** Uncomment below code to add the media query for mobile view ***/
+
 
 /* @media(max-width: 768px) {
    .skills-section-main .content .profile-skills .skills23{
@@ -2519,122 +2329,95 @@ ul.skills li.more input:checked+label:hover {
 
 /* <!----------------------------Pricing Section start-----------------------------> */
 
-@media (max-width:1000px){
-  .pricing-section .pricing-table-detils .pricing1{
-    width: 30%;
-    justify-content: center;
-    font-size: 12px;
-
-  }
-   
-  .pricing-section .pricing-table-detils .pricing2{
-    width: 30%;
-    justify-content: center;
-    font-size: 12px;
-
-
-  }
-  .pricing-section .pricing-table-detils .pricing3{
-    width: 30%;
-    justify-content: center;
-    font-size: 12px;
-
-
-  }
-  .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div{
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-  .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div{
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-  .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div{
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-
- 
-
-  .pricing-table-detils {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-     
+@media (max-width:1000px) {
+    .pricing-section .pricing-table-detils .pricing1 {
+        width: 30%;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .pricing-section .pricing-table-detils .pricing2 {
+        width: 30%;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .pricing-section .pricing-table-detils .pricing3 {
+        width: 30%;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .pricing-table-detils {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
 }
 
- 
-}
-
-
-
-
-
-
- 
-  @media (max-width:780px){
-    .pricing-section .pricing-table-detils .pricing1{
+@media (max-width:780px) {
+    .pricing-section .pricing-table-detils .pricing1 {
         width: 50%;
         font-size: 12px;
-    
-      }
-       
-      .pricing-section .pricing-table-detils .pricing2{
+    }
+    .pricing-section .pricing-table-detils .pricing2 {
         width: 50%;
-        
         font-size: 12px;
-    
-    
-      }
-      .pricing-section .pricing-table-detils .pricing3{
+    }
+    .pricing-section .pricing-table-detils .pricing3 {
         width: 50%;
-   
         font-size: 12px;
-    
-    
-      }
-
-
-
-      .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div{
+    }
+    .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div {
         margin-top: 50px;
-        
-      } 
-      .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div{
+    }
+    .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div {
         margin-top: 70px;
-        
-      }
-      .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div{
+    }
+    .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div {
         margin-top: 50px;
-         
-      }
-}  
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pricing-engine-back img {
+    position: absolute;
+    width: 400px;
+    margin-top: 300px;
+}
 
 .pricing-section {
     /* background-color:#13121d ; */
     /* background-color: #191724; */
-    background-color: #050d18;
-
+    /* background-color: #050d18; */
     /* background-color: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%); */
 }
 
-.pricing-logo span {
+.upwor-fiverr-free {
+    width: 100%;
+    height: 60Px;
+    background-color: #02132b;
     color: #00ffd5;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pricing-logo span {
+    color: #000000;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 10px;
@@ -2663,12 +2446,12 @@ ul.skills li.more input:checked+label:hover {
     /* background-color: #13121d; */
     /* background-color: #050d18; */
     /* background-color: #1b1a25; */
-    background-color: #191724;
-    border: 1px solid rgb(74, 74, 172);
+    /* background-color: #191724; */
+    /* border: 1px solid rgb(74, 74, 172); */
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
 }
 
 .pricing-table-detils .pricing2 {
@@ -2676,8 +2459,8 @@ ul.skills li.more input:checked+label:hover {
     height: 400px;
     /* background-color: #13121d; */
     /* background-color: #050d18; */
-    background-color: #191724;
-    border: 1px solid rgb(74, 74, 172);
+    /* background-color: #191724; */
+    /* border: 1px solid rgb(74, 74, 172); */
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
@@ -2689,8 +2472,8 @@ ul.skills li.more input:checked+label:hover {
     height: 400px;
     /* background-color: #13121d; */
     /* background-color: #050d18; */
-    background-color: #191724;
-    border: 1px solid rgb(74, 74, 172);
+    /* background-color: #191724; */
+    /* border: 1px solid rgb(74, 74, 172); */
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
@@ -2700,7 +2483,8 @@ ul.skills li.more input:checked+label:hover {
 .pricing-table-detils .pricing1-internal {
     width: 100%;
     height: 70px;
-    background-color: #8a8f97;
+    /* background-color: #8a8f97; */
+    background-color: #30455e;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     align-items: center;
@@ -2727,7 +2511,7 @@ ul.skills li.more input:checked+label:hover {
 }
 
 .pricing-description-1 {
-    color: #a9b3c2;
+    color: black;
     padding-top: 10px;
     font-size: 13px;
 }
@@ -2742,24 +2526,11 @@ ul.skills li.more input:checked+label:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-
 }
 
 .market-logo-div-last img {
     margin: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .pricing1 .pricing-markte-div {
     text-align: center;
@@ -2844,7 +2615,8 @@ ul.skills li.more input:checked+label:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #2f2da1;
+    /* background: #2f2da1; */
+    background: #007AFF;
     left: 0;
     top: 0;
     border-radius: 6px;
@@ -2854,11 +2626,9 @@ ul.skills li.more input:checked+label:hover {
     0% {
         background-position: 0 0;
     }
-
     50% {
         background-position: 400% 0;
     }
-
     100% {
         background-position: 0 0;
     }
@@ -2868,21 +2638,28 @@ ul.skills li.more input:checked+label:hover {
 /* <!----------------------------Pricing Section end-----------------------------> */
 
 
-
-
-
-
 /* <!----------------------------My mission Section start-----------------------------> */
 
+.my-mission-technology img {
+    position: absolute;
+    width: 400px;
+    margin-left: auto;
+    margin-right: 0px;
+}
 
-.my-mission-head{
+.my-mission-technology {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-end;
+}
+
+.my-mission-head {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
     margin-bottom: 20px;
-
 }
-
 
 .request-for-do {
     width: 100%;
@@ -2890,13 +2667,11 @@ ul.skills li.more input:checked+label:hover {
     background-color: #4DD637;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
-
 }
 
 .request-for-do h2 {
     padding-top: 20px;
 }
-
 
 .mission-div {
     display: flex;
@@ -2904,6 +2679,7 @@ ul.skills li.more input:checked+label:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
 }
 
 .mission-div .mission1 {
@@ -2914,43 +2690,29 @@ ul.skills li.more input:checked+label:hover {
     border: 1px solid rgb(206, 191, 191);
     border-radius: 5px;
     box-shadow: rgba(17, 17, 17, 0.15) 0px 4px 24px;
-
 }
 
 .mission1 img {
     width: 150px;
 }
-.mission1 h2{
+
+.mission1 h2 {
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.mission1 p{
-    font-size:14px;
+.mission1 p {
+    font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
 }
 
-#mission1 img{
+#mission1 img {
     width: 100px;
 }
 
 
-
-
-
-
-
-
-
-
 /* <!----------------------------My mission Section eend-----------------------------> */
-
-
-
-
-
-
 
 
 /*-------------------------------- portfolio section start-------------------------------- */

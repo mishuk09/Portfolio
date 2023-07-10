@@ -6,8 +6,13 @@
 
     <title>Mishuk</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/meanmenu.min.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+
+
+    <!--Css/Responsive css-->
+
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/responsive.css'>
+
 
 
     <!--Favicon-->
@@ -16,35 +21,28 @@
 
 
     <!--Bootstrap link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 
     <!--Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap"
-        rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
-
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
-
+    <!--Font awesome kit -->
     <link rel="stylesheet" href="https://kit.fontawesome.com/f4de1cba20.css" crossorigin="anonymous">
 
-    <script src="Js/index.js"></script>
+
+    <!--JS  -->
+    <script src="Js/certification.js"></script>
+
 
 
 </head>
@@ -58,88 +56,58 @@
 
 
 
+    <section id="navba-id-div">
+        <div class="nav-bar-div1    container">
+            <div>
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-mahadi.png" alt="Bootstrap" width="110" class="p-1">
+                </a>
+            </div>
 
-
-    <section class="navbar-main ">
-        <div id="mobile-menue">
-
-            <nav class="navbar    navbar-expand-lg   container ">
-
-                <!--Logo-->
-
-                <nav class="navbar  my-0 p-0 ">
-                    <div class="container mail-logo-class">
-                        <a class="navbar-brand" href="#">
-                            <img src="images/logo-mahadi.png" alt="Bootstrap" width="110" class="rounded-4">
-                        </a>
-                    </div>
-                </nav>
-
-                <div class="container-fluid  ">
-
-
-                   
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>  
+            <!-- Toggle Button -->
 
 
 
-                </div>
 
-                <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav col-lg-12 col-md-6 col-sm-12 ">
-
-
-                        <li class="nav-item">
-                            <a href="#home"><i class="fa-solid fa-house"></i><span> Home</span></a>
-                            </i>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about"> <i class="fa-solid fa-user"></i> <span> About</span></a>
-                            </i>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#skills"> <i class="fa-solid fa-battery-full"></i> <span> Skills</span></a>
-                            </i>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#goal"> <i class="fa-solid fa-bullseye"></i> <span> Goal</span></a>
-                            </i>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#portfolio"> <i class="fa-regular fa-file-image"></i> <span> Portfolio</span></a>
-                            </i>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact"> <i class="fa-solid fa-address-book"></i> <span> Contact</span></a>
-                            </i>
-                        </li>
-
-                    </ul>
-
-                </div>
+            <div class="navbar-ul-li">
+                <ul class="navbar-ul">
+                    <li class="nav-item">
+                        <a href="#home"><i class="fa-solid fa-house"></i>&nbsp<span> Home</span></a>
+                        </i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about"> <i class="fa-solid fa-user"></i>&nbsp <span> About</span></a>
+                        </i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills"> <i class="fa-solid fa-battery-full"></i> &nbsp<span> Skills</span></a>
+                        </i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#goal"> <i class="fa-solid fa-bullseye"></i> &nbsp<span> Goal</span></a>
+                        </i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio"> <i class="fa-regular fa-file-image"></i>&nbsp <span> Portfolio</span></a>
+                        </i>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact"> <i class="fa-solid fa-address-book"></i>&nbsp <span> Contact</span></a>
+                        </i>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        </nav>
-
 
     </section>
 
-    <hr class="horizontalline">
 
 
 
 
+    <!-- ==================================Navbar End================================= -->
 
 
-
-
-
-    <!--------------------------------------Navbar End---------------------------------->
 
 
 
@@ -149,16 +117,15 @@
 
 
 
-    <section class=" container   my-2">
+    <section class=" container   my-1">
 
         <div class="  latest-notice ">
             <div class="latest-notice1-inline-div">
                 <div class="notice-name  " id="notice-name">
-                    <p id="notice-name-para">Latest Notice</p>
+                    <p id="notice-name-para">Notice</p>
                 </div>
                 <div class="notice-marquee container-fluid">
-                    <marquee behavior="scroll" class="p-1" direction="left" scrollamount="10">Welcome to My official
-                        Portfolio | This Website Developing by MAHADI HASAN MISHUK</marquee>
+                    <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="scroll" class="p-1" direction="left" scrollamount="10">Welcome to My official Portfolio | This Website Developing by MAHADI HASAN MISHUK</marquee>
                 </div>
             </div>
         </div>
@@ -170,51 +137,10 @@
 
 
 
+
+
+
     <!--------------------------------------Home page Start---------------------------------->
-
-
-
-
-
-    <!-- <header id="home" class="main-header  ">
-
-
-        <div class="social-link side-link 	 d-sm-block  rounded-end   ">
-
-            <ul>
-                <li>
-                    <a href="https://www.facebook.com/mishuk0910" target="_blank">
-                        <i class="fa-brands fa-facebook"></i> </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/mahadi-hasan-mishuk-1142b21a2/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                </li>
-                <li>
-                    <a href="mailto:mishukinfo09@gmail.com"> <i class=" fa-regular fa-envelope"></i> </a>
-
-                </li>
-                <li>
-                    <a href="https://github.com/mishuk09" target="_blank"> <i class="fa-brands fa-github"></i></a>
-                </li>
-            </ul>
-
-
-
-        </div>
-
-        <div class="container">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/mishuk-home-main.png" class="  w-100" alt="...">
-                </div>
-
-            </div>
-        </div>
-
-
-
-
-    </header> -->
 
 
 
@@ -226,8 +152,7 @@
                 <h1>MAHADI HASAN MISHUK</h1>
                 <hr>
                 <h5> Junior Web-developer & Freelancher!</h5>
-                <p>I am Sincare,responsible,confident,dedicated,down to earth & trustworthly.Currently I am studying
-                    about Web-development as well as Softwer Engineering.</p><br>
+                <p>I am Sincare,responsible,confident,dedicated,down to earth & trustworthly.Currently I am studying about Web-development as well as Softwer Engineering.</p><br>
                 <div class="hire-me-div"> <img class="align-bottom " src="img/logo/hire-logo.png">
                     <button class="glow-on-hover mb-3 ms-4" type="button">HIRE ME</button>
 
@@ -255,63 +180,28 @@
 
 
 
-
-
-
-
-
     <!---------------------------------------------Home page End------------------------------------------>
 
 
 
 
-    <!------------------------------------------------- Sort  intro start--------------------------------------->
 
 
-    <!-- <section>
-        <div class="sort-intro-div">
-            <div></div>
-            <div></div>
-            <div></div>
-
-            <div id="hs_cos_wrapper_widget_1673006559111" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-                <section class="trust-bar " style="background: #D2DB0E;">
 
 
-                    <div class="container text-center sort-intro-img123">
-                        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                            <div class="col">
-                                <div class="p-3">Row column</div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3">Row column</div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3">Row column</div>
-                            </div>
-                            <div class="col">
-                                <div class="p-3">Row column</div>
-                            </div>
-
-                        </div>
 
 
-                    </div>
-                </section>
-            </div>
+    <!------------------------------------------- Sort  intro start--------------------------------------->
 
-        </div>
-        </div>
 
-    </section> -->
+
 
 
 
     <section class=" statistics-panel statistics-panel-updated standard-indents green  split-cards-function   ">
 
         <div class="statistics-panel-updated_bg ">
-            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"
-                viewBox="0 0 1700 191" fill="none">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1700 191" fill="none">
                 <path d="M1700 130.341C1700 130.341 670.198 277.226 0 0V191H1700V130.341Z" fill="#12B2A7"></path>
             </svg>
         </div>
@@ -398,6 +288,8 @@
 
     </section>
 
+
+
     <!------------------------------------------------- sort intro end   --------------------------------------->
 
 
@@ -416,7 +308,9 @@
 
     <section class="  mt-0   about-me-section">
         <div class="container about-me-tittle p-3 align-items-center">
-            <div><img src="img/logo/cv.svg" width="40px" alt=""> </div>
+            <div>
+                <img src="img/logo/cv.svg" width="40px" alt="">
+            </div>
             <div class="align-text-bottom">
                 <h2 class="align-text-bottom  ">ABOUT ME</h2>
             </div>
@@ -430,9 +324,7 @@
         <div class="container about-me-main-div">
             <div class="container description-detils  ">
                 <div class="description-detils-div  p-3">
-                    Hello I'm <span>"Mahadi Hasan Mishuk"</span> Junior Web Developer From India.I am working on Web
-                    Development as well as I am Learning Software Engineering. <br> <br>
-
+                    Hello I'm <span>"Mahadi Hasan Mishuk"</span> Junior Web Developer From India.I am working on Web Development as well as I am Learning Software Engineering. <br> <br>
                 </div>
 
             </div>
@@ -440,8 +332,7 @@
                 <div class="bio-detils2-div p-3">
                     <div class="age-div "><i class="fa-brands fa-pagelines"></i>&nbsp&nbsp Age:&nbsp&nbsp22</div>
                     <div class="male-div"><i class="fa-solid fa-user"></i>&nbsp&nbspGender:&nbsp&nbspMale</div>
-                    <div class="university-div"><i
-                            class="fa-solid fa-graduation-cap"></i>&nbsp&nbspUniversity:&nbsp&nbspRK University Rajkot
+                    <div class="university-div"><i class="fa-solid fa-graduation-cap"></i>&nbsp&nbspUniversity:&nbsp&nbspRK University Rajkot
                     </div>
                     <div class="city-div"><i class="fa-solid fa-city"></i>&nbsp&nbspCity:&nbsp&nbspRajkot,Gujarat,India
                     </div>
@@ -450,46 +341,41 @@
             <div class="my-about-picture2">
 
                 <div class="py-3 text-center  "><img src="images/my-about-pic.png" width="200px" alt=""></div>
-                <div class=" text-center about-img-below-btn"><a href="resume/MAHADI_HASAN_MISHUK_RESUME.pdf"
-                        target="_blank"><button>DOWNLOAD RESUME &nbsp&nbsp<i
+                <div class=" text-center about-img-below-btn"><a href="resume/MAHADI_HASAN_MISHUK_RESUME.pdf" target="_blank"><button>DOWNLOAD RESUME &nbsp&nbsp<i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></button></a></div>
 
             </div>
         </div>
 
 
-        <!-- Marketplace Detilx -->
+        <!-- Marketplace Detils -->
 
 
         <div id="market-place-div" class="container text-center px-5 mt-3">
             <div class="row align-items-center market-place-inter-div">
                 <div class="col">
                     <a target="_self" href="#" class="imgButton one">
-                        <img src="img/marketplace-logo/upwork.svg" class="img-circle" alt="A Purrty Kitten" width="50"
-                            alt="A Cat Photo">
+                        <img src="img/marketplace-logo/upwork.svg" class="img-circle" alt="A Purrty Kitten" width="50">
                     </a>
-                    <!-- <img src="img/marketplace-logo/upwork.svg" width="50px" alt=""> -->
                 </div>
                 <div class="col">
                     <a target="_self" href="#" class="imgButton one">
-                        <img src="img/marketplace-logo/fiverr-1.svg" class="img-circle" alt="A Purrty Kitten" width="50"
-                            alt="A Cat Photo">
+                        <img src="img/marketplace-logo/fiverr-1.svg" class="img-circle" alt="A Purrty Kitten" width="50" alt="A Cat Photo">
                     </a>
-                    <!-- <img src="img/marketplace-logo/fiverr-1.svg" width="50px" alt=""> -->
                 </div>
                 <div class="col rounded">
                     <a target="_self" href="#" class="imgButton one">
-                        <img src="img/marketplace-logo/freelancer.svg" class="img-circle" alt="A Purrty Kitten"
-                            width="50" alt="A Cat Photo">
+                        <img src="img/marketplace-logo/freelancer.svg" class="img-circle" alt="A Purrty Kitten" width="50" alt="A Cat Photo">
                     </a>
-                    <!-- <img src="img/marketplace-logo/freelancer.svg" width="50px" alt=""> -->
                 </div>
             </div>
             <hr class="marketplace-logo-hori">
         </div>
 
         <div class="container about-me-tittle px-3 align-items-center">
-            <div><img src="img/logo/service.svg" width="40px" alt=""></div>
+            <div>
+                <img src="img/logo/service.svg" width="40px" alt="">
+            </div>
             <div class="align-text-bottom">
                 <h2 class="align-text-bottom">SERVICE</h2>
             </div>
@@ -505,6 +391,7 @@
                         <div class="col col-lg-3 col-sm-3 col-md-3 ">
                             <div class="px-2"><img src="img/logo/figma.svg" alt="" width="50px"></div>
                         </div>
+
                         <div class="col   col-lg-9 col-sm-9 col-md-9 text-start ">
                             <div class="text-start ">
                                 <h4>Figma/canva Design</h4>
@@ -559,16 +446,6 @@
 
 
 
-    <!----------------------------About Section End----------------------------->
-    <!----------------------------About Section End----------------------------->
-
-
-
-
-
-
-
-
 
 
 
@@ -581,8 +458,12 @@
     <!----------------------------Projects Section start----------------------------->
 
 
+
+
     <section class="porject-section mt-0 pt-5">
-        <section class="container">
+
+
+        <div class="container">
 
             <div id="project-headline-div" class="container text-center ">
                 <div class="  align-self-center">
@@ -595,29 +476,25 @@
                     <h4>I Have Done Many Projects.</h4>
                 </div>
                 <div class="mt-3">
-                    <marquee behavior="" scrollamount="10" direction="left"><img src="img/logo/project/csehacks.png"
-                            alt="img" width="150px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img
-                            src="img/logo/project/ahmsc.png" width="150px" alt="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <marquee onmouseover="this.stop();" onmouseout="this.start();" behavior="" scrollamount="10" direction="left"><img src="img/logo/project/csehacks.png" alt="img" width="150px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <img src="img/logo/project/ahmsc.png" width="150px" alt="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                         <img src="img/logo/project/mishuk-portfolio.png" width="150px" alt="">
                     </marquee>
                 </div>
                 <hr class="project-hori">
             </div>
-        </section>
+
+        </div>
 
 
 
-        <section id="porject-section22" class="container">
+        <div id="porject-section22" class="container">
 
             <div class="  align-items-start project-div12">
                 <div class=" project-section23   mt-5">
 
                     <h1>CSE-Hacks Solution Limited.</h1>
-                    <p class="mt-3">CSE-Hacks is a Educational website.This is an unprofitable website.This website
-                        contain COMPUTER ENGINEERING related subjects. Programming language,compiler.We will provide
-                        Enjoyable and easy learning. </p>
-                    <p>This website still under Developing,we trying to rich a certain goal.In This website These
-                        Technology are using for Develop "HTML,CSS,JS,REACT,NODE.JS & MONGODB" </p>
+                    <p class="mt-3">CSE-Hacks is a Educational website.This is an unprofitable website.This website contain COMPUTER ENGINEERING related subjects. Programming language,compiler.We will provide Enjoyable and easy learning. </p>
+                    <p>This website still under Developing,we trying to rich a certain goal.In This website These Technology are using for Develop "HTML,CSS,JS,REACT,NODE.JS & MONGODB" </p>
 
                     <div class=" ms-0 ps-0 text-start project-icon-detils">
                         <div class="row  ">
@@ -650,17 +527,13 @@
                 <div class="  text-center service-main-img">
                     <img src="img/csehacks-main-img.png" alt="">
                 </div>
-
             </div>
+        </div>
 
 
-        </section>
-
-
-        <section id="porject-section22" class="container ahmsc-class pb-5">
+        <div id="porject-section22" class="container ahmsc-class pb-5">
 
             <div class="  align-items-start ahms-div-class">
-
                 <div class="  text-start service-main-img">
                     <img src="img/ahmsc-main-img.png" alt="">
                 </div>
@@ -669,10 +542,8 @@
                 <div class=" project-section23   mt-5">
 
                     <h1>AHMSC School & College.</h1>
-                    <p class="mt-3">AHMSC is a Educational website.This is an Institutional website.This website contain
-                        School/College related All content. Latest Notice,Academic,Result etc. </p>
-                    <p>This website still under Developing,we trying to rich a certain goal.In This website These
-                        Technology are using for Develop "HTML,CSS,JS,REACT,NODE.JS & MONGODB" </p>
+                    <p class="mt-3">AHMSC is a Educational website.This is an Institutional website.This website contain School/College related All content. Latest Notice,Academic,Result etc. </p>
+                    <p>This website still under Developing,we trying to rich a certain goal.In This website These Technology are using for Develop "HTML,CSS,JS,REACT,NODE.JS & MONGODB" </p>
 
                     <div class=" ms-0 ps-0 text-start project-icon-detils">
                         <div class="row  ">
@@ -693,22 +564,15 @@
                     <br>
 
                     <div class="project-btn-div">
-                        <a href="https://http://mahadiinfo.me/Akbar-Hossain-Model-School-and-College/"
-                            target="_blank"><button>DEMO <i
+                        <a href="https://http://mahadiinfo.me/Akbar-Hossain-Model-School-and-College/" target="_blank"><button>DEMO <i
                                     class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
-                        <a href="https://github.com/mishuk09/Akbar-Hossain-Model-School-and-College"
-                            target="_blank"><button>CODE<i class="fa-brands fa-github"></i></button></a>
+                        <a href="https://github.com/mishuk09/Akbar-Hossain-Model-School-and-College" target="_blank"><button>CODE<i class="fa-brands fa-github"></i></button></a>
                     </div>
 
                 </div>
 
-
-
-
             </div>
-
-
-        </section>
+        </div>
 
 
     </section>
@@ -732,31 +596,20 @@
 
 
     <section class="  certification-main">
-        <h2 class="text-center   pt-5 pb-3 Certification-h1"><img src="img/galarry-logo/certificate.svg" width="60px"
-                alt="">Certification</h2>
+        <h2 class="text-center   pt-5 pb-3 Certification-h1"><img src="img/galarry-logo/certificate.svg" width="60px" alt="">Certification</h2>
 
 
         <div class="certi-div">
             <div class="certi-div1"><img src="img/galarry-logo/coursera.png" width="150px" alt="" class="img1"></div>
-            <!-- <div id="upgrade1" class="certi-div2"><img src="img/galarry-logo/idE37EUsSR.png" width=" " alt=""
-                    class="img2"></div> -->
             <div class="certi-div3"><img src="img/galarry-logo/cisco.png" width="150px" alt="" class="img3"></div>
-            <div class="certi-div4"><img src="img/galarry-logo/Infosys_logo.svg.png" width="150px" alt="" class="img4">
-            </div>
-            <div class="certi-div5"><img src="img/galarry-logo/great_learning_logo_png.png" width="150px" alt=""
-                    class="img5"></div>
+            <div class="certi-div4"><img src="img/galarry-logo/Infosys_logo.svg.png" width="150px" alt="" class="img4"></div>
+            <div class="certi-div5"><img src="img/galarry-logo/great_learning_logo_png.png" width="150px" alt="" class="img5"></div>
 
         </div>
 
         <div class="container certi-descrip">
-
-            <!-- <h1 class="text-center m-3">CERTIFIRED FOR JAVA,PY,NETWORKING,GOOGLE ANALYTICS,HTML,CSS,JS & SQL</h1> -->
             <br><br><br><br>
         </div>
-
-
-
-
 
 
         <div class="container text-start certifier-div-43 ">
@@ -765,8 +618,6 @@
 
                 <div id="drag-container">
                     <div id="spin-container">
-
-                        <!-- Add your images (or video) here -->
                         <img src="certificate/1.jpg" alt="">
                         <img src="certificate/2.jpg " alt="">
                         <img src="certificate/3.jpg " alt="">
@@ -775,13 +626,11 @@
                         <img src="certificate/6.jpg " alt="">
                     </div>
                     <div id="ground"></div>
-
-
                 </div>
 
 
             </div>
-            <div class="  pt-0 mt-0 certificate-description">
+            <div class=" pt-0 mt-0 certificate-description">
 
                 <div class="courseDetils1">
                     <h3>JAVA</h3>
@@ -790,13 +639,12 @@
                 </div>
                 <div class="courseDetils2">
                     <h3>Python</h3>
-                    <p>Python is one of the most polular language.I have completed PYTHON Intermediate course with 75%
-                        marks.</p>
+                    <p>Python is one of the most polular language.I have completed PYTHON Intermediate course with 75% marks.
+                    </p>
                 </div>
                 <div class="courseDetils3">
                     <h3>HTML,CSS,JS</h3>
-                    <p>I want to be a Full Stack Web Developer,I have completed HTML CSS & JS coursers from INFOSYS
-                        limited with 80%,60%,65% marks.</p>
+                    <p>I want to be a Full Stack Web Developer,I have completed HTML CSS & JS coursers from INFOSYS limited with 80%,60%,65% marks.</p>
                 </div>
                 <div class="courseDetils3">
                     <h3>Google Analytics</h3>
@@ -819,6 +667,15 @@
 
 
     <!----------------------------Certification  Section end----------------------------->
+
+
+
+
+
+
+
+
+
 
     <!----------------------------Skill Section Start----------------------------->
 
@@ -888,13 +745,8 @@
 
 
 
-
-
-
-
-
-
     <!----------------------------Skills Section End----------------------------->
+
 
 
 
@@ -906,18 +758,20 @@
 
 
 
-
     <section class="pricing-section">
 
-        <div class="text-center p-4 pricing-logo"><img src="img/logo/price/price.svg" width="50px"
-                alt=""><span>PRICING</span>
-            <p>I am Available in UPWORK,FIVERR & FREELANCHER for sell my Service.Find me ON Marketplace.</p>
+        <div class="text-center mt-4 mb-3  pricing-logo"><img src="img/logo/price/price.svg" width="50px" alt=""><span>PRICING</span>
+        </div>
+        <div class="upwor-fiverr-free  mb-3">
+            UPWORK,FIVERR & FREELANCHER
         </div>
 
+        <div class="pricing-engine-back">
+            <img src="img/pricing-engine-back.png" alt="">
+        </div>
         <div class=" container pricing-table-detils">
             <div class="pricing1">
-                <div class="pricing1-internal">
-                    BASIC <br> $100
+                <div class="pricing1-internal"> BASIC <br> $100
                 </div>
                 <div class="pricing-description-1 text-start ">
                     <i class="fa-solid fa-check"></i>Delivery Time --------------- 4 Days <br>
@@ -926,26 +780,17 @@
                     <i class="fa-solid fa-check"></i>Responsive Design---------- 4 Days <br>
                     <i class="fa-solid fa-check"></i>Browser Compatibility------ 4 Days
 
-
                 </div>
-                <!-- <button class="btn222">SELECT PLATFORM</button>   -->
-
-
 
                 <div class=" container     container-fluid   pricing-markte-div ">
-
                     <div class="pricing-animation-btn">
                         <button class="glow-one mb-3  " type="button">Select</button>
                     </div>
-
-
                 </div>
-
 
             </div>
             <div class="pricing2">
-                <div class="pricing1-internal">
-                    STANDARD <br> $100
+                <div class="pricing1-internal"> STANDARD <br> $100
                 </div>
                 <div class="pricing-description-1 text-start ">
                     <i class="fa-solid fa-check"></i>Delivery Time --------------- 4 Days <br>
@@ -953,24 +798,16 @@
                     <i class="fa-solid fa-check"></i>Number of Pages ----------- 4 Days <br>
                     <i class="fa-solid fa-check"></i>Responsive Design---------- 4 Days <br>
                     <i class="fa-solid fa-check"></i>Browser Compatibility------ 4 Days
-
-
                 </div>
-                <!-- <button class="btn222">SELECT PLATFORM</button>   -->
-
-
 
                 <div class=" container     container-fluid   pricing-markte-div ">
-
                     <div class="pricing-animation-btn">
                         <button class="glow-one mb-3  " type="button">Select</button>
                     </div>
-
                 </div>
             </div>
             <div class="pricing3">
-                <div class="pricing1-internal">
-                    PREMIUM <br> $100
+                <div class="pricing1-internal"> PREMIUM <br> $100
                 </div>
                 <div class="pricing-description-1 text-start ">
                     <i class="fa-solid fa-check"></i>Delivery Time --------------- 4 Days <br>
@@ -978,19 +815,13 @@
                     <i class="fa-solid fa-check"></i>Number of Pages ----------- 4 Days <br>
                     <i class="fa-solid fa-check"></i>Responsive Design---------- 4 Days <br>
                     <i class="fa-solid fa-check"></i>Browser Compatibility------ 4 Days
-
-
                 </div>
-                <!-- <button class="btn222">SELECT PLATFORM</button>   -->
-
 
 
                 <div class=" container     container-fluid   pricing-markte-div ">
-
                     <div class="pricing-animation-btn">
                         <button class="glow-one mb-3  " type="button">Select</button>
                     </div>
-
 
                 </div>
             </div>
@@ -1014,11 +845,6 @@
 
 
 
-
-
-
-
-
     <!----------------------------Pricing Section end----------------------------->
 
 
@@ -1034,34 +860,30 @@
     <!----------------------------My mission Section start----------------------------->
 
 
+    <!-- <div class="my-mission-technology  align-self-end ">
+        <img src="img/technology.png" alt="">
+    </div>
+    <h2 class="text-center my-mission-head">My Mission</h2> -->
 
 
-
-
-
-    <h2 class="text-center my-mission-head">My Mission</h2>
 
     <div class="mission-div  ">
         <div class="mission1">
             <div class="text-center"><img class="p-3" src="img/mission/goal.png" width="50px" alt=""></div>
             <h2 class="mission2">Mission</h2>
-            <p class="text-start">My Mission is to follow the guidline of Softwer Engineering and
-                compleate all the task with passion,So that i will be familier with the code.</p>
+            <p class="text-start">My Mission is to follow the guidline of Softwer Engineering and compleate all the task with passion,So that i will be familier with the code.</p>
         </div>
         <div id="mission1" class="mission1">
             <div><img class="p-3" src="img/mission/vission.png" alt=""></div>
             <h2 class="mission2">Vission</h2>
 
-            <p class="text-start">I am a student of Computer Engineering.I want to build my
-                Softwer Engineering Career with DSA,JAVA & WEB DEVELOPMENT.</p>
+            <p class="text-start">I am a student of Computer Engineering.I want to build my Softwer Engineering Career with DSA,JAVA & WEB DEVELOPMENT.</p>
 
         </div>
         <div class="mission1">
             <div><img class="p-3" src="img/mission/goal.png" alt=""></div>
             <h2 class="mission2">Goal</h2>
-
-            <p class="text-start">Following vission and Mission be honest work hard and Repet This two again
-                and again untill I will be success.</p>
+            <p class="text-start">Following vission and Mission be honest work hard and Repet This two again and again untill I will be success.</p>
 
         </div>
     </div>
@@ -1069,21 +891,16 @@
 
     <div class="row-fluid-wrapper row-depth-1 row-number-23 dnd-section">
         <div class="row-fluid ">
-            <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0"
-                data-w="12">
+            <div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
 
                 <div class="row-fluid-wrapper row-depth-1 row-number-24 dnd-row">
                     <div class="row-fluid ">
-                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style=""
-                            data-widget-type="custom_widget" data-x="0" data-w="12">
-                            <div id="hs_cos_wrapper_widget_1673012759862"
-                                class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style=""
-                                data-hs-cos-general-type="widget" data-hs-cos-type="module">
+                        <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
+                            <div id="hs_cos_wrapper_widget_1673012759862" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
                                 <div class="position-relative  additional-background-wrapper ">
 
                                     <div class="orange additional-background">
-                                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%"
-                                            height="100%" viewBox="0 0 1700 191" fill="none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 1700 191" fill="none">
                                             <path
                                                 d="M-0.00012207 130.341C-0.00012207 130.341 1029.8 277.226 1700 0V191H-0.00012207V130.341Z"
                                                 fill="#4DD637"></path>
@@ -1094,36 +911,15 @@
                                             <i class="fa-solid fa-arrow-down"></i>
                                         </div>
 
-
-
-
                                     </div>
-
-
-
-
                                 </div>
                             </div>
-
-                        </div><!--end widget-span -->
-                    </div><!--end row-->
-                </div><!--end row-wrapper -->
-
-            </div><!--end widget-span -->
-        </div><!--end row-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1138,358 +934,11 @@
 
 
 
-    <!----------------------------Portfolio Section start----------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <h1 class="container portfolio-main">Portfolio</h1> -->
-
-    <!-- <section id="portfolio" class=" container ">
-
-        <div class="container portfolio-name  ">
-
-            <div><button type="button" class="btn btn-danger">Web</button></div>
-            <div><button type="button" class="btn btn-danger">E-Commerce</button></div>
-            <div><button type="button" class="btn btn-danger">Project</button></div>
-
-        </div>
-
-
-
-
-
-
-
-        <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/Screenshot from 2023-02-18 04-24-37.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Learning Website</h5>
-                        <p class="card-text"> This is my main project bassed on web development. I made it manually</p>
-                    </div>
-
-                    <div class="portfolio-button1">
-                        <div class="portfolio-button2 container-fluid">
-                            <a href="https://mishuk09.github.io/CSE-Hacks/" target="_blank"> <button>View</button></a>
-                            <a href=" https://github.com/mishuk09/CSE-Hacks" target="_blank"><button>Code</button> </a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="ss/1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Web-Page</h5>
-                        <p class="card-text"> It is a single web page that i developed for college assignment purpose.
-                        </p>
-                    </div>
-                    <div class="portfolio-button1">
-
-                        <div class="portfolio-button2 container-fluid">
-                            <a href="tutorial/web/influencer-gear-main/index.html"
-                                target="_blank"><button>View</button></a>
-                            <a href="https://github.com/mishuk09/Practice-HTML-CSS-/tree/main/influencer-gear-main"
-                                target="_blank"><button>Code</button></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="ss/rku.png" class="card-img-top" height="200px" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">RK University all Projects</h5>
-                        <p class="card-text"> Based on web programing here all the project are stored</p>
-                    </div>
-                    <div class="portfolio-button1">
-
-                        <div class="portfolio-button2 container-fluid">
-                            <a href="tutorial/web/index.html" target="_blank"><button>View</button></a>
-                            <a href="tutorial/web/index.html" target="_blank"><button type="button">Code</button></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card h-100">
-                    <img src="ss/4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text"> This was my first developed portfolio that i developed just use html and
-                            css</p>
-                    </div>
-                    <div class="portfolio-button1">
-
-                        <div class="portfolio-button2 container-fluid">
-                            <a href="tutorial/web/first-portfolio/Project-1/index.html"
-                                target="_blank"><button>View</button></a>
-                            <a href=" https://github.com/mishuk09/Practice-HTML-CSS-/tree/main/Html%26css/Html%20%26%20css/HCP-1/Project-1"
-                                target="_blank"><button>Code</button></a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="images/ " class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Up Coming</h5>
-                        <p class="card-text">It is a single web page that i developed for college assignment purpose.
-                        </p>
-                    </div>
-                    <div class="portfolio-button1">
-
-                        <div class="portfolio-button2 container-fluid">
-                            <a href="tutorial/web/Tutorial-05/index.html" target="_blank"><button>View</button></a>
-                            <a href="https://github.com/mishuk09/RKU_Assignment/tree/main/Html%20%26%20Css/Tutoaial-04"
-                                target="_blank"><button>Code</button></a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col">
-                <div class="card h-100">
-                    <img src=" " class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Up coming</h5>
-                        <p class="card-text">It is a single web page that i developed for college assignment purpose.
-                        </p>
-                    </div>
-                    <div class="portfolio-button1">
-
-                        <div class="portfolio-button2 container-fluid">
-                            <a href="tutorial/web/Assignment-07/index0.html" target="_blank"><button>View</button></a>
-                            <a href="https://github.com/mishuk09/RKU_Assignment/tree/main/Html%20%26%20Css/Assignment-07"
-                                target="_blank"><button>Code</button></a>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section> -->
-
-
-
-
-
-
-
-
-
-
-    <!----------------------------Fortfolio Section End----------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-    <!----------------------------Galarry Section start----------------------------->
-
-
-
-
-    <!-- <h1 class="container galarry-h1">Galarry</h1> -->
-
-
-    <!-- <div class="container galarry-logo">
-
-        <div>
-            <img src="img/galarry-logo/cisco.png" alt="" width="100px">
-        </div>
-        <div>
-            <img src="img/galarry-logo/Infosys_logo.svg.png" width="100px" alt="">
-        </div>
-        <div> <img src="img/galarry-logo/Coursera-Logo.png" width="100px" alt="">
-        </div>
-        <div> <img src="img/galarry-logo/great_learning_logo_png.png" width="100px" alt=""></div>
-        <div></div>
-
-    </div>
- -->
-
-    <!-- 
-    <section class="container galarry-main ">
-
-        <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/1.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/2.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/3.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/4.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/5.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/6.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/7.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="certificate/8.jpg" class="card-img-top" alt="...">
-
-                </div>
-            </div>
-        </div>
-
-    </section> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!----------------------------Gallary Section End----------------------------->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--------------------------------- Mission   Section ---------------------->
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <h1 class="mymission">My Mission in <span class="span1">2023</span></h1> -->
-
-
-
-    <!-- <div id="goal" class="container my-mission-main text-center">
-        <div class="row ">
-            <div class="col-lg-4 col-md-6 ">
-                <div class="div31">
-                    <img class="img2" src="./img/goal.png" alt="">
-                    <h2 class="mission2">Vission</h2>
-                    <p class="missionpara  text-start  ">I am a student of Computer Engineering.I want to build my
-                        Softwer Engineering Career with DSA,JAVA & WEB DEVELOPMENT</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="div32">
-                    <img class="img3" src="./img/vission.png" alt="">
-                    <h2 class="mission2">Mission</h2>
-                    <p class="missionpara text-start">My Mission is to follow the guidline of Softwer Engineering and
-                        compleate all the task with passion,So that i will be familier with the code.</p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="div33">
-                    <img class="img44" src="./img/goal.png" alt="">
-                    <h2 class="mission2">Goal</h2>
-                    <p class="missionpara">Following vission and Mission be honest work hard and Repet This two again
-                        and again untill I will be success.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!------------------------- Contact Section ------------------------------>
 
 
-
-
-    <!-- <div class="contact-title container">
-        <h2 class="col-lg-5 ">Contact With Me</h2>
-    </div>  -->
 
 
 
@@ -1503,8 +952,7 @@
                 <div class="col-lg-5 d-flex align-items-stretch">
                     <div class="info">
                         <div class="address">
-                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-                                clip-rule="evenodd">
+                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
                                 <path
                                     d="M12 10c-1.104 0-2-.896-2-2s.896-2 2-2 2 .896 2 2-.896 2-2 2m0-5c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3m-7 2.602c0-3.517 3.271-6.602 7-6.602s7 3.085 7 6.602c0 3.455-2.563 7.543-7 14.527-4.489-7.073-7-11.072-7-14.527m7-7.602c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602" />
                             </svg>
@@ -1530,27 +978,20 @@
                             <p>+91 7069089661</p>
                         </div>
 
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.993954922887!2d70.89866591444698!3d22.24030815069131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b4a660019ee9%3A0x3d6254f36ed0e794!2sRK%20UNIVERSITY!5e0!3m2!1sen!2sin!4v1674241779497!5m2!1sen!2sin"
-                            width="350" height="350px" style="border:0px; border-radius: 5px;" allowfullscreen=""
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.993954922887!2d70.89866591444698!3d22.24030815069131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959b4a660019ee9%3A0x3d6254f36ed0e794!2sRK%20UNIVERSITY!5e0!3m2!1sen!2sin!4v1674241779497!5m2!1sen!2sin"
+                            width="350" height="350px" style="border:0px; border-radius: 5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
                 </div>
 
                 <div class="col-lg-7 mt-5 mt-lg-0 d-flex shadow p-5  send-sms">
                     <form class="center_absolute display_grid" action="email.php" method="post">
-                        <input class="w_25_rem margin_bottom_1_rem " type="text" name="name" placeholder="Name"
-                            autocomplete="off">
-                        <input class="w_25_rem margin_bottom_1_rem " type="email" name="email" placeholder="Email"
-                            autocomplete="off">
-                        <input class="w_25_rem margin_bottom_1_rem " type="text" name="subject" placeholder="Subject"
-                            autocomplete="off"> <br>
+                        <input class="w_25_rem margin_bottom_1_rem " type="text" name="name" placeholder="Name" autocomplete="off">
+                        <input class="w_25_rem margin_bottom_1_rem " type="email" name="email" placeholder="Email" autocomplete="off">
+                        <input class="w_25_rem margin_bottom_1_rem " type="text" name="subject" placeholder="Subject" autocomplete="off"> <br>
                         <textarea name="message" placeholder="Message..."></textarea> <br>
 
-                        <button
-                            class="primary-button background_color_primary font_size_medium color_white border_radius_secondary"
-                            type="submit" name="send">
+                        <button class="primary-button background_color_primary font_size_medium color_white border_radius_secondary" type="submit" name="send">
                             Send
                         </button>
                     </form>
@@ -1593,8 +1034,7 @@
 
             <a href=" "> <i class="fa-brands fa-twitter "></i></a>
 
-            <a href="https://instagram.com/mishuk0910?igshid=NTA5ZTk1NTc=" target=" _blank "> <i
-                    class="fa-brands fa-instagram "></i></a>
+            <a href="https://instagram.com/mishuk0910?igshid=NTA5ZTk1NTc=" target=" _blank "> <i class="fa-brands fa-instagram "></i></a>
 
             <a href="https://github.com/mishuk09 " target="_blank "> <i class="fa-brands fa-github "></i></a>
 
@@ -1626,24 +1066,7 @@
     <script src="/js/index.js "></script>
     <script src="https://kit.fontawesome.com/f4de1cba20.js " crossorigin="anonymous "></script>
     <script src="https://smtpjs.com/v3/smtp.js "></script>
-    <!-- <script>
-        function sendEmail() {
-            Email.send({
-                Host: "smtp.gmail.com ",
-                Username: "mmishuk694@rku.ac.in",
-                Password: "mishuk09",
-                To: 'mishukinfo09@gmail.com',
-                From: document.getElementById("email").value,
-                Subject: "New contact form Enquery",
-                Body: "And this is the body "
-            }).then(
-                message => alert(message)
-            );
-        }
-    </script> -->
-    <script src="Js/meanmenu.min.js"></script>
-    <script src="Js/index.js"></script>
-
+    <script src="Js/certification.js"></script>
 </body>
 
 </html>
