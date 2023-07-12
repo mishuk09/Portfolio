@@ -558,6 +558,7 @@ Animation END===================================================================
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 30px;
     
 
 }
@@ -935,9 +936,10 @@ Animation END===================================================================
 }
 
 .about-me-tittle {
-    text-align: center;
+    text-align: start;
     margin-top: 10px;
     display: flex;
+    justify-content: start;
 }
 
 .bio-detils2 {
