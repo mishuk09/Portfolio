@@ -1369,56 +1369,12 @@ Animation END===================================================================
 
 /* --------------------------------Project  Section start --------------------------------*/
 
-@media (min-width:1000px) {
-    #porject-section22 .project-div12 {
-        display: flex;
-    }
-
-    #porject-section22 .project-div12 .project-section23 {
-        width: 50%;
-    }
-
-    #porject-section22 .project-div12 .service-main-img {
-        width: 50%;
-    }
-
-    #porject-section22 .project-div12 .service-main-img img {
-        width: 80%;
-        margin-top: 60px;
-        margin-left: auto;
-    }
-}
-
-@media (max-width:560px) {
-    #porject-section22 .project-div12 .service-main-img img {
-        width: 80%;
-        margin-top: 60px;
-        margin-left: auto;
-    }
-}
+/* */
 
 
 /* ------------------------------AHMSC media use --------------------------*/
+/* 
 
-@media (min-width:1000px) {
-    #porject-section22 .ahms-div-class {
-        display: flex;
-    }
-
-    #porject-section22 .ahms-div-class .service-main-img {
-        width: 50%;
-    }
-
-    #porject-section22 .ahms-div-class .project-section23 {
-        width: 50%;
-    }
-
-    #porject-section22 .ahms-div-class .service-main-img img {
-        width: 80%;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-}
 
 @media (max-width:1000px) {
     #porject-section22 .ahms-div-class .service-main-img {
@@ -1453,7 +1409,7 @@ Animation END===================================================================
         margin-top: 60px;
         margin-left: auto;
     }
-}
+} */
 
 .service-main-img:hover {
     -webkit-transform: scale(1.1);

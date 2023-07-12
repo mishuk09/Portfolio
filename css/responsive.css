@@ -955,3 +955,256 @@
 
 
 /* ----------------Service  responsive End -------------*/
+
+
+
+
+
+/* ----------------Project  responsive start -------------*/
+
+ 
+ 
+@media (min-width:1200px) {
+  #porject-section22 .project-div12 {
+      display: flex;
+  }
+
+  #porject-section22 .project-div12 .project-section23 {
+      width: 50%;
+  }
+
+  #porject-section22 .project-div12 .service-main-img {
+      width: 50%;
+  }
+
+  #porject-section22 .project-div12 .service-main-img img {
+      width: 70%;
+      margin-top: 38px;
+      margin-left: auto;
+  }
+  #porject-section22 .ahms-div-class {
+    display: flex;
+}
+
+#porject-section22 .ahms-div-class .service-main-img {
+    width: 50%;
+}
+
+#porject-section22 .ahms-div-class .project-section23 {
+    width: 50%;
+}
+
+#porject-section22 .ahms-div-class .service-main-img img {
+    width: 70%;
+    margin-top: 38px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+}
+
+
+@media (min-width:1000px) {
+  #porject-section22 .project-div12 {
+    display: flex;
+}
+
+#porject-section22 .project-div12 .project-section23 {
+    width: 50%;
+}
+
+#porject-section22 .project-div12 .service-main-img {
+    width: 50%;
+}
+
+#porject-section22 .project-div12 .service-main-img img {
+    width: 70%;
+    margin-top: 138px;
+    margin-left: auto;
+}
+  #porject-section22 .ahms-div-class {
+      display: flex;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img {
+      width: 50%;
+  }
+
+  #porject-section22 .ahms-div-class .project-section23 {
+      width: 50%;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img img {
+      width: 70%;
+      margin-top: 130px;
+      margin-left: 0px;
+      padding-left: 0px;
+  }
+}
+
+
+
+@media only screen and (min-width:550px) and (max-width:1000px) {
+
+  #porject-section22 .project-div12 {
+    display: inline;
+}
+
+#porject-section22 .project-div12 .project-section23 {
+    width: 100%;
+}
+
+#porject-section22 .project-div12 .service-main-img {
+    width: 100%;
+}
+
+#porject-section22 .project-div12 .service-main-img img {
+    width: 70%;
+    margin-top: 55px;
+    margin-left: auto;
+}
+  #porject-section22 .ahms-div-class {
+      display: inline;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img {
+      width: 100%;
+  }
+
+  #porject-section22 .ahms-div-class .project-section23 {
+      width: 100%;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img img {
+      width: 70%;
+      margin-top: 8px;
+      margin-left: 100px;
+      padding-left: 0px;
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width:476px) and (max-width:550px) {
+
+  #porject-section22 .project-div12 {
+    display: inline;
+}
+
+#porject-section22 .project-div12 .project-section23 {
+    width: 100%;
+}
+
+#porject-section22 .project-div12 .service-main-img {
+    width: 100%;
+}
+
+#porject-section22 h1 {
+  color: white;
+  font-size: 25px;
+}
+.project-section23 p{
+  font-size: 14px;
+}
+
+.project-icon-detils{
+  font-size: 13px;
+}
+
+#porject-section22 .project-div12 .service-main-img img {
+    width: 70%;
+    margin-top: 55px;
+    margin-left: auto;
+}
+  #porject-section22 .ahms-div-class {
+      display: inline;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img {
+      width: 100%;
+  }
+
+  #porject-section22 .ahms-div-class .project-section23 {
+      width: 100%;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img img {
+      width: 70%;
+      margin-top: 8px;
+      margin-left: 100px;
+      padding-left: 0px;
+  }
+
+}
+
+
+
+@media only screen and (min-width:300px) and (max-width:476px) {
+
+  #porject-section22 .project-div12 {
+    display: inline;
+}
+
+#porject-section22 .project-div12 .project-section23 {
+    width: 100%;
+}
+
+#porject-section22 .project-div12 .service-main-img {
+    width: 100%;
+}
+
+#porject-section22 h1 {
+  color: white;
+  font-size: 23px;
+}
+.project-section23 p{
+  font-size: 12px;
+}
+
+.project-icon-detils{
+  font-size: 11px;
+}
+
+#porject-section22 .project-div12 .service-main-img img {
+    width: 70%;
+    margin-top: 55px;
+    margin-left: auto;
+}
+  #porject-section22 .ahms-div-class {
+      display: inline;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img {
+      width: 100%;
+  }
+
+  #porject-section22 .ahms-div-class .project-section23 {
+      width: 100%;
+  }
+
+  #porject-section22 .ahms-div-class .service-main-img img {
+      width: 70%;
+      margin-top: 8px;
+      margin-left: 65px;
+      padding-left: 0px;
+  }
+
+  #porject-section22 .project-icon-detils i {
+    width: 30px;
+    height: 30px;
+    color: #6b6cf0;
+    background-color: rgba(107, 108, 240, .3);
+    border-radius: 100%;
+    margin-right: 4px;
+    padding: 8px;
+  }
+
+}
+
+
+
+
+/* ----------------Project  responsive End -------------*/
