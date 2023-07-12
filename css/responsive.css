@@ -628,6 +628,11 @@
 
 
 /* ----------------about me-responsive start -------------*/
+
+
+
+
+
 @media only screen and (min-width:300px) and (max-width:768px) {
   .about-me-tittle {
     text-align: center;
@@ -872,3 +877,81 @@
 
 
 }
+
+
+
+
+
+/* ----------------about me-responsive End -------------*/
+
+
+
+
+
+
+
+
+/* ----------------Service  responsive start -------------*/
+
+
+
+
+
+
+@media only screen and (min-width:1200px) and (max-width:3000px) {
+
+  .service-first-div {
+    align-items: center !important;
+    width: 32%;
+  }
+  .div-for-hover{
+    width: 32%;
+  }
+  .dervice-gutter-maintain{
+    display: flex;
+     
+  }
+ 
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1200px) {
+
+  .service-first-div {
+    align-items: center !important;
+    width: 32%;
+  }
+  .div-for-hover{
+    width: 32%;
+  }
+  .dervice-gutter-maintain{
+    display: flex;
+     
+  }
+ 
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1000px) {
+
+  .service-first-div {
+    width: 100%;
+  }
+  .div-for-hover{
+    width: 100%;
+  }
+  .dervice-gutter-maintain{
+    display: inline;
+     
+  }
+ 
+}
+
+
+
+
+
+
+
+/* ----------------Service  responsive End -------------*/
