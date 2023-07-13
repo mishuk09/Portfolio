@@ -1756,6 +1756,7 @@ Animation END===================================================================
 .skills-section-main {
     /* background-color: #050d18; */
     background-color: #1b1a25;
+    /* height: 150vh; */
 }
 
 .skills-section-main hr {
@@ -1846,7 +1847,9 @@ Animation END===================================================================
     margin-right: 3%;
     border-radius: 2px;
     position: relative;
+    
 }
+ 
 
 ul.skills {
     width: 100%;
@@ -2407,78 +2410,41 @@ ul.skills li.more input:checked+label:hover {
 /* --------------------------------Skill section End-------------------------------- */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* <!----------------------------Pricing Section start-----------------------------> */
-
-@media (max-width:1000px) {
-    .pricing-section .pricing-table-detils .pricing1 {
-        width: 30%;
-        justify-content: center;
-        font-size: 12px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing2 {
-        width: 30%;
-        justify-content: center;
-        font-size: 12px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing3 {
-        width: 30%;
-        justify-content: center;
-        font-size: 12px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div {
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div {
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div {
-        margin-top: 0px;
-        padding-top: 0px;
-    }
-
-    .pricing-table-detils {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-    }
-}
-
-@media (max-width:780px) {
-    .pricing-section .pricing-table-detils .pricing1 {
-        width: 50%;
-        font-size: 12px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing2 {
-        width: 50%;
-        font-size: 12px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing3 {
-        width: 50%;
-        font-size: 12px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing1 .pricing-markte-div {
-        margin-top: 50px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing2 .pricing-markte-div {
-        margin-top: 70px;
-    }
-
-    .pricing-section .pricing-table-detils .pricing3 .pricing-markte-div {
-        margin-top: 50px;
-    }
-}
+ 
 
 .pricing-engine-back img {
     position: absolute;
@@ -2487,10 +2453,8 @@ ul.skills li.more input:checked+label:hover {
 }
 
 .pricing-section {
-    /* background-color:#13121d ; */
-    /* background-color: #191724; */
-    /* background-color: #050d18; */
-    /* background-color: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%); */
+    font-family: "Source Sans Pro", sans-serif;
+     
 }
 
 .upwor-fiverr-free {
@@ -2530,36 +2494,48 @@ ul.skills li.more input:checked+label:hover {
     text-align: center;
     justify-content: center;
 }
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
 
 .pricing-table-detils .pricing1 {
-    width: 25%;
+    width: 20%;
     height: 400px;
-    /* background-color: #13121d; */
-    /* background-color: #050d18; */
-    /* background-color: #1b1a25; */
-    /* background-color: #191724; */
-    /* border: 1px solid rgb(74, 74, 172); */
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
 }
+ 
+ul.features {
+    list-style-type: none;
+    text-align: left;
+    li {
+      margin: 8px;
+      .fas {
+        margin-right: 4px;
+      }
+      .fa-check-circle {
+        color: #6ab04c;
+      }
+      .fa-times-circle {
+        color: #eb4d4b;
+      }
+    }
+  }
+
 
 .pricing-table-detils .pricing2 {
-    width: 25%;
+    width: 20%;
     height: 400px;
-    /* background-color: #13121d; */
-    /* background-color: #050d18; */
-    /* background-color: #191724; */
-    /* border: 1px solid rgb(74, 74, 172); */
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
     box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px;
+    border: 3px solid #6ab04c;
 }
 
 .pricing-table-detils .pricing3 {
-    width: 25%;
+    width: 20%;
     height: 400px;
     /* background-color: #13121d; */
     /* background-color: #050d18; */
@@ -2574,15 +2550,29 @@ ul.skills li.more input:checked+label:hover {
 .pricing-table-detils .pricing1-internal {
     width: 100%;
     height: 70px;
-    /* background-color: #8a8f97; */
-    background-color: #30455e;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+     
+    /* background-color: #30455e; */
+    background-color: #6ab04c;
+    /* border-top-left-radius: 7px;
+    border-top-right-radius: 7px; */
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
+.pricing-button{
+    
+        border: none;
+        width: 47%;
+        padding: 8px 20px;
+        margin-top: 6rem;
+        background-color: #6ab04c;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      
+}
 .pricing-table-detils .pricing1-internal {
     padding: 20px;
     font-weight: 700;
