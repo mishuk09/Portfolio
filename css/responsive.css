@@ -1240,28 +1240,31 @@
     padding-left: 50px;
     display: flex;
     flex-wrap: wrap;
-     
-  }
-  .courseDetils1{
-    width: 50%;
-     
-  }
-  .courseDetils2{
-    width: 50%;
-     
-  }
-  .courseDetils3{
-    width: 50%;
-    margin-top: 10px;
-     
+
   }
 
-  .courseDetils4{
+  .courseDetils1 {
+    width: 50%;
+
+  }
+
+  .courseDetils2 {
+    width: 50%;
+
+  }
+
+  .courseDetils3 {
     width: 50%;
     margin-top: 10px;
-     
+
   }
- 
+
+  .courseDetils4 {
+    width: 50%;
+    margin-top: 10px;
+
+  }
+
 }
 
 
@@ -1281,6 +1284,7 @@
     position: relative;
     padding-top: 65px;
   }
+
   .content-carrousel figure {
     width: 117%;
     height: 116px;
@@ -1288,11 +1292,12 @@
     overflow: hidden;
     position: absolute;
   }
+
   .certificate-description {
-    
+
     display: flex;
     flex-wrap: wrap;
-     
+
   }
 
 
@@ -1301,28 +1306,31 @@
     padding-left: 50px;
     display: flex;
     flex-wrap: wrap;
-     
-  }
-  .courseDetils1{
-    width: 100%;
-     
-  }
-  .courseDetils2{
-    width: 100%;
-     
-  }
-  .courseDetils3{
-    width: 100%;
-    margin-top: 10px;
-     
+
   }
 
-  .courseDetils4{
+  .courseDetils1 {
+    width: 100%;
+
+  }
+
+  .courseDetils2 {
+    width: 100%;
+
+  }
+
+  .courseDetils3 {
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
+  .courseDetils4 {
     width: 50%;
     margin-top: 10px;
-     
+
   }
-  
+
 
 
 }
@@ -1332,16 +1340,19 @@
     margin: 0px;
     padding: 21px;
   }
+
   .certi-div img {
     width: 124px;
   }
 
 }
+
 @media only screen and (min-width:300px) and (max-width:468px) {
   .certi-div img {
     margin: 0px;
     padding: 13px;
   }
+
   .certi-div img {
     width: 85px;
   }
@@ -1364,61 +1375,98 @@
     background: #fff0;
   }
 }
-  @media only screen and (min-width:1000px) and (max-width:1200px) {
 
-    .skills-logo-div div img {
-      width: 271px;
-      padding: 0px;
-    }
-    .content {
-      width: 80vw;
-      height: 58vh;
-      background: #fff0;
-    }
-  }
-  
+@media only screen and (min-width:1000px) and (max-width:1200px) {
 
-  @media only screen and (min-width:768px) and (max-width:1000px) {
-
-    .skills-logo-div div img {
-      width: 200px;
-      padding: 0px;
-    }
-    .content {
-      width: 80vw;
-      height: 58vh;
-      background: #fff0;
-    }
-  }
-  
-  @media only screen and (min-width:540px) and (max-width:768px) {
-
-    .skills-logo-div div img {
-      width: 170px;
-      padding: 0px;
-    }
-    .content {
-      width: 80vw;
-      height: 58vh;
-      background: #fff0;
-    }
+  .skills-logo-div div img {
+    width: 271px;
+    padding: 0px;
   }
 
-  @media only screen and (min-width:300px) and (max-width:540px) {
-
-    .skills-logo-div div img {
-      width: 60%;
-      padding: 0px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .content {
-      width: 80vw;
-      height: 58vh;
-      background: #fff0;
-    }
+  .content {
+    width: 80vw;
+    height: 58vh;
+    background: #fff0;
   }
-  
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1000px) {
+
+  .skills-logo-div div img {
+    width: 200px;
+    padding: 0px;
+  }
+
+  .content {
+    width: 80vw;
+    height: 58vh;
+    background: #fff0;
+  }
+ 
+
+ 
+}
+
+@media only screen and (min-width:300px) and (max-width:800px) {
+
+   
+
+  .profile-skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-skills .skills23 {
+    width: 100%;
+    /* margin-right: 3%; */
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .profile-skills .skills24 {
+    width: 100%;
+    margin-right: 3%;
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .profile-skills .skills25 {
+    width: 100%;
+    margin-right: 3%;
+    border-radius: 2px;
+    position: relative;
+  }
+   .content{
+    height: 163vh;
+   }
+ 
+}
+
+
+@media only screen and (min-width:540px) and (max-width:768px) {
+
+  .skills-logo-div div img {
+    width: 170px;
+    padding: 0px;
+  }
+
+   
+}
+
+@media only screen and (min-width:300px) and (max-width:540px) {
+
+  .skills-logo-div div img {
+    width: 60%;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+   
+}
+
+
 
 
 
@@ -1426,4 +1474,3 @@
 
 
 /* ----------------Skills  responsive End -------------*/
-
