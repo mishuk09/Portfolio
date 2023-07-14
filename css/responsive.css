@@ -137,6 +137,11 @@
 
 
   }
+  .skills-section-main {
+    background-color: #050d18;
+    background-color: #1b1a25;
+    height: 201vh;
+  }
 
 }
 
@@ -1404,11 +1409,36 @@
     background: #fff0;
   }
  
+  
+  .profile-skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .profile-skills .skills23 {
+    width: 30%;
+    /* margin-right: 3%; */
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .profile-skills .skills24 {
+    width: 30%;
+    margin-right: 3%;
+    border-radius: 2px;
+    position: relative;
+  }
+
+  .profile-skills .skills25 {
+    width: 30%;
+    margin-right: 3%;
+    border-radius: 2px;
+    position: relative;
+  }
  
 }
 
-@media only screen and (min-width:300px) and (max-width:800px) {
+@media only screen and (min-width:540px) and (max-width:7680px) {
 
    
 
@@ -1440,20 +1470,15 @@
    .content{
     height: 163vh;
    }
- 
-}
-
-
-@media only screen and (min-width:540px) and (max-width:768px) {
-
-  .skills-logo-div div img {
+   .skills-logo-div div img {
     width: 170px;
     padding: 0px;
   }
 
-   
 }
 
+
+ 
 @media only screen and (min-width:300px) and (max-width:540px) {
 
   .skills-logo-div div img {
@@ -1474,3 +1499,125 @@
 
 
 /* ----------------Skills  responsive End -------------*/
+
+
+
+
+
+/* ----------------Pricing  responsive start -------------*/
+
+
+
+
+
+
+
+@media only screen and (min-width:1800px) and (max-width:3000px) {
+  .pricing-engine-back img {
+    position: absolute;
+    width: 555px;
+    margin-top: 230px;
+  }
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:12000px) {
+  .pricing-section .pricing-table-detils .pricing1 {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .pricing-table-detils .pricing1 {
+    width: 26%;
+     
+  }
+  .pricing-table-detils .pricing2 {
+    width: 28%;
+     
+  }
+ .pricing-table-detils .pricing3 {
+    width: 26%;
+     
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:10000px) {
+  .pricing-section .pricing-table-detils .pricing1 {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .pricing-table-detils .pricing1 {
+    width: 26%;
+     
+  }
+  .pricing-table-detils .pricing2 {
+    width: 28%;
+     
+  }
+ .pricing-table-detils .pricing3 {
+    width: 26%;
+     
+  }
+  ul.features{
+    font-size: 13px;
+    padding-left: 3px;
+  }
+  .pricing-engine-back img {
+  display: none;
+  }
+  .pricing2 img {
+  
+    width: 72px;
+    
+  }
+  
+}
+
+
+@media only screen and (min-width:768px) and (max-width:768px) {
+  .pricing-section .pricing-table-detils .pricing1 {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .pricing-table-detils .pricing1 {
+    width: 26%;
+     
+  }
+  .pricing-table-detils .pricing2 {
+    width: 28%;
+     
+  }
+ .pricing-table-detils .pricing3 {
+    width: 26%;
+     
+  }
+  ul.features{
+    font-size: 13px;
+    padding-left: 3px;
+  }
+  .pricing-engine-back img {
+  display: none;
+  }
+  .pricing2 img {
+  
+    width: 72px;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------Pricing  responsive End -------------*/
+
+
+

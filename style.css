@@ -536,7 +536,7 @@ Animation END===================================================================
 /* =============================Star animation End================================================================================================= */
 
 
- 
+
 .sort-introduction {
     height: 300px;
 }
@@ -544,7 +544,7 @@ Animation END===================================================================
 .short-introduction {
     background-color: #12B2A7;
     padding-bottom: 20px;
-     
+
 }
 
 .short-introduction h1 {
@@ -559,21 +559,22 @@ Animation END===================================================================
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 30px;
-    
+
 
 }
 
 .sort-intro-div1 {
     width: 270px;
     height: 100px;
-     
+
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     border-radius: 4px;
- }
+}
+
 .sort-intro-div1:hover {
-    
+
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
@@ -585,9 +586,10 @@ Animation END===================================================================
     display: flex;
     flex-wrap: wrap;
     border-radius: 4px;
- }
+}
+
 .sort-intro-div2:hover {
-    
+
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
@@ -600,9 +602,10 @@ Animation END===================================================================
     flex-wrap: wrap;
     border-radius: 4px;
     margin
- }
+}
+
 .sort-intro-div3:hover {
-    
+
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
@@ -614,9 +617,10 @@ Animation END===================================================================
     display: flex;
     flex-wrap: wrap;
     border-radius: 4px;
- }
+}
+
 .sort-intro-div4:hover {
-    
+
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
@@ -628,7 +632,7 @@ Animation END===================================================================
 
 .institution-name {
     margin-left: 10px;
-     
+
 
 }
 
@@ -645,7 +649,7 @@ Animation END===================================================================
     margin: 0px;
     padding: 0px;
     line-height: 10px;
-     
+
 }
 
 .institution-name span {
@@ -653,7 +657,7 @@ Animation END===================================================================
     margin: 0px;
     padding: 0px;
     line-height: 0.5px;
-    
+
 }
 
 .institution-name h6 {
@@ -702,7 +706,7 @@ Animation END===================================================================
 }
 
 
- 
+
 
 /*-------------------------------------About Section Start --------------------------------*/
 
@@ -1521,105 +1525,139 @@ Animation END===================================================================
 
 
 
-/* 3D Slideshow */ 
+/* 3D Slideshow */
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
- 
+
 
 #slideshow {
-	margin: 0 auto;
-	 
-	height: 300px;
-	width: 100%;
-	 
-	box-sizing: border-box;
+    margin: 0 auto;
+
+    height: 300px;
+    width: 100%;
+
+    box-sizing: border-box;
 }
 
 .slideshow-title {
-	font-family: 'Allerta Stencil';
-	font-size: 62px;
-	color: #fff;
-	margin: 0 auto;
-	text-align: center;
-	margin-top: 25%;
-	letter-spacing: 3px;
-	font-weight: 300;
+    font-family: 'Allerta Stencil';
+    font-size: 62px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25%;
+    letter-spacing: 3px;
+    font-weight: 300;
 }
 
 .sub-heading {
-	padding-top: 50px;
-	font-size: 18px;
-} .sub-heading-two {
-	font-size: 15px;
-} .sub-heading-three {
-	font-size: 13px;
-} .sub-heading-four {
-	font-size: 11px;
-} .sub-heading-five {
-	font-size: 9px;
-} .sub-heading-six {
-	font-size: 7px;
-} .sub-heading-seven {
-	font-size: 5px;
-} .sub-heading-eight {
-	font-size: 3px;
-} .sub-heading-nine {
-	font-size: 1px;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.sub-heading-two {
+    font-size: 15px;
+}
+
+.sub-heading-three {
+    font-size: 13px;
+}
+
+.sub-heading-four {
+    font-size: 11px;
+}
+
+.sub-heading-five {
+    font-size: 9px;
+}
+
+.sub-heading-six {
+    font-size: 7px;
+}
+
+.sub-heading-seven {
+    font-size: 5px;
+}
+
+.sub-heading-eight {
+    font-size: 3px;
+}
+
+.sub-heading-nine {
+    font-size: 1px;
 }
 
 .entire-content {
-	margin: auto;
-	width: 190px;
-	perspective: 1000px;
-	position: relative;
-	padding-top: 80px;
+    margin: auto;
+    width: 190px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
 }
 
 .content-carrousel {
-	width: 100%;
-	position: absolute;
-	float: right;
-	animation: rotar 60s infinite linear;
-	transform-style: preserve-3d;
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 60s infinite linear;
+    transform-style: preserve-3d;
 }
 
 .content-carrousel:hover {
-	animation-play-state: paused;
-	cursor: pointer;
+    animation-play-state: paused;
+    cursor: pointer;
 }
 
 .content-carrousel figure {
-	width: 100%;
-	height: 120px;
-	border: 1px solid #3b444b;
-	overflow: hidden;
-	position: absolute;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #3b444b;
+    overflow: hidden;
+    position: absolute;
 }
 
 .content-carrousel figure:nth-child(1) {
-	transform: rotateY(0deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(2) {
-	transform: rotateY(40deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(3) {
-	transform: rotateY(80deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(4) {
-	transform: rotateY(120deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(5) {
-	transform: rotateY(160deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(6) {
-	transform: rotateY(200deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(7) {
-	transform: rotateY(240deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(8) {
-	transform: rotateY(280deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(9) {
-	transform: rotateY(320deg) translateZ(300px); 
-} .content-carrousel figure:nth-child(10) {
-	transform: rotateY(360deg) translateZ(300px); 
-} 
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(300px);
+}
+
+.content-carrousel figure:nth-child(10) {
+    transform: rotateY(360deg) translateZ(300px);
+}
 
 .shadow {
     position: absolute;
@@ -1628,27 +1666,29 @@ Animation END===================================================================
 }
 
 .content-carrousel img {
-	image-rendering: auto;
-	transition: all 300ms;
-	width: 100%;
-	height: 100%;
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
 }
 
 .content-carrousel img:hover {
-	transform: scale(1.2);
-	transition: all 300ms;
+    transform: scale(1.2);
+    transition: all 300ms;
 }
 
 @keyframes rotar {
-	from {
-		transform: rotateY(0deg);
-	} to {
-		transform: rotateY(360deg);
-	}
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
 }
 
 
- 
+
 
 /* ++++++++++++++++++++++
 
@@ -1657,8 +1697,8 @@ Animation END===================================================================
 
 +++++++++++++++++++++++ */
 
- 
- 
+
+
 
 .certification-main {
     padding-bottom: 90px;
@@ -1699,7 +1739,7 @@ Animation END===================================================================
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
- 
+
 .Certification-h1 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -1709,11 +1749,11 @@ Animation END===================================================================
     padding-left: 50px;
     display: flex;
 
-     
+
 }
 
 
- 
+
 
 .certificate-description h3 {
     font-size: 18px;
@@ -1756,7 +1796,7 @@ Animation END===================================================================
 .skills-section-main {
     /* background-color: #050d18; */
     background-color: #1b1a25;
-    /* height: 150vh; */
+    height: 140vh;
 }
 
 .skills-section-main hr {
@@ -1847,9 +1887,9 @@ Animation END===================================================================
     margin-right: 3%;
     border-radius: 2px;
     position: relative;
-    
+
 }
- 
+
 
 ul.skills {
     width: 100%;
@@ -2444,7 +2484,7 @@ ul.skills li.more input:checked+label:hover {
 
 
 /* <!----------------------------Pricing Section start-----------------------------> */
- 
+
 
 .pricing-engine-back img {
     position: absolute;
@@ -2454,7 +2494,8 @@ ul.skills li.more input:checked+label:hover {
 
 .pricing-section {
     font-family: "Source Sans Pro", sans-serif;
-     
+    background-color: #dff9fb;
+
 }
 
 .upwor-fiverr-free {
@@ -2493,9 +2534,43 @@ ul.skills li.more input:checked+label:hover {
     align-items: center;
     text-align: center;
     justify-content: center;
+
 }
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 
+
+
+
+ul.features {
+    list-style-type: none;
+    text-align: left;
+    font-size: 15px;
+
+    li {
+        margin: 8px;
+
+
+        .fas {
+            margin-right: 4px;
+        }
+
+        .fa-check-circle {
+            color: #6ab04c;
+        }
+
+        .fa-times-circle {
+            color: #97100d;
+        }
+    }
+}
+.features li .fa-times-circle {
+    color: #ff0400;
+}
+.features {
+    margin-top: 20px;
+
+}
 
 .pricing-table-detils .pricing1 {
     width: 20%;
@@ -2503,36 +2578,36 @@ ul.skills li.more input:checked+label:hover {
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px; */
+    background-color: white;
 }
- 
-ul.features {
-    list-style-type: none;
-    text-align: left;
-    li {
-      margin: 8px;
-      .fas {
-        margin-right: 4px;
-      }
-      .fa-check-circle {
-        color: #6ab04c;
-      }
-      .fa-times-circle {
-        color: #eb4d4b;
-      }
-    }
-  }
 
+.pricing-table-detils .pricing1:hover {
+
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+
+
+}
 
 .pricing-table-detils .pricing2 {
-    width: 20%;
+    width: 23%;
     height: 400px;
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px;
+    /* box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px; */
     border: 3px solid #6ab04c;
+    background-color: white;
 }
+
+.pricing-table-detils .pricing2:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+
+
+}
+
+
+
 
 .pricing-table-detils .pricing3 {
     width: 20%;
@@ -2544,13 +2619,21 @@ ul.features {
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px;
+    /* box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px; */
+    background-color: white;
+}
+
+
+.pricing-table-detils .pricing3:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
+
+
 }
 
 .pricing-table-detils .pricing1-internal {
     width: 100%;
     height: 70px;
-     
+
     /* background-color: #30455e; */
     background-color: #6ab04c;
     /* border-top-left-radius: 7px;
@@ -2560,19 +2643,68 @@ ul.features {
     text-align: center;
 }
 
-.pricing-button{
-    
-        border: none;
-        width: 47%;
-        padding: 8px 20px;
-        margin-top: 6rem;
-        background-color: #6ab04c;
-        color: #fff;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-      
+.pricing-button1 {
+
+    border: none;
+    width: 47%;
+    padding: 8px 20px;
+    margin-top: 1rem;
+    background-color: #6ab04c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
 }
+
+.pricing2 img {
+    position: absolute;
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+#standard-price {
+    border-top-left-radius: 7px;
+    /* border-top-right-radius: 7px; */
+
+}
+
+#advanch-price {
+    /* border-top-left-radius: 7px; */
+    border-top-right-radius: 7px;
+
+}
+
+.pricing-button2 {
+
+    border: none;
+    width: 47%;
+    padding: 8px 20px;
+    margin-top: 5rem;
+    background-color: #6ab04c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.pricing-button3 {
+
+    border: none;
+    width: 47%;
+    padding: 8px 20px;
+    margin-top: 1rem;
+    background-color: #6ab04c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
 .pricing-table-detils .pricing1-internal {
     padding: 20px;
     font-weight: 700;
@@ -2723,7 +2855,7 @@ ul.features {
 
 /* <!----------------------------My mission Section start-----------------------------> */
 
-.my-mission-technology img {
+/* .my-mission-technology img {
     position: absolute;
     width: 400px;
     margin-left: auto;
@@ -2735,6 +2867,16 @@ ul.features {
     margin-left: auto;
     margin-right: auto;
     align-items: flex-end;
+} */
+
+/* .technology-pic{
+    position: absolute;
+    width: 500px;
+    margin-left: auto;
+} */
+.mission-section-div{
+    background-color: #dff9fb;
+
 }
 
 .my-mission-head {
@@ -2770,9 +2912,13 @@ ul.features {
     height: 300px;
     /* background-color: #002bff; */
     margin: 10px;
-    border: 1px solid rgb(206, 191, 191);
+    /* border: 1px solid rgb(206, 191, 191); */
     border-radius: 5px;
+    background-color: white;
+}
+.mission1:hover{
     box-shadow: rgba(17, 17, 17, 0.15) 0px 4px 24px;
+
 }
 
 .mission1 img {
