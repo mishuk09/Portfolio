@@ -2546,6 +2546,7 @@ ul.features {
     list-style-type: none;
     text-align: left;
     font-size: 15px;
+    padding-left: 30px;
 
     li {
         margin: 8px;
@@ -2569,7 +2570,13 @@ ul.features {
 }
 .features {
     margin-top: 20px;
-
+    margin-left: 30px;
+    
+}
+.features li {
+    font-size: 16px;
+    
+    
 }
 
 .pricing-table-detils .pricing1 {

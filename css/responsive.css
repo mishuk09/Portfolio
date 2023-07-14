@@ -137,11 +137,11 @@
 
 
   }
-  .skills-section-main {
+  /* .skills-section-main {
     background-color: #050d18;
     background-color: #1b1a25;
     height: 201vh;
-  }
+  } */
 
 }
 
@@ -1374,107 +1374,48 @@
 
 @media only screen and (min-width:1200px) and (max-width:3000px) {
 
-  .content {
-    width: 80vw;
-    height: 59vh;
-    background: #fff0;
-  }
 }
 
 @media only screen and (min-width:1000px) and (max-width:1200px) {
-
   .skills-logo-div div img {
-    width: 271px;
+    width: 237px;
     padding: 0px;
   }
-
-  .content {
-    width: 80vw;
-    height: 58vh;
-    background: #fff0;
-  }
+  
 }
 
 
 @media only screen and (min-width:768px) and (max-width:1000px) {
 
   .skills-logo-div div img {
-    width: 200px;
+    width: 202px;
     padding: 0px;
-  }
-
-  .content {
-    width: 80vw;
-    height: 58vh;
-    background: #fff0;
-  }
- 
-  
-  .profile-skills {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .profile-skills .skills23 {
-    width: 30%;
-    /* margin-right: 3%; */
-    border-radius: 2px;
-    position: relative;
-  }
-
-  .profile-skills .skills24 {
-    width: 30%;
-    margin-right: 3%;
-    border-radius: 2px;
-    position: relative;
-  }
-
-  .profile-skills .skills25 {
-    width: 30%;
-    margin-right: 3%;
-    border-radius: 2px;
-    position: relative;
   }
  
 }
 
-@media only screen and (min-width:540px) and (max-width:7680px) {
+@media only screen and (min-width:540px) and (max-width:768px) {
 
    
-
-  .profile-skills {
+  .skills-logo-div div img {
+    width: 60%;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .profile-skills{
     display: flex;
     flex-wrap: wrap;
   }
-
-  .profile-skills .skills23 {
+  .profile-skills > div {
     width: 100%;
-    /* margin-right: 3%; */
-    border-radius: 2px;
-    position: relative;
+    
   }
-
-  .profile-skills .skills24 {
-    width: 100%;
-    margin-right: 3%;
-    border-radius: 2px;
-    position: relative;
+  .skills-section-main {
+    background-color: #050d18;
+    background-color: #1b1a25;
+    height: 310vh;
   }
-
-  .profile-skills .skills25 {
-    width: 100%;
-    margin-right: 3%;
-    border-radius: 2px;
-    position: relative;
-  }
-   .content{
-    height: 163vh;
-   }
-   .skills-logo-div div img {
-    width: 170px;
-    padding: 0px;
-  }
-
 }
 
 
@@ -1487,7 +1428,19 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  .profile-skills{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile-skills > div {
+    width: 100%;
+    
+  }
+  .skills-section-main {
+    background-color: #050d18;
+    background-color: #1b1a25;
+    height: 310vh;
+  }
    
 }
 
@@ -1518,7 +1471,38 @@
     width: 555px;
     margin-top: 230px;
   }
+   
+  
 }
+@media only screen and (min-width:1200px) and (max-width:1800px) {
+  .pricing-section .pricing-table-detils .pricing1 {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .pricing-table-detils .pricing1 {
+    width: 26%;
+     
+  }
+  .pricing-table-detils .pricing2 {
+    width: 28%;
+     
+  }
+ .pricing-table-detils .pricing3 {
+    width: 26%;
+     
+  }
+  ul.features{
+     
+    margin-left: 30px;
+  }
+  .features li {
+    font-size: 20px;
+     
+}
+
+}
+
 
 
 @media only screen and (min-width:1000px) and (max-width:12000px) {
@@ -1539,6 +1523,14 @@
     width: 26%;
      
   }
+  ul.features{
+     
+    margin-left: 30px;
+  }
+  .features li {
+    font-size: 20px;
+     
+}
 }
 
 @media only screen and (min-width:768px) and (max-width:10000px) {
@@ -1559,10 +1551,7 @@
     width: 26%;
      
   }
-  ul.features{
-    font-size: 13px;
-    padding-left: 3px;
-  }
+   
   .pricing-engine-back img {
   display: none;
   }
@@ -1571,26 +1560,41 @@
     width: 72px;
     
   }
+
+  .features {
+    margin-top: 20px;
+    margin-left: 0px;
+    
+}
+.features li {
+    font-size: 14px;
+    
+    
+}
+
+ul.features{
+  padding-left: 0px;
+}
   
 }
 
 
-@media only screen and (min-width:768px) and (max-width:768px) {
+@media only screen and (min-width:568px) and (max-width:768px) {
   .pricing-section .pricing-table-detils .pricing1 {
     height: 330px;
     margin-top: auto;
     margin-bottom: auto;
   }
   .pricing-table-detils .pricing1 {
-    width: 26%;
+    width: 50%;
      
   }
   .pricing-table-detils .pricing2 {
-    width: 28%;
+    width: 60%;
      
   }
  .pricing-table-detils .pricing3 {
-    width: 26%;
+    width: 50%;
      
   }
   ul.features{
@@ -1608,10 +1612,96 @@
   
 }
 
+@media only screen and (min-width:400px) and (max-width:568px) {
+  .pricing-section .pricing-table-detils .pricing1 {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .pricing-table-detils .pricing1 {
+    width: 70%;
+     
+  }
+  .pricing-table-detils .pricing2 {
+    width: 80%;
+     
+  }
+ .pricing-table-detils .pricing3 {
+    width: 70%;
+     
+  }
+  ul.features{
+    font-size: 13px;
+    padding-left: 3px;
+  }
+  .pricing-engine-back img {
+  display: none;
+  }
+  .pricing2 img {
+  
+    width: 72px;
+    
+  }
+
+
+  .upwor-fiverr-free {
+     
+    font-size: 19px;
+    
+    padding-top: 14px;
+  }
+  
+}
 
 
 
+@media only screen and (min-width:300px) and (max-width:400px) {
+  .pricing-section .pricing-table-detils .pricing1 {
+    height: 330px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .pricing-table-detils .pricing1 {
+    width: 80%;
+     
+  }
+  .pricing-table-detils .pricing2 {
+    width: 90%;
+     
+  }
+ .pricing-table-detils .pricing3 {
+    width: 80%;
+     
+  }
+  ul.features{
+    font-size: 10px;
+    padding-left: 0px;
+  }
+  .pricing-engine-back img {
+  display: none;
+  }
+  .pricing2 img {
+  
+    width: 72px;
+    
+  }
+  ul.features{
+     
+    margin-left: 30px;
+  }
+  .features li {
+    font-size: 14px;
+     
+}
 
+  .upwor-fiverr-free {
+     
+    font-size: 15px;
+    
+    padding-top: 16px;
+  }
+  
+}
 
 
 
