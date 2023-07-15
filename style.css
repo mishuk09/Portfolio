@@ -20,46 +20,6 @@ body {
 
 /* ===============================Navbar Css ========================================*/
 
-#button {
-    display: inline-block;
-    background-color: #FF9800;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 4px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    transition: background-color .3s, opacity .5s, visibility .5s;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 1000;
-}
-
-#button::after {
-    content: "\f077";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 2em;
-    line-height: 50px;
-    color: #fff;
-}
-
-#button:hover {
-    cursor: pointer;
-    background-color: #333;
-}
-
-#button:active {
-    background-color: #555;
-}
-
-#button.show {
-    opacity: 1;
-    visibility: visible;
-}
-
 
 /* navbar ssssssssssssssssssssst */
 
@@ -503,6 +463,7 @@ Animation END===================================================================
 
 .institution-img img {
     margin-top: 10px;
+    width: 80px;
 }
 
 .institution-name {
@@ -623,6 +584,10 @@ Animation END===================================================================
     justify-content: start;
 }
 
+.about-me-tittle img {
+    width: 40px;
+}
+
 .bio-detils2 {
     width: 330px;
     height: 180px;
@@ -647,6 +612,10 @@ Animation END===================================================================
     padding-top: 0px;
 }
 
+.my-about-picture2 img {
+    width: 200px;
+}
+
 .my-about-picture2 img:hover {
     transform: scale(1.2);
     transition: 1s;
@@ -661,6 +630,10 @@ Animation END===================================================================
 
 .marketplace-logo-hori {
     color: #00ffd5;
+}
+
+.market-place-inter-div img {
+    width: 50px;
 }
 
 #market-place-div .market-place-inter-div img:hover {
@@ -758,6 +731,14 @@ Animation END===================================================================
     background-color: white;
     border-radius: 7px;
     border: 5px solid orange;
+}
+
+.service-first-div img {
+    width: 50px;
+}
+
+.div-for-hover img {
+    width: 50px;
 }
 
 .div-for-hover h4 {
@@ -932,6 +913,14 @@ Animation END===================================================================
 
 .porject-section {
     background-color: #000000;
+}
+
+.project-headline-div23 img {
+    width: 80px;
+}
+
+.project-headline-div24 img {
+    width: 150px;
 }
 
 #project-headline-div h1 {
@@ -1278,6 +1267,10 @@ Animation END===================================================================
 
 .skills-section-main .main-logo-skills {
     padding-top: 10px;
+}
+
+.main-logo-skills img {
+    width: 50px;
 }
 
 .skills-section-main {
@@ -1929,6 +1922,10 @@ ul.skills li.more input:checked+label:hover {
     font-weight: 700;
 }
 
+.pricing-logo img {
+    width: 50px;
+}
+
 .pricing-table-detils {
     display: flex;
     flex-wrap: wrap;
@@ -2107,6 +2104,7 @@ ul.features {
 }
 
 .market-logo-div-last img {
+    width: 50px;
     margin: 10px;
 }
 
@@ -2303,6 +2301,11 @@ ul.features {
     background: #fff;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     border-radius: 5px;
+}
+
+.info iframe {
+    width: "350";
+    height: "350px";
 }
 
 .info svg {
