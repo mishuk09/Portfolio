@@ -2889,8 +2889,9 @@ ul.features {
 .my-mission-head {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 20px;
+    padding-top: 60px;
 }
 
 .request-for-do {
@@ -2903,6 +2904,7 @@ ul.features {
 
 .request-for-do h2 {
     padding-top: 20px;
+    font-weight: 700;
 }
 
 .mission-div {
@@ -3229,7 +3231,6 @@ ul.features {
 .contact .info {
     padding: 30px;
     background: #fff;
-    width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -3290,7 +3291,22 @@ ul.features {
     color: #fff;
 }
 
-.contact .php-email-form {
+
+
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+/* .contact .php-email-form {
     width: 100%;
     padding: 30px;
     background: #fff;
@@ -3392,7 +3408,7 @@ ul.features {
     margin-top: 40px;
     margin-left: 10px;
     font-weight: 700;
-}
+} */
 
 
 /*-------------------------Contact   section  End----------------*/
