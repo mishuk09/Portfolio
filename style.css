@@ -1959,7 +1959,7 @@ ul.features {
 }
 
 .features {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 30px;
 }
 
@@ -2047,7 +2047,7 @@ ul.features {
     border: none;
     width: 47%;
     padding: 8px 20px;
-    margin-top: 5rem;
+    margin-top: 4rem;
     background-color: #6ab04c;
     color: #fff;
     border-radius: 5px;
@@ -2059,7 +2059,7 @@ ul.features {
     border: none;
     width: 47%;
     padding: 8px 20px;
-    margin-top: 1rem;
+    margin-top: 0rem;
     background-color: #6ab04c;
     color: #fff;
     border-radius: 5px;
@@ -2087,7 +2087,7 @@ ul.features {
 
 .pricing-description-1 {
     color: black;
-    padding-top: 10px;
+    padding-top: 0px;
     font-size: 13px;
 }
 
