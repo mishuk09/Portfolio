@@ -4,12 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap');
-
 @media only screen and(max) {}
-
-#body {
-    /* background-color: #f9f4f4; */
-}
 
 body {
     font-family: sans-serif;
@@ -24,6 +19,49 @@ body {
 
 
 /* ===============================Navbar Css ========================================*/
+
+#button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* navbar ssssssssssssssssssssst */
 
 #navba-id-div {
     background-color: #000000;
@@ -95,7 +133,6 @@ body {
     0% {
         -moz-transform: translateX(100%);
     }
-
     100% {
         -moz-transform: translateX(-100%);
     }
@@ -105,7 +142,6 @@ body {
     0% {
         -webkit-transform: translateX(100%);
     }
-
     100% {
         -webkit-transform: translateX(-100%);
     }
@@ -119,7 +155,6 @@ body {
         /* Firefox bug fix */
         transform: translateX(100%);
     }
-
     100% {
         -moz-transform: translateX(-100%);
         /* Firefox bug fix */
@@ -174,147 +209,11 @@ body {
 .home-page-div2 {
     height: 300px;
     width: 500px;
-    /* border: 1px solid black; */
     display: inline;
 }
 
 
 /* ============================main div responsive================ */
-
-/* @media screen and (max-width:768px) {} */
-
-
-/* @media only screen and (min-width: 360px) and (max-width: 768px) {
-    #my-name-div2 {
-        width: 100%;
-    }
-    #my-name-div2 .home-page-main-img {
-        width: 100px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        padding-left: 0px;
-    }
-    #my-name-div2 .overlay {
-        padding-left: 0px;
-    }
-    #my-name-div2 .star-pic {
-        width: 50px;
-    }
-} */
-
-/* @media (max-width:1200px) {
-    #my-name-div {
-        width: 100%;
-    }
-}
-
-@media(max-width:480px) {
-    #my-name-div2 .home-page-main-img img {
-        width: 290px;
-    }
-    #my-name-div2 .overlay {
-        margin-top: 250px;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-    #my-name-div2 .overlay img {
-        width: 100px;
-        padding-left: 0px;
-        margin-left: 0px;
-         justify-content: left;
-        align-items: center;
-    }
-}
-
-@media(max-width:460px) {
-    #my-name-div2 .home-page-main-img img {
-        width: 270px;
-    }
-    #my-name-div2 .overlay {
-        margin-top: 280px;
-    }
-    #my-name-div2 .overlay img {
-        margin-top: 10px;
-        width: 100px;
-    }
-}
-
-@media(max-width:410px) {
-    #my-name-div2 .home-page-main-img img {
-        width: 200px;
-    }
-    #my-name-div2 .overlay {
-        margin-top: 210px;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-}
-
-@media(max-width:780px) {
-    .sort-into-col {
-        width: 100%;
-    }
-}
-
-@media(max-width:580px) {
-    .contain12 .sort-into1 .sort-into-col {
-        width: 450px;
-     }
-}
-
-@media(max-width:490px) {
-    .contain12 .sort-into1 .sort-into-col {
-        width: 350px;
-     }
-}
-
-@media(max-width:490px) {
-    .contain12 .sort-into1 .sort-into-col .institution-name h4 {
-        font-size: 13px;
-        text-align: start;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-}
-
-@media(max-width:490px) {
-    .contain12 .sort-into1 .sort-into-col .institution-name h5 {
-        font-size: 12px;
-        text-align: start;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-}
-
-@media(max-width:490px) {
-    .contain12 .sort-into1 .sort-into-col .institution-name h6 {
-        text-align: start;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-}
-
-@media(max-width:490px) {
-    .contain12 .sort-into1 .sort-into-col .institution-name a {
-        text-align: start;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-}
-
-@media(max-width:490px) {
-    .contain12 .sort-into1 .sort-into-col .institution-name span {
-        padding: 0px;
-        margin: 0px;
-    }
-} */
-
-/* @media(max-width:380px) {
-    .contain12 .sort-into1 .sort-into-col {
-        width: 300px;
-    }
-} */
 
 .home-page-main-img img {
     padding-left: 0px;
@@ -327,7 +226,6 @@ body {
 }
 
 #my-name-div {
-    /* height: 300px; */
     padding-left: 60px;
 }
 
@@ -401,7 +299,6 @@ Animation=======================================================================
     height: 40px;
     border: none;
     outline: none;
-    /* background: #111; */
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -448,7 +345,6 @@ Animation=======================================================================
     position: absolute;
     width: 100%;
     height: 100%;
-    /* background: #191564; */
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -458,11 +354,9 @@ Animation=======================================================================
     0% {
         background-position: 0 0;
     }
-
     50% {
         background-position: 400% 0;
     }
-
     100% {
         background-position: 0 0;
     }
@@ -535,8 +429,6 @@ Animation END===================================================================
 
 /* =============================Star animation End================================================================================================= */
 
-
-
 .sort-introduction {
     height: 300px;
 }
@@ -544,7 +436,6 @@ Animation END===================================================================
 .short-introduction {
     background-color: #12B2A7;
     padding-bottom: 20px;
-
 }
 
 .short-introduction h1 {
@@ -559,14 +450,11 @@ Animation END===================================================================
     justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 30px;
-
-
 }
 
 .sort-intro-div1 {
     width: 270px;
     height: 100px;
-
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -574,7 +462,6 @@ Animation END===================================================================
 }
 
 .sort-intro-div1:hover {
-
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
@@ -589,30 +476,21 @@ Animation END===================================================================
 }
 
 .sort-intro-div2:hover {
-
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
 .sort-intro-div3 {
     width: 270px;
     height: 100px;
-    /* border: 1px solid black; */
     background-color: white;
     display: flex;
     flex-wrap: wrap;
     border-radius: 4px;
-    margin
-}
-
-.sort-intro-div3:hover {
-
-    box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
 .sort-intro-div4 {
     width: 270px;
     height: 100px;
-    /* border: 1px solid black; */
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -620,20 +498,15 @@ Animation END===================================================================
 }
 
 .sort-intro-div4:hover {
-
     box-shadow: 0 0 20px rgba(2, 3, 15, 0.2);
 }
 
-
 .institution-img img {
     margin-top: 10px;
-
 }
 
 .institution-name {
     margin-left: 10px;
-
-
 }
 
 .institution-name h4 {
@@ -649,7 +522,6 @@ Animation END===================================================================
     margin: 0px;
     padding: 0px;
     line-height: 10px;
-
 }
 
 .institution-name span {
@@ -657,33 +529,11 @@ Animation END===================================================================
     margin: 0px;
     padding: 0px;
     line-height: 0.5px;
-
 }
 
 .institution-name h6 {
     font-size: 11px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .sort-intro-div2 {
     width: 250px;
@@ -695,189 +545,19 @@ Animation END===================================================================
     width: 250px;
     height: 100px;
     background-color: white;
-
 }
 
 .sort-intro-div4 {
     width: 250px;
     height: 100px;
     background-color: white;
-
 }
 
 
-
-
 /*-------------------------------------About Section Start --------------------------------*/
 
 
 /*-------------------------------------About Section Start --------------------------------*/
-
-/* @media (min-width:1300px) {
-    .about-me-section .about-me-main-div .description-detils {
-        width: 33%;
-        height: 150px;
-        margin-bottom: 10px;
-    }
-    .about-me-section .about-me-main-div .bio-detils2 {
-        width: 33%;
-        height: 150px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        margin: auto;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 img {
-        width: 250px;
-    }
-    .about-me-section .about-me-main-div .description-detils .description-detils-div a {
-        display: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        border: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
-        display: block;
-    }
-    .about-me-section .about-me-tittle h2 {
-        font-size: 14px;
-    }
-} */
-
-/* @media (max-width:1300px) {
-    .about-me-section .about-me-main-div .description-detils {
-        width: 33%;
-        height: 150px;
-        margin-bottom: 10px;
-    }
-    .about-me-section .about-me-main-div .bio-detils2 {
-        width: 33%;
-        height: 150px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        margin: auto;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 img {
-        width: 250px;
-    }
-    .about-me-section .about-me-main-div .description-detils .description-detils-div a {
-        display: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        border: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
-        display: block;
-    }
-    .about-me-section .about-me-tittle h2 {
-        font-size: 14px;
-    }
-} */
-
-/* @media (max-width:1200px) {
-    .about-me-section .about-me-main-div .description-detils {
-        width: 50%;
-        height: 150px;
-        margin-bottom: 10px;
-    }
-    .about-me-section .about-me-main-div .bio-detils2 {
-        width: 50%;
-        height: 150px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        margin: auto;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 img {
-        width: 250px;
-    }
-    .about-me-section .about-me-main-div .description-detils .description-detils-div a {
-        display: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        border: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
-        display: block;
-    }
-    .about-me-section .about-me-tittle h2 {
-        font-size: 14px;
-    }
-} */
-
-/* @media (max-width:800px) {
-    .about-me-section .about-me-main-div .description-detils {
-        width: 100%;
-        height: 100px;
-        margin-bottom: 10px;
-    }
-    .about-me-section .about-me-main-div .bio-detils2 {
-        width: 100%;
-        height: 130px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        margin: auto;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 img {
-        width: 250px;
-    }
-    .about-me-section .about-me-main-div .description-detils .description-detils-div a {
-        display: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        border: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
-        display: block;
-    }
-    .about-me-section .about-me-tittle h2 {
-        font-size: 14px;
-    }
-} */
-
-/* @media (max-width:430px) {
-    .about-me-section .about-me-main-div .description-detils {
-        width: 100%;
-        height: 120px;
-        margin-bottom: 10px;
-    }
-    .about-me-section .about-me-main-div .bio-detils2 {
-        width: 100%;
-        height: 130px;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        margin: auto;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 img {
-        width: 250px;
-    }
-    .about-me-section .about-me-main-div .description-detils .description-detils-div a {
-        display: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 {
-        border: none;
-    }
-    .about-me-section .about-me-main-div .my-about-picture2 .about-img-below-btn a {
-        display: block;
-    }
-    .about-me-section .about-me-tittle h2 {
-        font-size: 14px;
-    }
-} */
-
-
-
-
-
-
 
 .about-me-main-div .description-detils {
     width: 330px;
@@ -894,7 +574,6 @@ Animation END===================================================================
     margin-bottom: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 14px;
-    /* border: 2px solid blueviolet; */
     background-color: #13111c;
     color: #00ffd5;
     box-shadow: 5px solid rgb(69, 69, 252);
@@ -915,10 +594,8 @@ Animation END===================================================================
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
     border-radius: 4px;
-    /* background-color: #051d40; */
     color: white;
     padding: 8px;
-    /* background-color: #0062cc; */
     background-color: #007AFF;
     letter-spacing: 3px;
 }
@@ -950,7 +627,6 @@ Animation END===================================================================
     width: 330px;
     height: 180px;
     border-radius: 6px;
-    /* border: 1px solid black; */
     margin-left: 10px;
     background-color: #13111c;
     color: #00ffd5;
@@ -967,10 +643,8 @@ Animation END===================================================================
 .my-about-picture2 {
     width: 330px;
     height: 100%;
-    /* border: 1px solid black; */
     margin-left: 10px;
     padding-top: 0px;
-    /* justify-content: space-between; */
 }
 
 .my-about-picture2 img:hover {
@@ -1007,7 +681,6 @@ Animation END===================================================================
 
 #market-place-div .market-place-inter-div .imgButton:before {
     position: absolute;
-    /* padding: 15px 20px; */
     left: -40px;
     bottom: -9px;
     font-size: 12px;
@@ -1049,144 +722,13 @@ Animation END===================================================================
 }
 
 .about-me-section {
-    /* background-color: #03000a; */
     background-color: #13111c;
     margin-top: 0px;
-}
-
-.about-me-div-img {
-    /* border: 1px solid white; */
 }
 
 .about-me-description {
     width: 850px;
 }
-
-
-/* 
-    background-color: white;
-    border-radius: 7px;
-}
-
-.about-me-description p {
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.about-me-description button {
-    font-size: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
-    border-radius: 4px;
-    background-color: #051d40;
-    color: white;
-    padding: 8px;
-}
-.about-me-div-img button {
-    font-size: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: none;
-    border-radius: 4px;
-    background-color: #051d40;
-    color: white;
-    padding: 8px;
-}
-.about-me-div-img a {
-    margin-left: auto;
-    margin-right: auto;
-     
-}
-.about-me-div-img .about-img-below-btn a{
-   display: none;
-}
-.age-div i{
-    border-radius: 50%;
-     
-    padding: 5px;
-    background-color: #02132b;
-    color: #00ffd5;
-}
-.male-div i{
-    border-radius: 50%;
-     
-    padding: 5px;
-    background-color: #02132b;
-    color: #00ffd5;
-}
-.university-div i{
-    border-radius: 50%;
- 
-    padding: 4px;
-    background-color: #02132b;
-    color: #00ffd5;
-}
-.city-div i{
-    border-radius: 50%;
-     
-    padding: 4px;
-    background-color: #02132b;
-    color: #00ffd5;
-}
-.about-me-icon-detils div{
-    margin-bottom: 7px;
-}
-.about-me-icon-detils{
-    margin-top: auto;
-    margin-bottom: auto;
-   
-}
-
-.age-div{
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-     
-}
-.male-div{
-    font-weight: 700;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-.university-div{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-}
-.city-div{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-} */
-
-
-/*-------------------------------------About Section END --------------------------------*/
-
-/* @media (max-width:1200) {
-    .about-me-section .div-for-hover .service-internal-div .service-first-div img {
-        width: 30px;
-    }
-    .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
-        font-size: 20px;
-    }
-}
-
-@media (max-width:1000) {
-    .about-me-section .div-for-hover {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
-        font-size: 20px;
-    }
-}
-
-@media (max-width:580) {
-    .about-me-section .div-for-hover {
-        width: 100%;
-        display: flexbox;
-        height: 400px;
-    }
-    .about-me-section .div-for-hover .service-internal-div .service-first-div h4 {
-        font-size: 20px;
-    }
-} */
 
 .div-for-hover {
     border-radius: 8px;
@@ -1255,13 +797,11 @@ Animation END===================================================================
     background-position: center center;
     background-repeat: no-repeat;
     animation: bg-spin 3s linear infinite;
-
     @keyframes bg-spin {
         to {
             --border-angle: 1turn;
         }
     }
-
     &:hover {
         animation-play-state: paused;
     }
@@ -1373,47 +913,11 @@ Animation END===================================================================
 
 /* --------------------------------Project  Section start --------------------------------*/
 
+
 /* */
 
 
 /* ------------------------------AHMSC media use --------------------------*/
-/* 
-
-
-@media (max-width:1000px) {
-    #porject-section22 .ahms-div-class .service-main-img {
-        width: 100%;
-    }
-
-    #porject-section22 .ahms-div-class .service-main-img img {
-        width: 100%;
-        margin: auto;
-    }
-
-    #porject-section22 .ahms-div-class .project-section23 {
-        width: 100%;
-    }
-}
-
-@media (max-width:580px) {
-    #porject-section22 .ahms-div-class .service-main-img {
-        width: 100%;
-    }
-
-    #porject-section22 .ahms-div-class .service-main-img img {
-        width: 80%;
-    }
-
-    #porject-section22 .ahms-div-class .project-section23 {
-        width: 100%;
-    }
-
-    #porject-section22 .ahms-div-class .service-main-img img {
-        width: 80%;
-        margin-top: 60px;
-        margin-left: auto;
-    }
-} */
 
 .service-main-img:hover {
     -webkit-transform: scale(1.1);
@@ -1523,22 +1027,17 @@ Animation END===================================================================
 /* --------------------------------Certification Section start --------------------------------*/
 
 
-
-
 /* 3D Slideshow */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-
-
 #slideshow {
     margin: 0 auto;
-
     height: 300px;
     width: 100%;
-
     box-sizing: border-box;
 }
 
@@ -1681,13 +1180,10 @@ Animation END===================================================================
     from {
         transform: rotateY(0deg);
     }
-
     to {
         transform: rotateY(360deg);
     }
 }
-
-
 
 
 /* ++++++++++++++++++++++
@@ -1696,9 +1192,6 @@ Animation END===================================================================
  
 
 +++++++++++++++++++++++ */
-
-
-
 
 .certification-main {
     padding-bottom: 90px;
@@ -1739,7 +1232,6 @@ Animation END===================================================================
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 .Certification-h1 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -1748,12 +1240,7 @@ Animation END===================================================================
 .certificate-description {
     padding-left: 50px;
     display: flex;
-
-
 }
-
-
-
 
 .certificate-description h3 {
     font-size: 18px;
@@ -1837,7 +1324,6 @@ Animation END===================================================================
 /*** IN PROGRESS ***/
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
-
 :root {
     --c1: #2187e7;
     --b2: #222;
@@ -1887,9 +1373,7 @@ Animation END===================================================================
     margin-right: 3%;
     border-radius: 2px;
     position: relative;
-
 }
-
 
 ul.skills {
     width: 100%;
@@ -2242,14 +1726,6 @@ ul.skills li.sk-pug {
     border-color: #ff4500;
 }
 
-label[for="sk1"] {
-    /*left: -10px;*/
-}
-
-label[for="sk2"] {
-    /*left: calc(34% - 6px);*/
-}
-
 label[for="sk1"]:before {
     border-color: cornflowerblue;
 }
@@ -2386,42 +1862,16 @@ ul.skills li.more input:checked+label:hover {
 
 /*********************/
 
-@media (min-width: 1024px) {
-    /* .content .profile-skills .skills .front-end1 {
-        display: block;
-         
-    }
-    .content .profile-skills .skills .back-end2 {
-        display: block;
-         
-    }
-    .content .profile-skills .skills .tools2 {
-        display: block;
-         
-    } */
-    /* .profile-skills>div {
-        width: 33% !important;
-    }
-
-    .profile-skills>div:nth-child(3) {
-        width: 33% !important;
-        margin-top: 120px;
-    } */
-}
-
 @media (max-width: 780px) {
     .content .profile-skills .skills .front-end1 {
         display: block;
     }
-
     .content .profile-skills .skills .back-end2 {
         display: block;
     }
-
     .content .profile-skills .skills .tools2 {
         display: block;
     }
-
     .skills23 {
         width: 100%;
     }
@@ -2434,57 +1884,10 @@ ul.skills li.more input:checked+label:hover {
 /*** Uncomment below code to add the media query for mobile view ***/
 
 
-/* @media(max-width: 768px) {
-   .skills-section-main .content .profile-skills .skills23{
-        width: 100%;
-    }
-  .skills-section-main .content .profile-skills .skills24{
-        width: 100%;
-    }
-  .skills-section-main .content .profile-skills .skills25{
-        width: 100%;
-    }
-} */
-
-
 /* --------------------------------Skill section End-------------------------------- */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* <!----------------------------Pricing Section start-----------------------------> */
-
 
 .pricing-engine-back img {
     position: absolute;
@@ -2495,7 +1898,6 @@ ul.skills li.more input:checked+label:hover {
 .pricing-section {
     font-family: "Source Sans Pro", sans-serif;
     background-color: #dff9fb;
-
 }
 
 .upwor-fiverr-free {
@@ -2520,7 +1922,6 @@ ul.skills li.more input:checked+label:hover {
 }
 
 .pricing-logo p {
-    /* color: #00ffd5; */
     color: hsl(270, 60%, 52%);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -2534,32 +1935,22 @@ ul.skills li.more input:checked+label:hover {
     align-items: center;
     text-align: center;
     justify-content: center;
-
 }
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
-
-
-
-
 ul.features {
     list-style-type: none;
     text-align: left;
     font-size: 15px;
     padding-left: 30px;
-
     li {
         margin: 8px;
-
-
         .fas {
             margin-right: 4px;
         }
-
         .fa-check-circle {
             color: #6ab04c;
         }
-
         .fa-times-circle {
             color: #97100d;
         }
@@ -2573,13 +1964,10 @@ ul.features {
 .features {
     margin-top: 20px;
     margin-left: 30px;
-
 }
 
 .features li {
     font-size: 16px;
-
-
 }
 
 .pricing-table-detils .pricing1 {
@@ -2588,15 +1976,11 @@ ul.features {
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px; */
     background-color: white;
 }
 
 .pricing-table-detils .pricing1:hover {
-
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
-
-
 }
 
 .pricing-table-detils .pricing2 {
@@ -2605,56 +1989,37 @@ ul.features {
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    /* box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px; */
     border: 3px solid #6ab04c;
     background-color: white;
 }
 
 .pricing-table-detils .pricing2:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
-
-
 }
-
-
-
 
 .pricing-table-detils .pricing3 {
     width: 20%;
     height: 400px;
-    /* background-color: #13121d; */
-    /* background-color: #050d18; */
-    /* background-color: #191724; */
-    /* border: 1px solid rgb(74, 74, 172); */
     margin: 10px;
     border-radius: 7px;
     justify-content: space-between;
-    /* box-shadow: rgba(132, 59, 206, 0.15) 0px 4px 24px; */
     background-color: white;
 }
 
-
 .pricing-table-detils .pricing3:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 24px;
-
-
 }
 
 .pricing-table-detils .pricing1-internal {
     width: 100%;
     height: 70px;
-
-    /* background-color: #30455e; */
     background-color: #6ab04c;
-    /* border-top-left-radius: 7px;
-    border-top-right-radius: 7px; */
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 .pricing-button1 {
-
     border: none;
     width: 47%;
     padding: 8px 20px;
@@ -2664,7 +2029,6 @@ ul.features {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-
 }
 
 .pricing2 img {
@@ -2672,23 +2036,17 @@ ul.features {
     width: 100px;
     margin-left: 50px;
     margin-bottom: 20px;
-
 }
 
 #standard-price {
     border-top-left-radius: 7px;
-    /* border-top-right-radius: 7px; */
-
 }
 
 #advanch-price {
-    /* border-top-left-radius: 7px; */
     border-top-right-radius: 7px;
-
 }
 
 .pricing-button2 {
-
     border: none;
     width: 47%;
     padding: 8px 20px;
@@ -2698,11 +2056,9 @@ ul.features {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-
 }
 
 .pricing-button3 {
-
     border: none;
     width: 47%;
     padding: 8px 20px;
@@ -2712,7 +2068,6 @@ ul.features {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-
 }
 
 .pricing-table-detils .pricing1-internal {
@@ -2849,11 +2204,9 @@ ul.features {
     0% {
         background-position: 0 0;
     }
-
     50% {
         background-position: 400% 0;
     }
-
     100% {
         background-position: 0 0;
     }
@@ -2865,28 +2218,8 @@ ul.features {
 
 /* <!----------------------------My mission Section start-----------------------------> */
 
-/* .my-mission-technology img {
-    position: absolute;
-    width: 400px;
-    margin-left: auto;
-    margin-right: 0px;
-}
-
-.my-mission-technology {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: flex-end;
-} */
-
-/* .technology-pic{
-    position: absolute;
-    width: 500px;
-    margin-left: auto;
-} */
 .mission-section-div {
     background-color: #dff9fb;
-
 }
 
 .my-mission-head {
@@ -2931,7 +2264,6 @@ ul.features {
 
 .mission1:hover {
     box-shadow: rgba(17, 17, 17, 0.15) 0px 4px 24px;
-
 }
 
 .mission1 img {
@@ -2957,278 +2289,12 @@ ul.features {
 /* <!----------------------------My mission Section eend-----------------------------> */
 
 
-/*-------------------------------- portfolio section start-------------------------------- */
-
-.portfolio-button1 {
-    display: flex;
-}
-
-.portfolio-button1 a button {
-    background-color: #376cb7;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
-    padding: 7px;
-    margin: 4px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    border: none;
-}
-
-.portfolio-button2 {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.portfolio-main {
-    margin-top: 100px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.portfolio-name {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.portfolio-name button {
-    margin-left: 10px;
-}
-
-.portfolio-pic {
-    margin-top: 50px;
-}
-
-.portfolio-pic-height {
-    padding-bottom: 28px;
-}
-
-
-/* --------------------------------portfolio section End-------------------------------- */
-
-
-/* -------------------------------- galarry section start-------------------------------- */
-
-.galarry-logo {
-    display: flex;
-    margin-top: 30px;
-    border-top: 2px solid rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0);
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-    background-color: rgb(230, 230, 230);
-}
-
-.galarry-logo img {
-    display: flex;
-    margin-left: 25px;
-}
-
-
-/* --------------------------------galarry section End-------------------------------- */
-
-
-/*-------------------------Mission section----------------*/
-
-.span1 {
-    color: orange;
-    font-weight: 700;
-    font-size: 40px;
-}
-
-#section2 {
-    display: flex;
-    margin-bottom: 40px;
-}
-
-.div31 {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(209, 240, 196);
-    margin-left: 60px;
-    border-radius: 10px;
-    margin-top: 35px;
-    text-align: center;
-    justify-content: center;
-}
-
-.div32 {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(15, 204, 204);
-    margin-left: 60px;
-    border-radius: 10px;
-    margin-top: 35px;
-}
-
-.div33 {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(77, 210, 119);
-    margin-left: 60px;
-    border-radius: 10px;
-    margin-top: 35px;
-}
-
-.img2 {
-    height: 80px;
-    margin-top: 20px;
-    padding-left: 0px;
-    margin-right: 20px;
-    margin-bottom: 5px;
-}
-
-.img3 {
-    height: 80px;
-    margin-top: 20px;
-}
-
-.img44 {
-    height: 80px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 5px;
-}
-
-.mission2 {
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.missionpara {
-    padding: 30px;
-    margin-top: 0px;
-    font-size: 15px;
-}
-
-
-/*-------------------------Mission section end----------------*/
-
-.mymission {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.galarry-h1 {
-    margin-top: 100px;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.galarry-main {
-    margin-top: 100px;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
-/*-------------------------Team  section start----------------*/
-
-.rohan-img {
-    height: 310px;
-}
-
-.pappu-img {
-    height: 310px;
-}
-
-.shakib-img {
-    height: 310px;
-}
-
-.mishuk-img {
-    height: 320px;
-}
-
-.my-mission-main {
-    margin-bottom: 100px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.mymission {
-    text-align: center;
-    margin-top: 90px;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 30px;
-    font-family: sans-serif;
-}
-
-.team-mishuk {
-    border: 1px solid rgb(231, 195, 195);
-    height: 500px;
-}
-
-.team-mishuk img {
-    width: 320px;
-    padding-left: 10px;
-}
-
-.team-header {
-    font-weight: 700;
-}
-
-.card img {
-    border-radius: 13px;
-}
-
-.card-body {
-    text-align: left;
-}
-
-.card shakib-img {
-    height: 300px;
-}
-
-.card-body p {
-    font-size: 13px;
-}
-
-#rohan-img {
-    height: 290px;
-}
-
-#shakib-img {
-    height: 283px;
-}
-
-.card-body h5 {
-    font-weight: 700;
-}
-
-.social-links a i {
-    margin-left: 7px;
-    font-size: 20px;
-    color: #050d18;
-    margin-top: 0px;
-}
-
-.card-footer {
-    height: 50px;
-}
-
-
-/*-------------------------Team   section end----------------*/
-
-
 /*-------------------------Contact   section  start----------------*/
 
-
-
 #contact {
-
     /* padding-top: 40px; */
     padding: 40px;
-
     background-color: #dff9fb;
-
 }
 
 .info {
@@ -3243,8 +2309,6 @@ ul.features {
     float: left;
     display: flex;
     justify-content: center;
-     
-
 }
 
 #contact .info h4 {
@@ -3284,37 +2348,34 @@ ul.features {
     transition: 0.3s;
     margin-right: 10px;
 }
- 
+
 .contact-form {
     display: flex;
-    
 }
 
 .email-form {
     width: 300px;
     padding-left: 30px;
-     
 }
-.email-form-div{
+
+.email-form-div {
     text-align: center;
     align-items: center;
     justify-content: center;
     padding-left: 20%;
     margin-top: 20%;
-     
-
- 
 }
-.email-form-div input{
-   
+
+.email-form-div input {
     border: none;
     margin: 8px;
     width: 300px;
     height: 40px;
     font-size: 13px;
-     border-bottom: 1px solid green;
+    border-bottom: 1px solid green;
 }
-.email-form-div textarea{
+
+.email-form-div textarea {
     border-radius: 10px;
     border: none;
     margin: 10px;
@@ -3322,142 +2383,36 @@ ul.features {
     height: 100px;
     font-size: 13px;
 }
- 
-.person-div{
+
+.person-div {
     background-color: white;
     width: 400px;
     margin: 20px;
     border-radius: 3rem;
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
 }
- 
+
 .person-div input:focus {
     outline: none;
-     
-  }
- 
+}
 
-.email-form-div  textarea:focus{
+.email-form-div textarea:focus {
     outline: none;
 }
 
-.email-form button{
+.email-form button {
     font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
-  height: 2.5rem;
-  line-height: 2.5rem;
-  padding: 0 3rem;
-  border: 0;
-  border-radius: 3rem;
-  background-image:linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
-  background-size: 300% 100%;
-  transition: all 0.3s ease-in-out;
-  margin-left: 40%;
-}
-
-/* .contact .php-email-form {
-    width: 100%;
-    padding: 30px;
-    background: #fff;
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-}
-
-.contact .php-email-form .form-group {
-    padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-    display: none;
-    color: red;
-    margin: 0 0 15px 0;
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-    display: none;
-    color: #fff;
-    background: #ed3c0d;
-    text-align: left;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-    margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-    display: none;
-    color: #fff;
-    background: #18d26e;
-    text-align: center;
-    padding: 15px;
-    font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-    display: none;
-    background: #fff;
-    text-align: center;
-    padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-    content: "";
-    display: inline-block;
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    margin: 0 10px -6px 0;
-    border: 3px solid #18d26e;
-    border-top-color: #eee;
-    -webkit-animation: animate-loading 1s linear infinite;
-    animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form .form-group {
-    margin-bottom: 15px;
-}
-
-.contact .php-email-form label {
-    padding-bottom: 8px;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-}
-
-.contact .php-email-form input {
-    height: 44px;
-}
-
-.contact .php-email-form textarea {
-    padding: 10px 15px;
-}
-
-.contact .php-email-form button[type=submit] {
-    background: #149ddd;
+    font-weight: bold;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 3rem;
     border: 0;
-    padding: 10px 24px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 4px;
+    border-radius: 3rem;
+    background-image: linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
+    background-size: 300% 100%;
+    transition: all 0.3s ease-in-out;
+    margin-left: 40%;
 }
-
-.contact .php-email-form button[type=submit]:hover {
-    background: #37b3ed;
-}
-
-.send-message {
-    padding: 15px;
-    margin-top: 40px;
-    margin-left: 10px;
-    font-weight: 700;
-} */
 
 
 /*-------------------------Contact   section  End----------------*/

@@ -1739,7 +1739,7 @@ ul.features{
 /* ----------------Contact   responsive start -------------*/
 
 
-@media only screen and (min-width:768px) and (max-width:1000px) {
+@media only screen and (min-width:800px) and (max-width:1000px) {
   .email-form-div {
     
     padding-left: 1%;
@@ -1754,8 +1754,187 @@ ul.features{
     
     width: 173px;
   }
+  .email-form-div textarea {
+     
+    width: 196px;
+     
+  }
+  .info iframe{
+    width: 300px;
+    height: 300px;
+  }
+  .email-form button {
+margin-left: 30%;
+
+  }
 }
 
+
+@media only screen and (min-width:550px) and (max-width:800px) {
+.contact-form{
+  display: inline;
+}
+.info {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+.email-form {
+  width: 60%;
+  
+   
+}
+.email-form-div {
+   
+  padding-left: 35px;
+   
+}
+ 
+}
+
+@media only screen and (min-width:468px) and (max-width:550px) {
+  .contact-form{
+    display: inline;
+  }
+  .info {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+  }
+  .email-form {
+    width: 60%;
+    
+     
+  }
+  .email-form-div {
+     
+    padding-left: 0px;
+    margin-left: 0px;
+     
+  }
+  .email-form button {
+    
+    margin-left: 34%;
+  }
+  .person-div {
+   
+    width: 361px;
+    margin: 10px;
+    
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:468px) {
+  .contact-form{
+    display: inline;
+  }
+  .info iframe{
+    width: 250px;
+    height: 250px;
+  }
+  .info {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+  }
+  .email-form {
+    width: 60%;
+    
+     
+  }
+  .email-form-div {
+     
+    padding-left: 0px;
+    margin-left: 0px;
+     
+  }
+  .email-form button {
+    
+    margin-left: 25%;
+  }
+  .person-div {
+   
+    width: 286px;
+    margin: 10px;
+    
+  }
+  .email-form-div input {
+    
+    width: 204px;
+     
+  }
+  .email-form-div textarea {
+    
+    width: 232px;
+   
+  }
+  #contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #173b6c;
+  }
+}
+
+@media only screen and (min-width:300px) and (max-width:400px) {
+  .contact-form{
+    display: inline;
+  }
+  .info iframe{
+    width: 200px;
+    height: 200px;
+  }
+  .info {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+  }
+  .email-form {
+    width: 60%;
+    
+     
+  }
+  .email-form-div {
+     
+    padding-left: 0px;
+    margin-left: 0px;
+     
+  }
+  .email-form button {
+    
+    margin-left: 20%;
+  }
+  .person-div {
+   
+    width: 230px;
+    margin: 10px;
+    
+  }
+  .email-form-div input {
+    
+    width: 168px;
+     
+  }
+  .email-form-div textarea {
+    
+    width: 200px;
+   
+  }
+  #contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 11px;
+    color: #173b6c;
+  }
+}
 
 
 /* ----------------Contact  responsive End -------------*/
