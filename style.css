@@ -2016,11 +2016,33 @@ ul.features {
     text-align: center;
 }
 
-.pricing-button1 {
+.pricing1 a .pricing-button1 {
     border: none;
     width: 47%;
     padding: 8px 20px;
     margin-top: 1rem;
+    background-color: #6ab04c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pricing2 a .pricing-button1 {
+    border: none;
+    width: 47%;
+    padding: 8px 20px;
+    margin-top: 2rem;
+    background-color: #6ab04c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pricing3  a .pricing-button1 {
+    border: none;
+    width: 47%;
+    padding: 8px 20px;
+    margin-top: 0rem;
     background-color: #6ab04c;
     color: #fff;
     border-radius: 5px;
