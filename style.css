@@ -181,7 +181,8 @@ body {
 }
 
 #home-page-main-div {
-    background-color: #02132b;
+    background-color: #000515
+    ;
     border-radius: 3px;
 }
 
@@ -190,13 +191,13 @@ body {
 }
 
 #my-name-div h1 {
-    color: #fef8e5;
+    color: #ffffff;
     font-size: 37px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #my-name-div h3 {
-    color: #fef8e5;
+    color: #fff;
     font-size: 22px;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 80px;
@@ -204,18 +205,18 @@ body {
 }
 
 #my-name-div p {
-    color: #fef8e5;
+    color: #fff;
     font-size: 12px;
 }
 
 #my-name-div h4 {
-    color: #fef8e5;
+    color: #fff;
     font-size: 15px;
     font-family: sans-serif;
 }
 
 #my-name-div h5 {
-    color: #fef8e5;
+    color: #fff;
     font-size: 15px;
     font-family: sans-serif;
     margin-top: 30px;
@@ -231,6 +232,8 @@ body {
 #my-name-div .hire-me-div button {
     color: black;
     background-color: #007AFF;
+    /* background-color: #d82168;   */
+
     font-family: 'Times New Roman', Times, serif;
     padding: 5px;
     padding-left: 10px;
@@ -695,7 +698,7 @@ Animation END===================================================================
 }
 
 .about-me-section {
-    background-color: #13111c;
+    background-color: #000515;
     margin-top: 0px;
 }
 
