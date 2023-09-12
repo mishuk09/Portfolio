@@ -958,6 +958,7 @@
         height: 265px;
         width: 48%;
         box-sizing: border-box;
+        /* display: none; */
     }
     .entire-content {
         margin: auto;
@@ -1017,6 +1018,10 @@
         width: 85px;
     }
 }
+
+ 
+
+
 
 
 /* ----------------Ceertificate  responsive End -------------*/
