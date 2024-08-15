@@ -2023,7 +2023,7 @@ ul.features {
     border: none;
     width: 47%;
     padding: 8px 20px;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     background-color: #6ab04c;
     color: #fff;
     border-radius: 5px;
